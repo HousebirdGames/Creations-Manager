@@ -1,0 +1,148 @@
+<!-- The provided index.html file serves as the starting point for your project, positioned in the
+	root directory upon initialization.
+	
+	
+	It's designed to be fully customizable to fit your project's needs. This file lays down a solid
+	groundwork by incorporating essential resources such as main.js, service-worker-registration.js,
+	manifest.json and default-style.css, alongside various icons. Additionally, it includes
+	foundational elements such as the update notification popup and the content div, ensuring a
+	comprehensive setup for further development.
+	
+
+	Feel free to adjust and expand upon this template as your project evolves. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
+	<meta name="description" content="Manage your creations with this web app. Add, edit, and delete vehicles, and export your data as JSON.">
+    <meta name="author" content="Felix T. Vogel">
+	<title class="title">Creations Manager</title>
+	<base href="">
+	<link rel="preload" href="Birdhouse/fonts/MaterialIcons-Regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/Favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/Favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="img/favicons/Favicon-64x64.png">
+	<link rel="icon" type="image/png" sizes="128x128" href="img/favicons/Favicon-128x128.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicons/Favicon-152x152.png">
+	<link rel="apple-touch-icon" sizes="167x167" href="img/favicons/Favicon-167x167.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/Favicon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="img/favicons/Favicon-192x192.png">
+	<link rel="icon" type="image/png" sizes="196x196" href="img/favicons/Favicon-196x196.png">
+	<meta name="theme-color" content="#ffffff">
+	<meta http-equiv="Content-Security-Policy"
+		content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none';">
+	<link rel="stylesheet" href="Birdhouse/default-style.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="manifest" href="manifest.json">
+	<script type="module" src="Birdhouse/service-worker-registration.js"></script>
+</head>
+
+<body class="displayNone">
+	<div id="adminBar"></div>
+	<div id="infoBar"></div>
+	<header role="banner">
+		<div class="headingRow"><img src="img/logos/Creations Manager 48x48.png" class="logo"></img><h1>Creations Manager</h1></div>
+		<nav class="header-controls" role="navigation" aria-label="Main controls">
+			<button id="darkModeToggle"  class="darkModeToggle"
+						aria-label="Toggle dark mode"
+						aria-pressed="false">
+					Dark/Light
+				</button>
+		</nav>
+	</header>
+
+	<noscript>
+		<div class="javascriptWarning">
+			<strong>Warning:</strong>
+			JavaScript is not enabled in your browser. This website requires JavaScript to
+			function properly. Please enable JavaScript and refresh the page.
+		</div>
+		<br>
+	</noscript>
+
+	<script type="module" src="Birdhouse/src/main.js" defer></script>
+
+	<div id="content">
+		<h1>CONTENT</h1>
+		<p>This is some content.</p>
+	</div>
+
+	<div id="vehicleFormPopup" class="popup fade-in-fast displayNone keepOpen">
+		<div id="vehicleFormPopupContent" class="popup-content">
+			<div class="modal-content">
+                <h3 id="modalTitle">Edit Vehicle</h3>
+                <form id="vehicleForm" 
+                      aria-label="Vehicle edit form">
+                    <!-- Form fields will be dynamically added here -->
+                </form>
+                <div class="modal-buttons" role="group" aria-label="Form actions">
+                    
+                    
+                </div>
+				<button id="storageAcknowledgementPopupClose" class="closePopup closePopupIcon"><i class="material-icons">close</i></button>
+            </div>
+			<div class="inputRow">
+				<button type="button" 
+                            id="saveVehicle" 
+                            aria-label="Save vehicle" class="closePopup">Save</button>
+				<button type="button" 
+                            id="cancelEdit" 
+                            aria-label="Cancel editing" class="closePopup">Cancel</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="newUpdatePopup" class="popup fade-in-fast displayNone keepOpen">
+		<div id="newUpdatePopupContent" class="popup-content">
+			<h2 id="newUpdateAvailable">New Update available</h2>
+			<p class="versionInfo" id="versionInfo"></p>
+			<p class="">Click "Update Now" to immediately install the latest version. Alternatively, "Update Later" will
+				close this popup and schedule the automatic update
+				at a later time.</p>
+			<div class="linkRow">
+				<button id="update-version-btn" class="update-version-btn highlight">Update now</button>
+				<button id="update-version-close-btn" class="closePopup">Update later</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="baseContent"></div>
+</body>
+
+<footer id="footer" role="contentinfo">
+	<p>Created by
+		<a href="https://stubenvogel.com" 
+		   rel="noopener noreferrer" 
+		   aria-label="Visit Felix T. Vogel's website">Felix T. Vogel ©
+		   <span id="currentYear"></span></a>
+	</p>
+	<span>
+		<button class="updateNotesButton">Update Notes</button>
+		<button class="openAcknowledgementButton">Storage Settings</button>
+	</span>
+	<nav class="buttonContainer" 
+		 role="navigation" 
+		 aria-label="Footer links">
+		 <a href="https://github.com/HousebirdGames/creations-manager" 
+		 rel="noopener noreferrer" 
+		 aria-label="View privacy policy">GitHub Repository</a>
+		 <span aria-hidden="true">|</span>
+		<a href="https://housebird.games" 
+		   rel="noopener noreferrer" 
+		   aria-label="Visit housebird games">housebird.games</a>
+		<span aria-hidden="true">|</span>
+		<a href="https://stubenvogel.com/impressum/" 
+		   rel="noopener noreferrer" 
+		   aria-label="View legal notice">Legal Notice</a>
+		<span aria-hidden="true">|</span>
+		<a href="https://housebird.games/privacy-policy" 
+		rel="noopener noreferrer" 
+		aria-label="View privacy policy">Privacy Policy</a>
+
+	</nav>
+</footer>
+
+</html>

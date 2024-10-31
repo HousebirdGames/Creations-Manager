@@ -1,0 +1,1093 @@
+{
+    "Manufacturers": [
+        {
+            "Name": "EINSCHLAG"
+        },
+        {
+            "Name": "Homebrew"
+        }
+    ],
+    "Vehicles": [
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Pelikan",
+            "Code": "P1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3341179796",
+            "Class": "Aircraft",
+            "Usage": [
+                "SAR"
+            ],
+            "Location": [
+                "Air",
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "A9",
+            "Weight": "11862",
+            "Cost": "124155",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "4+5",
+            "Old Names": "Saturn",
+            "Video": "Complete",
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Pelikan Cargo",
+            "Code": "P1-C",
+            "Workshop Link": "",
+            "Class": "Aircraft",
+            "Usage": [
+                "Cargo Transport"
+            ],
+            "Location": [
+                "Air"
+            ],
+            "Status": "Polishing",
+            "Current Version": "V5",
+            "Weight": "16361",
+            "Cost": "151135",
+            "Crew Capacity": "2",
+            "Passenger Capacity": "12",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Schnabeltier Base",
+            "Code": "S1-B",
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "BASE"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": "1720",
+            "Cost": "24701",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "3",
+            "Old Names": "Esel",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Schnabeltier Emergency Truck",
+            "Code": "S1-ET",
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "Rescue",
+                "Defense"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": "2880",
+            "Cost": "44413",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "7+2",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "31.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Schnabeltier Emergency Truck (Arctic)",
+            "Code": "S1-ET-A",
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "Rescue",
+                "Defense"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V10",
+            "Weight": "3325",
+            "Cost": "52374",
+            "Crew Capacity": "2",
+            "Passenger Capacity": "5+2",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Schnabeltier Fire Truck",
+            "Code": "S1-FT",
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "Firefighting"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": "2519",
+            "Cost": "35492",
+            "Crew Capacity": "2",
+            "Passenger Capacity": "2",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Schnabeltier Pickup Truck",
+            "Code": "S1-PT",
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "Medium Range Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V3",
+            "Weight": "1845",
+            "Cost": "27673",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "3",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": "Can transport Biene Quad",
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Biene Quad",
+            "Code": "B1-Q",
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V5",
+            "Weight": "300",
+            "Cost": "7651",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "Breaks Only",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Biene Snowmobil",
+            "Code": "B1-S",
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "396",
+            "Cost": "8800",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2",
+            "Old Names": "Biene Arctic",
+            "Video": null,
+            "Trailer Support": "Breaks Only",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Biber Base",
+            "Code": "B2-B",
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "BASE"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Low Priority",
+            "Current Version": "-",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": "false",
+            "Comment": "Needs to be extracted out of B1-CT",
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Biber Container Truck",
+            "Code": "B2-CT",
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "Long Range Transport",
+                "Container Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V6",
+            "Weight": "3179",
+            "Cost": "44548",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1+1",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Container Mover",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "Container Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Development",
+            "Current Version": "D6",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Equipment Container",
+            "Code": "C-E1",
+            "Workshop Link": "",
+            "Class": "Container",
+            "Usage": [
+                "Equipment Transport",
+                "Base Building"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": "2022",
+            "Cost": "33378",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "4",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "31.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Base Container",
+            "Code": "C-B1",
+            "Workshop Link": "",
+            "Class": "Container",
+            "Usage": [
+                "BASE",
+                "Base Building"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V5",
+            "Weight": "1485",
+            "Cost": "19719",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "31.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Quarters Container",
+            "Code": "C-B1-Q1",
+            "Workshop Link": "",
+            "Class": "Container",
+            "Usage": [
+                "Accommodation",
+                "Base Building"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": "1743",
+            "Cost": "31672",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "4",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "31.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Kitchen Container",
+            "Code": "C-B1-K1",
+            "Workshop Link": "",
+            "Class": "Container",
+            "Usage": [
+                "Catering",
+                "Base Building"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": "2251",
+            "Cost": "34735",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "31.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Schwalbe",
+            "Code": "S2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3356199518",
+            "Class": "Helicopter",
+            "Usage": [
+                "Rescue"
+            ],
+            "Location": [
+                "Air",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V3",
+            "Weight": "1784",
+            "Cost": "28736",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "10+2",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Hornisse",
+            "Code": "H1",
+            "Workshop Link": "",
+            "Class": "Helicopter",
+            "Usage": [
+                "Light Attack"
+            ],
+            "Location": [
+                "Air"
+            ],
+            "Status": "Complete",
+            "Current Version": "V11",
+            "Weight": "1294",
+            "Cost": "24154",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2",
+            "Old Names": "Bussard",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Orka",
+            "Code": "O2",
+            "Workshop Link": "",
+            "Class": "Ship",
+            "Usage": [
+                "SAR",
+                "Exploration"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Development",
+            "Current Version": "D129",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "28.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Biene Jetski",
+            "Code": "B1-J",
+            "Workshop Link": "",
+            "Class": "Ship",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V5",
+            "Weight": "242",
+            "Cost": "4567",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Robbe",
+            "Code": "R1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3342896669&result=1",
+            "Class": "Ship",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": "104",
+            "Cost": "2439",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2",
+            "Old Names": "Otter",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Merkur",
+            "Code": "M1",
+            "Workshop Link": "",
+            "Class": "Ship",
+            "Usage": [
+                "SAR"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Development",
+            "Current Version": "V72",
+            "Weight": "13706",
+            "Cost": "148384",
+            "Crew Capacity": "2",
+            "Passenger Capacity": "26+9",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": "Orbit RIB included",
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Ares",
+            "Code": "A1",
+            "Workshop Link": "",
+            "Class": "Ship",
+            "Usage": [
+                "Medium Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V3",
+            "Weight": "1155",
+            "Cost": "12438",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "6",
+            "Old Names": "Aeris, Airfoil Speeder",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Mahi",
+            "Code": "M2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3357793718",
+            "Class": "Ship",
+            "Usage": [
+                "Rescue",
+                "Medium Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "757",
+            "Cost": "16114",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "6",
+            "Old Names": "Orbit (O1)",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "31.10.2024"
+        },
+        {
+            "Manufacturer": "Homebrew",
+            "Name": "Career Boat",
+            "Code": "CB1-X",
+            "Workshop Link": "",
+            "Class": "Ship",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Discontinued",
+            "Current Version": null,
+            "Weight": "518",
+            "Cost": "4641",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Kugelfisch",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "Ship",
+            "Usage": [
+                "Lifeboat"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "551",
+            "Cost": "12516",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "6",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Qualle",
+            "Code": null,
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3349831574",
+            "Class": "Submarine",
+            "Usage": [
+                "Exploration",
+                "SAR",
+                "Medium Range Transport"
+            ],
+            "Location": [
+                "Sea",
+                "Land",
+                "Underwater"
+            ],
+            "Status": "Complete",
+            "Current Version": "V10",
+            "Weight": "5750",
+            "Cost": "141664",
+            "Crew Capacity": "2",
+            "Passenger Capacity": "6",
+            "Old Names": null,
+            "Video": "Complete",
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "Homebrew",
+            "Name": "Europa",
+            "Code": "E1",
+            "Workshop Link": "",
+            "Class": "Submarine",
+            "Usage": [
+                "Exploration",
+                "Medium Range Transport"
+            ],
+            "Location": [
+                "Sea",
+                "Underwater"
+            ],
+            "Status": "Discontinued",
+            "Current Version": "D10",
+            "Weight": "11337",
+            "Cost": "154715",
+            "Crew Capacity": "2",
+            "Passenger Capacity": "0+1",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "29.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Biene Trailer",
+            "Code": "B1-T",
+            "Workshop Link": "",
+            "Class": "Trailer",
+            "Usage": [
+                "Vehicle Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V5",
+            "Weight": "439",
+            "Cost": "6686",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": "Can transport Biene Jetski and Biene Quad",
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Biber Container Trailer",
+            "Code": "B2-T",
+            "Workshop Link": "",
+            "Class": "Trailer",
+            "Usage": [
+                "Long Range Transport",
+                "Medium Range Transport",
+                "Short Range Transport",
+                "Container Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V5",
+            "Weight": "1831",
+            "Cost": "23668",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Small Tank Trailer ",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "Trailer",
+            "Usage": [
+                "Liquid Transport",
+                "Gas Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Polishing",
+            "Current Version": "V1",
+            "Weight": "85",
+            "Cost": "1758",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Cargo VTOL",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "VTOL",
+            "Usage": [
+                "Container Transport"
+            ],
+            "Location": [
+                "Air",
+                "Land"
+            ],
+            "Status": "Development",
+            "Current Version": "D52",
+            "Weight": "15228",
+            "Cost": "145211",
+            "Crew Capacity": "1",
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "Homebrew",
+            "Name": "Raft",
+            "Code": "R1",
+            "Workshop Link": "",
+            "Class": "Ship",
+            "Usage": [
+                "Rescue",
+                "Medium Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V14",
+            "Weight": "1040",
+            "Cost": "11111",
+            "Crew Capacity": "2",
+            "Passenger Capacity": "8",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Saturn",
+            "Code": "ENG-S1",
+            "Workshop Link": "",
+            "Class": "Engine",
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "9742",
+            "Cost": "57975",
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": "Quick Start could be implemented here",
+            "Last Updated": "31.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Ocean",
+            "Code": "ENG-O2",
+            "Workshop Link": "",
+            "Class": "Engine",
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Polishing",
+            "Current Version": null,
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": "Orka",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": "Changes made on Orka should be integrated here",
+            "Last Updated": "31.10.2024"
+        },
+        {
+            "Manufacturer": "Homebrew",
+            "Name": "Remote Car",
+            "Code": "RC-1",
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "Recreation"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Discontinued",
+            "Current Version": null,
+            "Weight": "89",
+            "Cost": "2493",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "Homebrew",
+            "Name": "Tank",
+            "Code": "T1",
+            "Workshop Link": "",
+            "Class": "Tank",
+            "Usage": [
+                "Heavy Attack"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Discontinued",
+            "Current Version": "D4",
+            "Weight": "13788",
+            "Cost": "68096",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "MG3",
+            "Code": "WPN-M1",
+            "Workshop Link": "",
+            "Class": "Weapon",
+            "Usage": [
+                "Medium Range"
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Complete",
+            "Current Version": null,
+            "Weight": "64",
+            "Cost": "596",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Tulpe",
+            "Code": "MSL-T1",
+            "Workshop Link": "",
+            "Class": "Missile",
+            "Usage": [
+                "Medium Range"
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "37",
+            "Cost": "1345",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Portable Radio",
+            "Code": "EPT-P1",
+            "Workshop Link": "",
+            "Class": "Equipment",
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Complete",
+            "Current Version": null,
+            "Weight": "27",
+            "Cost": "1340",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "Homebrew",
+            "Name": "Diver Speeder",
+            "Code": "D1",
+            "Workshop Link": "",
+            "Class": "Submarine",
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                "Sea",
+                "Underwater"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "226",
+            "Cost": "10140",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Orbit",
+            "Code": "ENG-O1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3357792909",
+            "Class": "Engine",
+            "Usage": [
+                "Outboard Motor"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": null,
+            "Old Names": "Kuda (K1)",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "31.10.2024"
+        }
+    ]
+}

@@ -1,0 +1,843 @@
+/* Base styles */
+:root {
+    --fontFamily: 'Noto Sans Display', system-ui;
+    --fontFamilyCondensed: 'Noto Sans Display Extra Condensed', system-ui;
+
+    --primary-color: #242a3a;
+    --secondary-color: rgb(46, 62, 92);
+    --accent-color: #7bbeeb;
+    --background-color: #f5f6fa;
+    --text-color: #2c3e50;
+    --link-color: #30567c;
+    --text-color-highlight: #346697;
+    --border-color: #dcdde1;
+
+    /* Button colors */
+    --button-bg-color: var(--primary-color);
+    --button-text-color: #fff;
+    --button-hover-bg-color: var(--accent-color);
+
+    --missing-color: #ce6300;
+
+    /* Status colors */
+    --status-complete: #27ae60;
+    --status-polishing: #a16400;
+    --status-development: #f39c12;
+    --status-planned: #e74c3c;
+    --status-discontinued: #7f8c8d;
+
+    /* Class colors */
+    --class-car: #27ae60;
+    --class-ship: #2980b9;
+    --class-submarine: #185b88;
+    --class-aircraft: #9b59b6;
+    --class-helicopter: #652c7e;
+    --class-vtol: #4a1461;
+    --class-trailer: #198345;
+    --class-container: #57697a;
+    --class-train: #644936;
+
+    /* Location colors */
+    --location-land: #27ae60;
+    --location-sea: #3498db;
+    --location-underwater: #185b88;
+    --location-air: #9b59b6;
+
+    /* Usage colors */
+    --usage-base: #34495e;
+    --usage-rescue: #e74c3c;
+    --usage-firefighting: #941a0c;
+    --usage-defense: #f39c12;
+    --usage-transport: #27ae60;
+    --usage-vehicle-transport: #198345;
+    --usage-utility: #3498db;
+    --usage-exploration: #9b59b6;
+    --usage-base-building: #3baca3;
+    --usage-accommodation: #b67719;
+
+    /* Manufacturer colors */
+    --manufacturer-default: #646668;
+    --manufacturer-einschlag: #1e3955;
+    --manufacturer-homebrew: #8b7b1b;
+}
+
+/* Dark mode variables */
+.dark-mode {
+    --primary-color: #ecf0f1;
+    --secondary-color: #80888d;
+    --accent-color: #2980b9;
+    --background-color: #1a2129;
+    --text-color: #ecf0f1;
+    --link-color: #abd0da;
+    --text-color-highlight: #83d6ec;
+    --border-color: #34495e;
+
+    --button-bg-color: var(--primary-color);
+    --button-text-color: #2c3e50;
+    --button-hover-bg-color: var(--accent-color);
+}
+
+img.logo {
+    filter: invert(1);
+}
+
+.dark-mode img.logo {
+    filter: none;
+}
+
+@font-face {
+    font-family: 'Noto Sans Display Extra Condensed';
+    src: url('fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Display Extra Condensed';
+    src: url('fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Display Extra Condensed';
+    src: url('fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noto Sans Display Extra Condensed';
+    src: url('fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noto Sans Display';
+    src: url('fonts/Noto_Sans_Display/static/NotoSansDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fontFamily);
+    line-height: 1.4;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    height: 100lvh;
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+#manufacturersList {
+    margin-left: 1rem;
+}
+
+/* Header styles */
+.headingRow {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+header {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.header-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Button styles */
+button {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.1s ease-in-out;
+    height: fit-content;
+}
+
+button:hover {
+    background-color: var(--button-hover-bg-color);
+    color: var(--button-bg-color);
+}
+
+footer {
+    padding: 0.4rem 1rem;
+    text-align: center;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    color: var(--background-color);
+    border-top: 2rem solid var(--background-color);
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1200px) {
+    footer {
+        padding: 1rem;
+        justify-content: center;
+    }
+}
+
+footer button {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+footer a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+footer a:hover,
+footer a:focus {
+    color: var(--background-color);
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.4rem;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    color: var(--accent-color);
+}
+
+a.workshopLink {
+    font-weight: bold;
+    font-family: var(--fontFamily);
+}
+
+/* Table styles */
+.table-container {
+    overflow-x: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#vehiclesList,
+#manufacturersList {
+    max-width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+table,
+th,
+td,
+td p,
+td span {
+    font-family: var(--fontFamilyCondensed);
+}
+
+th,
+td {
+    padding: 6px 8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.class {
+    vertical-align: middle;
+}
+
+tbody tr {
+    border-bottom: 1px solid var(--border-color);
+}
+
+th {
+    background-color: var(--secondary-color);
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    transition: 0.1s ease-in-out;
+    border-left: 0.2rem solid var(--background-color);
+    border-bottom: 0.2rem solid var(--background-color);
+    border-radius: 0.4rem 0 0 0.4rem;
+}
+
+th:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+td {
+    white-space: nowrap;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+tr {
+    transition: 0.1s;
+    background: none;
+}
+
+tr:hover {
+    background: #ffffff11;
+}
+
+tr:hover td,
+table.expanded tr td {
+    white-space: normal;
+    max-width: none;
+    overflow: visible;
+    text-overflow: clip;
+}
+
+.table-row {
+    position: relative;
+}
+
+.edit-button-overlay {
+    display: none;
+}
+
+.table-row:hover .edit-button-overlay {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+button.edit-button {
+    background-color: #00000000;
+    color: var(--link-color);
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.3s ease;
+}
+
+button.edit-button:hover {
+    color: var(--text-color-highlight);
+}
+
+#clearSearchBtn {
+    background-color: #00000000;
+    color: var(--button-bg-color);
+    padding: 0.1rem;
+}
+
+#clearSearchBtn:hover {
+    color: var(--button-hover-bg-color);
+}
+
+#clearSearchBtn span {
+    pointer-events: none;
+}
+
+.hidden,
+.visually-hidden {
+    display: none;
+}
+
+.status {
+    font-weight: bold;
+}
+
+/* Status colors */
+.status-complete {
+    color: var(--status-complete);
+}
+
+.status-polishing {
+    color: var(--status-polishing);
+}
+
+.status-development {
+    color: var(--status-development);
+}
+
+.status-planned {
+    color: var(--status-planned);
+}
+
+.status-discontinued {
+    color: var(--status-discontinued);
+}
+
+.class {
+    text-align: center;
+    transition: 0.1s ease-in-out;
+}
+
+.class:hover {
+    transform: translateX(-0.5rem);
+    cursor: pointer;
+}
+
+/* Class colors */
+.class-car {
+    background-color: var(--class-car);
+    color: white;
+}
+
+.class-ship {
+    background-color: var(--class-ship);
+    color: white;
+}
+
+.class-submarine {
+    background-color: var(--class-submarine);
+    color: white;
+}
+
+.class-aircraft {
+    background-color: var(--class-aircraft);
+    color: white;
+}
+
+.class-helicopter {
+    background-color: var(--class-helicopter);
+    color: white;
+}
+
+.class-vtol {
+    background-color: var(--class-vtol);
+    color: white;
+}
+
+.class-trailer {
+    background-color: var(--class-trailer);
+    color: white;
+}
+
+.class-container {
+    background-color: var(--class-container);
+    color: white;
+}
+
+.class-train {
+    background-color: var(--class-train);
+    color: white;
+}
+
+/* Location and Usage tags */
+.tag {
+    display: inline-block;
+    padding: 2px 6px;
+    margin: 1px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    color: white;
+    background-color: var(--missing-color);
+    transition: 0.1s ease-in-out;
+}
+
+.tag:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+
+/* Location tags */
+.location-land {
+    background-color: var(--location-land);
+}
+
+.location-sea {
+    background-color: var(--location-sea);
+}
+
+.location-air {
+    background-color: var(--location-air);
+}
+
+.location-underwater {
+    background-color: var(--location-underwater);
+}
+
+/* Usage tags */
+.usage-base {
+    background-color: var(--usage-base);
+}
+
+.usage-rescue,
+.usage-sar,
+.usage-lifeboat {
+    background-color: var(--usage-rescue);
+}
+
+.usage-defense,
+.usage-light-attack {
+    background-color: var(--usage-defense);
+}
+
+.usage-transport,
+.usage-long-range-transport,
+.usage-medium-range-transport,
+.usage-short-range-transport,
+.usage-container-transport,
+.usage-liquid-transport,
+.usage-cargo-transport,
+.usage-equipment-transport {
+    background-color: var(--usage-transport);
+}
+
+.usage-vehicle-transport {
+    background-color: var(--usage-vehicle-transport);
+}
+
+.usage-base-building {
+    background-color: var(--usage-base-building);
+}
+
+.usage-exploration {
+    background-color: var(--usage-exploration);
+}
+
+.usage-accommodation,
+.usage-catering {
+    background-color: var(--usage-accommodation);
+}
+
+.usage-firefighting {
+    background-color: var(--usage-firefighting);
+}
+
+.usage-utility {
+    background-color: var(--usage-utility);
+}
+
+/* Support indicators */
+.support-true {
+    color: var(--status-complete);
+    font-weight: bold;
+}
+
+.support-false {
+    color: var(--status-planned);
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {}
+
+.close {
+    color: var(--background-color);
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: var(--text-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.form-group {
+    width: calc(50% - 0.5rem);
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    padding: 0.2rem 0.4rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 1rem;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    width: 100%;
+}
+
+#vehicleForm,
+.action-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+/* Manufacturers List */
+.manufacturer-list {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.manufacturer {
+    border-radius: 1px;
+    color: var(--text-color);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    width: fit-content;
+    transition: 0.1s ease-in-out;
+}
+
+.manufacturer:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+
+/* Manufacturers */
+.manufacturer {
+    background-color: var(--manufacturer-default);
+    color: white
+}
+
+.manufacturer.manufacturer-einschlag {
+    background-color: var(--manufacturer-einschlag);
+}
+
+.manufacturer.manufacturer-homebrew {
+    background-color: var(--manufacturer-homebrew);
+}
+
+/* Save notification styles */
+.save-notification {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 1000;
+    animation: save 4s ease-in-out;
+    opacity: 0;
+}
+
+@keyframes save {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    10% {
+        opacity: 1;
+        transform: translateX(-50%);
+    }
+
+    20% {}
+
+    90% {
+        opacity: 1;
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(-0%);
+        opacity: 0;
+    }
+}
+
+#vehiclesList h2,
+#manufacturersList h2 {
+    margin-bottom: 0.4rem;
+}
+
+#vehiclesList h2 {
+    margin-left: 1rem;
+}
+
+.cell:hover {
+    cursor: pointer;
+}
+
+.popup {
+    padding: 1rem;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    position: relative;
+    top: unset;
+    left: unset;
+    transform: unset;
+    padding: 2.5rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 0.1rem solid var(--text-color);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 40rem;
+}
+
+@media screen and (max-width: 800px) {
+    .popup-content {
+        padding: 1rem;
+    }
+}
+
+.inputRow {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.inputRow button {
+    width: 100%;
+    height: 100%;
+}
+
+.inputRow button.closePopupIcon {
+    height: unset;
+}
+
+button.closePopupIcon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    min-width: unset;
+    width: fit-content;
+}
+
+.search-container,
+.action-buttons {
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0.4rem;
+    max-width: 100%;
+}
+
+#searchInput,
+#clearSearchBtn {
+    padding: 0.4rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    max-width: 70%;
+}
+
+#clearSearchBtn {
+    padding: 0.4rem 0.4rem;
+}
+
+#searchInput {
+    background-color: var(--text-color);
+    color: var(--background-color);
+}
+
+#searchInput::placeholder {
+    color: var(--background-color);
+    opacity: 0.8;
+}
+
+#modalTitle {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.show {
+    display: flex;
+}
