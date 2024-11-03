@@ -384,7 +384,7 @@
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V2",
+            "Current Version": "V3",
             "Weight": "1743",
             "Cost": "31672",
             "Crew Capacity": "0",
@@ -394,7 +394,34 @@
             "Trailer Support": "false",
             "Base Support": "true",
             "Comment": null,
-            "Last Updated": "31.10.2024"
+            "Last Updated": "03.11.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Camper Container",
+            "Code": "C-B1-C2",
+            "Workshop Link": "",
+            "Class": "Container",
+            "Usage": [
+                "Accommodation",
+                "Base Building"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Development",
+            "Current Version": "",
+            "Weight": "",
+            "Cost": "",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "w",
+            "Old Names": "Quaters Container 2",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "03.11.2024"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1088,6 +1115,34 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "31.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Container Companion",
+            "Code": "C-B1-C1",
+            "Workshop Link": "",
+            "Class": "Container",
+            "Usage": [
+                "Short Range Transport",
+                "Container Transport",
+                "Generator",
+                "Base Building"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "0",
+            "Old Names": "Container Handler",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "true",
+            "Comment": "Supports being a trailer as well as towing a trailer",
+            "Last Updated": "03.11.2024"
         }
     ]
 }
