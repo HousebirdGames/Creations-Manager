@@ -39,7 +39,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Pelikan Cargo",
             "Code": "P1-C",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3383482001",
             "Class": "Aircraft",
             "Usage": [
                 "Cargo Transport"
@@ -47,24 +47,24 @@
             "Location": [
                 "Air"
             ],
-            "Status": "Polishing",
+            "Status": "Complete",
             "Current Version": "V5",
-            "Weight": "16361",
-            "Cost": "151135",
-            "Crew Capacity": "2",
+            "Weight": "16378",
+            "Cost": "151353",
+            "Crew Capacity": "1-2",
             "Passenger Capacity": "12",
             "Old Names": null,
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "30.10.2024"
+            "Last Updated": "12.12.2024"
         },
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Schnabeltier Base",
             "Code": "S1-B",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384205434",
             "Class": "Car",
             "Usage": [
                 "BASE"
@@ -89,7 +89,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Schnabeltier Emergency Truck",
             "Code": "S1-ET",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384205839",
             "Class": "Car",
             "Usage": [
                 "Rescue",
@@ -114,9 +114,9 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Schnabeltier Emergency Truck (Arctic)",
+            "Name": "Schnabeltier Arctic Emergency Truck",
             "Code": "S1-ET-A",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384204527",
             "Class": "Car",
             "Usage": [
                 "Rescue",
@@ -143,7 +143,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Schnabeltier Fire Truck",
             "Code": "S1-FT",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384206197",
             "Class": "Car",
             "Usage": [
                 "Firefighting"
@@ -166,9 +166,9 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Schnabeltier Pickup Truck",
+            "Name": "Schnabeltier Pickup",
             "Code": "S1-PT",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384204990",
             "Class": "Car",
             "Usage": [
                 "Medium Range Transport"
@@ -193,7 +193,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Biene Quad",
             "Code": "B1-Q",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384221074",
             "Class": "Car",
             "Usage": [
                 "Short Range Transport"
@@ -218,7 +218,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Biene Snowmobil",
             "Code": "B1-S",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384223020",
             "Class": "Car",
             "Usage": [
                 "Short Range Transport"
@@ -453,7 +453,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Hornisse",
             "Code": "H1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384224437",
             "Class": "Helicopter",
             "Usage": [
                 "Light Attack"
@@ -504,7 +504,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Biene Jetski",
             "Code": "B1-J",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384223654",
             "Class": "Ship",
             "Usage": [
                 "Short Range Transport"
@@ -736,7 +736,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Biene Trailer",
             "Code": "B1-T",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384222285",
             "Class": "Trailer",
             "Usage": [
                 "Vehicle Transport"
@@ -789,7 +789,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Small Tank Trailer ",
             "Code": null,
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3367764975",
             "Class": "Trailer",
             "Usage": [
                 "Liquid Transport",
@@ -798,7 +798,7 @@
             "Location": [
                 "Land"
             ],
-            "Status": "Polishing",
+            "Status": "Complete",
             "Current Version": "V1",
             "Weight": "85",
             "Cost": "1758",
@@ -867,7 +867,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Saturn",
             "Code": "ENG-S1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384231822",
             "Class": "Engine",
             "Usage": [
                 ""
@@ -992,7 +992,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Tulpe",
             "Code": "MSL-T1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384224854",
             "Class": "Missile",
             "Usage": [
                 "Medium Range"
@@ -1042,7 +1042,7 @@
             "Manufacturer": "Homebrew",
             "Name": "Diver Speeder",
             "Code": "D1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384225779",
             "Class": "Submarine",
             "Usage": [
                 ""
@@ -1144,6 +1144,58 @@
             "Base Support": "true",
             "Comment": null,
             "Last Updated": "04.11.202"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Igel Runner",
+            "Code": "I1-R",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3397131712",
+            "Class": "Car",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "486",
+            "Cost": "13226",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "5",
+            "Old Names": "Cart, Adventure Cart, Igel PT",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "31.12.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Igel Scout",
+            "Code": "I1-S",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3397132125",
+            "Class": "Car",
+            "Usage": [
+                "Short Range Transport",
+                "Medium Range Transport",
+                "Light Attack"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "618",
+            "Cost": "18347",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1",
+            "Old Names": "Igel A",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "31.12.2024"
         }
     ]
 }
