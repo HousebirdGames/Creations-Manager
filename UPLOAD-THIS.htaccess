@@ -61,3 +61,5 @@ RewriteCond %{REQUEST_URI} !^/creations-manager/robots.txt$
 RewriteCond %{REQUEST_URI} !^/creations-manager/sitemap.xml$
 RewriteCond %{REQUEST_URI} !\.(jpe?g|png|gif|ico|css|js)$ [NC]
 RewriteRule . /creations-manager/index.html [L]
+
+FallbackResource /creations-manager/index.html
