@@ -435,6 +435,7 @@ button.edit-button:hover {
 .class {
     text-align: center;
     transition: 0.1s ease-in-out;
+    background-color: #1e3955;
 }
 
 .class:hover {

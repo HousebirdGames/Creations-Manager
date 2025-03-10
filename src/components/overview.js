@@ -34,6 +34,7 @@ export default async function Example(exampleData) {
         loadDataFromLocalStorage();
         applyDarkModeFromLocalStorage();
         applyExpandRowsFromLocalStorage();
+        sortTable('Name', 'asc');
     })
 
     const actions = [
@@ -72,6 +73,11 @@ export default async function Example(exampleData) {
         {
             handler: saveVehicle,
             selector: '#saveVehicle'
+
+        },
+        {
+            handler: deleteVehicle,
+            selector: '#deleteVehicle'
 
         },
         {
@@ -128,8 +134,6 @@ export default async function Example(exampleData) {
     actions.forEach(a => {
         action(a)
     });
-
-
 
     return `
 <div id="saveNotification" 
@@ -505,6 +509,33 @@ function renderTable() {
     });
 }
 
+function sortTable(key, direction = null) {
+    if (direction === null) {
+        if (!sortDirections[key]) {
+            sortDirections[key] = 'asc';
+        } else {
+            sortDirections[key] = sortDirections[key] === 'asc' ? 'desc' : 'asc';
+        }
+    } else {
+        sortDirections[key] = direction;
+    }
+
+    const currentDirection = sortDirections[key];
+
+    data.Vehicles.sort((a, b) => {
+        const valueA = a[key] === null ? '' : a[key].toString().toLowerCase();
+        const valueB = b[key] === null ? '' : b[key].toString().toLowerCase();
+
+        if (currentDirection === 'asc') {
+            return valueA.localeCompare(valueB);
+        } else {
+            return valueB.localeCompare(valueA);
+        }
+    });
+
+    renderTable();
+}
+
 function renderManufacturers() {
     const container = document.querySelector('.manufacturers-container');
     container.innerHTML = '';
@@ -529,29 +560,6 @@ function renderManufacturers() {
 }
 
 let sortDirections = {};
-
-function sortTable(key) {
-    if (!sortDirections[key]) {
-        sortDirections[key] = 'asc';
-    } else {
-        sortDirections[key] = sortDirections[key] === 'asc' ? 'desc' : 'asc';
-    }
-
-    const direction = sortDirections[key];
-
-    data.Vehicles.sort((a, b) => {
-        const valueA = a[key] === null ? '' : a[key].toString().toLowerCase();
-        const valueB = b[key] === null ? '' : b[key].toString().toLowerCase();
-
-        if (direction === 'asc') {
-            return valueA.localeCompare(valueB);
-        } else {
-            return valueB.localeCompare(valueA);
-        }
-    });
-
-    renderTable();
-}
 
 function filterTable() {
     const searchTerm = document.getElementById('searchInput').value.toLowerCase();
@@ -682,8 +690,25 @@ function saveVehicle() {
     }
 
     renderTable();
+    filterTable();
     saveDataToLocalStorage();
     hideEditModal();
+}
+
+function deleteVehicle() {
+    const form = document.getElementById('vehicleForm');
+    const index = parseInt(form.dataset.editIndex);
+
+    if (confirm("Delete this vehicle?")) {
+        data.Vehicles.splice(index, 1);
+        console.log("Vehicle deleted");
+        renderTable();
+        saveDataToLocalStorage();
+        hideEditModal();
+    }
+    else {
+        console.log("Vehicle not deleted");
+    }
 }
 
 function exportData() {
