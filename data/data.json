@@ -14,7 +14,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Albatross",
-            "Code": "A2",
+            "Code": "A1",
             "Workshop Link": "",
             "Class": "Aircraft",
             "Usage": [
@@ -40,21 +40,22 @@
             "Last Updated": "10.03.2025"
         },
         {
-            "Manufacturer": "EINSCHLAG",
+            "Manufacturer": "Homebrew",
             "Name": "Ares",
             "Code": "A1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3442559202",
             "Class": "Ship",
             "Usage": [
+                "Short Range Transport",
                 "Medium Range Transport"
             ],
             "Location": [
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V3",
-            "Weight": "1155",
-            "Cost": "12438",
+            "Current Version": "V4",
+            "Weight": "1158",
+            "Cost": "12634",
             "Crew Capacity": "1",
             "Passenger Capacity": "6",
             "Old Names": "Aeris, Airfoil Speeder",
@@ -62,7 +63,7 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "30.10.2024"
+            "Last Updated": "11.03.2024"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -302,7 +303,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Bläuling Helicopter",
             "Code": "B3-H",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3442732963",
             "Class": "Helicopter",
             "Usage": [
                 "Exploration",
@@ -833,7 +834,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Merkur",
-            "Code": "M1",
+            "Code": "M1-X",
             "Workshop Link": "",
             "Class": "Ship",
             "Usage": [
@@ -842,7 +843,7 @@
             "Location": [
                 "Sea"
             ],
-            "Status": "Development",
+            "Status": "Discontinued",
             "Current Version": "V72",
             "Weight": "13706",
             "Cost": "148384",
@@ -852,8 +853,8 @@
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "false",
-            "Comment": "Orbit RIB included",
-            "Last Updated": "30.10.2024"
+            "Comment": "Mahi RIB included",
+            "Last Updated": "11.03.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -914,7 +915,7 @@
             "Workshop Link": "",
             "Class": "Aircraft",
             "Usage": [
-                ""
+                "Medium Attack"
             ],
             "Location": [
                 "Air",
@@ -969,7 +970,7 @@
             "Workshop Link": "",
             "Class": "Engine",
             "Usage": [
-                ""
+                "Ship Engine"
             ],
             "Location": [
                 ""
@@ -1097,7 +1098,7 @@
             "Workshop Link": "",
             "Class": "Equipment",
             "Usage": [
-                ""
+                "Communication"
             ],
             "Location": [
                 ""
@@ -1175,11 +1176,11 @@
             "Manufacturer": "Homebrew",
             "Name": "Raft",
             "Code": "R1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3442605911",
             "Class": "Ship",
             "Usage": [
                 "Rescue",
-                "Medium Range Transport"
+                "Short Range Transport"
             ],
             "Location": [
                 "Sea"
@@ -1195,7 +1196,34 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "30.10.2024"
+            "Last Updated": "11.03.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Remora",
+            "Code": "R3",
+            "Workshop Link": "",
+            "Class": "Diving Bell",
+            "Usage": [
+                "Exploration",
+                "Diving"
+            ],
+            "Location": [
+                "Sea",
+                "Underwater"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "1515",
+            "Cost": "28852",
+            "Crew Capacity": "2",
+            "Passenger Capacity": "2",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": "Diving Bell Adapter for Mobula Catamaran",
+            "Last Updated": "10.03.2025"
         },
         {
             "Manufacturer": "Homebrew",
@@ -1333,7 +1361,7 @@
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384231822",
             "Class": "Engine",
             "Usage": [
-                ""
+                "Plane Engine"
             ],
             "Location": [
                 ""
@@ -1660,33 +1688,6 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "30.10.2024"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Remora",
-            "Code": "R3",
-            "Workshop Link": "",
-            "Class": "Diving Bell",
-            "Usage": [
-                "Exploration",
-                "Diving"
-            ],
-            "Location": [
-                "Sea",
-                "Underwater"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": "1515",
-            "Cost": "28852",
-            "Crew Capacity": "2",
-            "Passenger Capacity": "2",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": "Diving Bell Adapter for Mobula Catamaran",
-            "Last Updated": "10.03.2025"
         }
     ]
 }
