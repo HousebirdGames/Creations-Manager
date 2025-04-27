@@ -1089,26 +1089,27 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Mahi Deployment System",
             "Code": "ESG M2-DS",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3471688674",
             "Class": "Subassembly",
             "Usage": [
-                ""
+                "Rescue",
+                "Medium Range Transport"
             ],
             "Location": [
-                ""
+                "Sea"
             ],
             "Status": "Complete",
             "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
+            "Weight": "25592",
+            "Cost": "200986",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "6",
             "Old Names": null,
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
+            "Video": "https://youtu.be/yyQdn5r-14w",
+            "Trailer Support": "false",
+            "Base Support": "false",
             "Comment": null,
-            "Last Updated": "26.04.2025"
+            "Last Updated": "27.04.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
