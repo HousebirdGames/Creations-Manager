@@ -14,7 +14,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Albatross",
-            "Code": "A1",
+            "Code": "ESG A1",
             "Workshop Link": "",
             "Class": "Aircraft",
             "Usage": [
@@ -42,7 +42,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Arctic Garage Container",
-            "Code": "C-B1-A1",
+            "Code": "ESG C-B1-A1",
             "Workshop Link": "",
             "Class": "Container",
             "Usage": [
@@ -67,7 +67,7 @@
         {
             "Manufacturer": "Homebrew",
             "Name": "Ares",
-            "Code": "A1",
+            "Code": "HB A1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3442559202",
             "Class": "Ship",
             "Usage": [
@@ -93,7 +93,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Base Container",
-            "Code": "C-B1",
+            "Code": "ESG C-B1",
             "Workshop Link": "",
             "Class": "Container",
             "Usage": [
@@ -120,7 +120,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Beluga",
-            "Code": "B4",
+            "Code": "ESG B4",
             "Workshop Link": "",
             "Class": null,
             "Usage": [
@@ -145,7 +145,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Beluga Tanker",
-            "Code": "B4-T",
+            "Code": "ESG B4-T",
             "Workshop Link": "",
             "Class": null,
             "Usage": [
@@ -170,7 +170,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Biber Base",
-            "Code": "B2-B",
+            "Code": "ESG B2-B",
             "Workshop Link": "",
             "Class": "Car",
             "Usage": [
@@ -195,7 +195,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Biber Container Trailer",
-            "Code": "B2-T",
+            "Code": "ESG B2-T",
             "Workshop Link": "",
             "Class": "Trailer",
             "Usage": [
@@ -223,7 +223,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Biber Container Truck",
-            "Code": "B2-CT",
+            "Code": "ESG B2-CT",
             "Workshop Link": "",
             "Class": "Car",
             "Usage": [
@@ -249,7 +249,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Biene Jetski",
-            "Code": "B1-J",
+            "Code": "ESG B1-J",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384223654",
             "Class": "Ship",
             "Usage": [
@@ -274,7 +274,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Biene Quad",
-            "Code": "B1-Q",
+            "Code": "ESG B1-Q",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384221074",
             "Class": "Car",
             "Usage": [
@@ -299,7 +299,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Biene Snowmobil",
-            "Code": "B1-S",
+            "Code": "ESG B1-S",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384223020",
             "Class": "Car",
             "Usage": [
@@ -324,7 +324,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Biene Trailer",
-            "Code": "B1-T",
+            "Code": "ESG B1-T",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384222285",
             "Class": "Trailer",
             "Usage": [
@@ -349,7 +349,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Bläuling",
-            "Code": "B3",
+            "Code": "ESG B3",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3415843823",
             "Class": "Aircraft",
             "Usage": [
@@ -377,7 +377,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Bläuling Helicopter",
-            "Code": "B3-H",
+            "Code": "ESG B3-H",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3442732963",
             "Class": "Helicopter",
             "Usage": [
@@ -406,7 +406,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Camper Container",
-            "Code": "C-B1-C2",
+            "Code": "ESG C-B1-C2",
             "Workshop Link": "",
             "Class": "Container",
             "Usage": [
@@ -434,7 +434,7 @@
         {
             "Manufacturer": "Homebrew",
             "Name": "Career Boat",
-            "Code": "CB1-X",
+            "Code": "HB CB1-X",
             "Workshop Link": "",
             "Class": "Ship",
             "Usage": [
@@ -459,7 +459,7 @@
         {
             "Manufacturer": "Homebrew",
             "Name": "Challenger",
-            "Code": "CB2",
+            "Code": "HB CB2",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3418799385",
             "Class": "Aircraft",
             "Usage": [
@@ -485,7 +485,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Container Companion",
-            "Code": "C1",
+            "Code": "ESG C1",
             "Workshop Link": "",
             "Class": "Container",
             "Usage": [
@@ -513,7 +513,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Container Mover",
-            "Code": "C2",
+            "Code": "ESG C2",
             "Workshop Link": "",
             "Class": "Car",
             "Usage": [
@@ -538,7 +538,7 @@
         {
             "Manufacturer": "Homebrew",
             "Name": "Diver Speeder",
-            "Code": "D1",
+            "Code": "HB D1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384225779",
             "Class": "Submarine",
             "Usage": [
@@ -564,7 +564,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Eisvogel",
-            "Code": "E1",
+            "Code": "ESG E1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3413583231",
             "Class": "Aircraft",
             "Usage": [
@@ -591,7 +591,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Eisvogel Seeker",
-            "Code": "E1-S",
+            "Code": "ESG E1-S",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3414328077",
             "Class": "Aircraft",
             "Usage": [
@@ -619,7 +619,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Eisvogel Traveler",
-            "Code": "E1-T",
+            "Code": "ESG E1-T",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3413583962",
             "Class": "Aircraft",
             "Usage": [
@@ -646,7 +646,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Equipment Container",
-            "Code": "C-E1",
+            "Code": "ESG C-E1",
             "Workshop Link": "",
             "Class": "Container",
             "Usage": [
@@ -673,7 +673,7 @@
         {
             "Manufacturer": "Homebrew",
             "Name": "Europa",
-            "Code": "E1-X",
+            "Code": "HB E1-X",
             "Workshop Link": "",
             "Class": "Submarine",
             "Usage": [
@@ -700,7 +700,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Feldmaus",
-            "Code": "F1",
+            "Code": "ESG F1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3470056133",
             "Class": "Car",
             "Usage": [
@@ -717,7 +717,7 @@
             "Crew Capacity": "1",
             "Passenger Capacity": "3",
             "Old Names": null,
-            "Video": null,
+            "Video": "https://youtu.be/_-heKmA8s68",
             "Trailer Support": "true",
             "Base Support": "false",
             "Comment": null,
@@ -726,7 +726,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Garage Container",
-            "Code": "C-B1-A1",
+            "Code": "ESG C-B1-A1",
             "Workshop Link": "",
             "Class": "Container",
             "Usage": [
@@ -746,13 +746,13 @@
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "true",
-            "Comment": "Fits a ESG M1 Maus",
+            "Comment": "Fits an ESG M1 Maus",
             "Last Updated": null
         },
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Gletscherfloh",
-            "Code": "G1",
+            "Code": "ESG G1",
             "Workshop Link": "",
             "Class": null,
             "Usage": [
@@ -777,7 +777,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Hornisse",
-            "Code": "H1",
+            "Code": "ESG H1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384224437",
             "Class": "Helicopter",
             "Usage": [
@@ -803,7 +803,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Hub Container",
-            "Code": "C-B1-H1",
+            "Code": "ESG C-B1-H1",
             "Workshop Link": "",
             "Class": null,
             "Usage": [
@@ -854,7 +854,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Hummel",
-            "Code": "H2",
+            "Code": "ESG H2",
             "Workshop Link": "",
             "Class": "VTOL",
             "Usage": [
@@ -880,7 +880,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Igel Runner",
-            "Code": "I1-R",
+            "Code": "ESG I1-R",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3397131712",
             "Class": "Car",
             "Usage": [
@@ -905,7 +905,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Igel Scout",
-            "Code": "I1-S",
+            "Code": "ESG I1-S",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3397132125",
             "Class": "Car",
             "Usage": [
@@ -932,7 +932,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Igel Scout MG",
-            "Code": "I1-SMG",
+            "Code": "ESG I1-SMG",
             "Workshop Link": "",
             "Class": "Car",
             "Usage": [
@@ -959,7 +959,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Kitchen Container",
-            "Code": "C-B1-K1",
+            "Code": "ESG C-B1-K1",
             "Workshop Link": "",
             "Class": "Container",
             "Usage": [
@@ -986,8 +986,8 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Kugelfisch",
-            "Code": null,
-            "Workshop Link": "",
+            "Code": "ESG K1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3471537972",
             "Class": "Ship",
             "Usage": [
                 "Lifeboat"
@@ -996,22 +996,48 @@
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": "551",
-            "Cost": "12516",
+            "Current Version": "V3",
+            "Weight": "552",
+            "Cost": "12564",
             "Crew Capacity": "1",
             "Passenger Capacity": "6",
-            "Old Names": null,
-            "Video": null,
+            "Old Names": "Lifeboat",
+            "Video": "\thttps://youtu.be/mi_dT1d-D88",
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "30.10.2024"
+            "Last Updated": "27.04.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Kugelfisch Launch System",
+            "Code": "ESG K1-LS",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3471539909",
+            "Class": "Subassembly",
+            "Usage": [
+                "Rescue",
+                "Subcomponent"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Comnplete",
+            "Current Version": "V1",
+            "Weight": "3231",
+            "Cost": "22331",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "6",
+            "Old Names": null,
+            "Video": "https://youtu.be/mi_dT1d-D88",
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "27.04.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Lift Container",
-            "Code": "C-B1-L1",
+            "Code": "ESG C-B1-L1",
             "Workshop Link": "",
             "Class": "Container",
             "Usage": [
@@ -1036,7 +1062,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Mahi",
-            "Code": "M2",
+            "Code": "ESG M2",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3357793718",
             "Class": "Ship",
             "Usage": [
@@ -1047,7 +1073,7 @@
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V4",
+            "Current Version": "V5",
             "Weight": "778",
             "Cost": "18236",
             "Crew Capacity": "1",
@@ -1057,12 +1083,37 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "07.11.2024"
+            "Last Updated": "26.04.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Mahi Deployment System",
+            "Code": "ESG M2-DS",
+            "Workshop Link": "",
+            "Class": "Subassembly",
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "26.04.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Maus",
-            "Code": "M1",
+            "Code": "ESG M1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3470056009",
             "Class": "Car",
             "Usage": [
@@ -1079,7 +1130,7 @@
             "Crew Capacity": "1",
             "Passenger Capacity": "3",
             "Old Names": "Small Car",
-            "Video": null,
+            "Video": "https://youtu.be/_-heKmA8s68",
             "Trailer Support": "true",
             "Base Support": "false",
             "Comment": null,
@@ -1088,7 +1139,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Medical Container",
-            "Code": "C-B1-M1",
+            "Code": "ESG C-B1-M1",
             "Workshop Link": "",
             "Class": null,
             "Usage": [
@@ -1113,7 +1164,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Merkur",
-            "Code": "M1-X",
+            "Code": "ESG M1-X",
             "Workshop Link": "",
             "Class": "Ship",
             "Usage": [
@@ -1138,7 +1189,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "MG3",
-            "Code": "WPN-M1",
+            "Code": "ESG WPN-M1",
             "Workshop Link": "",
             "Class": "Weapon",
             "Usage": [
@@ -1163,7 +1214,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Mobula",
-            "Code": "M3",
+            "Code": "ESG M3",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3456155883",
             "Class": "Ship",
             "Usage": [
@@ -1216,7 +1267,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Möwe",
-            "Code": "M2",
+            "Code": "ESG M2",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3456060299",
             "Class": "Aircraft",
             "Usage": [
@@ -1245,7 +1296,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Narwal",
-            "Code": "N1",
+            "Code": "ESG N1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3455720127",
             "Class": "Ship",
             "Usage": [
@@ -1273,7 +1324,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Ocean",
-            "Code": "ENG-O2",
+            "Code": "ESG ENG-O2",
             "Workshop Link": "",
             "Class": "Engine",
             "Usage": [
@@ -1298,7 +1349,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Orbit",
-            "Code": "ENG-O1",
+            "Code": "ESG ENG-O1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3357792909",
             "Class": "Engine",
             "Usage": [
@@ -1323,7 +1374,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Orka",
-            "Code": "O2",
+            "Code": "ESG O2",
             "Workshop Link": "",
             "Class": "Ship",
             "Usage": [
@@ -1349,7 +1400,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Pelikan",
-            "Code": "P1",
+            "Code": "ESG P1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3341179796",
             "Class": "Aircraft",
             "Usage": [
@@ -1376,7 +1427,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Pelikan Cargo",
-            "Code": "P1-C",
+            "Code": "ESG P1-C",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3383482001",
             "Class": "Aircraft",
             "Usage": [
@@ -1401,7 +1452,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Portable Radio",
-            "Code": "EPT-P1",
+            "Code": "ESG EPT-P1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3367771384",
             "Class": "Equipment",
             "Usage": [
@@ -1426,7 +1477,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Qualle",
-            "Code": "Q1",
+            "Code": "ESG Q1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3349831574",
             "Class": "Submarine",
             "Usage": [
@@ -1455,7 +1506,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Quarters Container",
-            "Code": "C-B1-Q1",
+            "Code": "ESG C-B1-Q1",
             "Workshop Link": "",
             "Class": "Container",
             "Usage": [
@@ -1482,7 +1533,7 @@
         {
             "Manufacturer": "Homebrew",
             "Name": "Raft",
-            "Code": "R1",
+            "Code": "HB R1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3442605911",
             "Class": "Ship",
             "Usage": [
@@ -1508,7 +1559,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Remora",
-            "Code": "R3",
+            "Code": "ESG R3",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?edit=true&id=3456156169",
             "Class": "Diving Bell",
             "Usage": [
@@ -1535,7 +1586,7 @@
         {
             "Manufacturer": "Homebrew",
             "Name": "Remote Car",
-            "Code": "RC1-X",
+            "Code": "HB RC1-X",
             "Workshop Link": "",
             "Class": "Car",
             "Usage": [
@@ -1560,7 +1611,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Rennmaus",
-            "Code": "R2",
+            "Code": "ESG R2",
             "Workshop Link": "",
             "Class": "Car",
             "Usage": [
@@ -1587,7 +1638,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Rennmaus Flat Track",
-            "Code": "R2-FT",
+            "Code": "ESG R2-FT",
             "Workshop Link": "",
             "Class": "Car",
             "Usage": [
@@ -1614,7 +1665,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Robbe",
-            "Code": "R1",
+            "Code": "ESG R1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3342896669&result=1",
             "Class": "Ship",
             "Usage": [
@@ -1664,7 +1715,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Saturn",
-            "Code": "ENG-S1",
+            "Code": "ESG ENG-S1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384231822",
             "Class": "Engine",
             "Usage": [
@@ -1689,7 +1740,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Schildkröte",
-            "Code": "S4",
+            "Code": "ESG S4",
             "Workshop Link": "",
             "Class": null,
             "Usage": [
@@ -1714,7 +1765,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Schnabeltier Arctic Emergency Truck",
-            "Code": "S1-ET-A",
+            "Code": "ESG S1-ET-A",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384204527",
             "Class": "Car",
             "Usage": [
@@ -1741,7 +1792,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Schnabeltier Base",
-            "Code": "S1-B",
+            "Code": "ESG S1-B",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384205434",
             "Class": "Car",
             "Usage": [
@@ -1766,7 +1817,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Schnabeltier Emergency Truck",
-            "Code": "S1-ET",
+            "Code": "ESG S1-ET",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384205839",
             "Class": "Car",
             "Usage": [
@@ -1793,7 +1844,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Schnabeltier Fire Truck",
-            "Code": "S1-FT",
+            "Code": "ESG S1-FT",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384206197",
             "Class": "Car",
             "Usage": [
@@ -1818,7 +1869,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Schnabeltier Pickup Truck",
-            "Code": "S1-PT",
+            "Code": "ESG S1-PT",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384204990",
             "Class": "Car",
             "Usage": [
@@ -1843,7 +1894,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Schnecke",
-            "Code": "S3",
+            "Code": "ESG S3",
             "Workshop Link": "",
             "Class": "Tank",
             "Usage": [
@@ -1870,7 +1921,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Schwalbe",
-            "Code": "S2",
+            "Code": "ESG S2",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3356199518",
             "Class": "Helicopter",
             "Usage": [
@@ -1972,7 +2023,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Small Yacht",
-            "Code": "SY1-X",
+            "Code": "ESG SY1-X",
             "Workshop Link": "",
             "Class": "Ship",
             "Usage": [
@@ -1998,7 +2049,7 @@
         {
             "Manufacturer": "Homebrew",
             "Name": "Tank",
-            "Code": "T1-X",
+            "Code": "HB T1-X",
             "Workshop Link": "",
             "Class": "Tank",
             "Usage": [
@@ -2023,7 +2074,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Tank Container",
-            "Code": "C-B1-T1",
+            "Code": "ESG C-B1-T1",
             "Workshop Link": "",
             "Class": "Container",
             "Usage": [
@@ -2048,7 +2099,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Travel Trailer",
-            "Code": "T1-T",
+            "Code": "ESG T1-T",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3421511270",
             "Class": "Trailer",
             "Usage": [
@@ -2074,7 +2125,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Tulpe",
-            "Code": "MSL-T1",
+            "Code": "ESG MSL-T1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384224854",
             "Class": "Missile",
             "Usage": [
@@ -2099,7 +2150,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Winterhaft",
-            "Code": "W1",
+            "Code": "ESG W1",
             "Workshop Link": "",
             "Class": null,
             "Usage": [
