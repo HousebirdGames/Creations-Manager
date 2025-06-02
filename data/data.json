@@ -46,23 +46,24 @@
             "Workshop Link": "",
             "Class": "Container",
             "Usage": [
-                ""
+                "Base Building",
+                "Vehicle Storage"
             ],
             "Location": [
-                ""
+                "Land"
             ],
-            "Status": null,
-            "Current Version": null,
+            "Status": "Complete",
+            "Current Version": "V3",
             "Weight": null,
             "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
+            "Crew Capacity": "0",
+            "Passenger Capacity": "2",
             "Old Names": null,
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "true",
-            "Comment": "Fits Winterhaft or Gletscherfloh",
-            "Last Updated": null
+            "Comment": "Fits ESG W1 Winterhaft or ESG G1 Gletscherfloh",
+            "Last Updated": "12.05.2025"
         },
         {
             "Manufacturer": "Homebrew",
@@ -105,7 +106,7 @@
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V5",
+            "Current Version": "V6",
             "Weight": "1485",
             "Cost": "19719",
             "Crew Capacity": "0",
@@ -115,57 +116,83 @@
             "Trailer Support": "false",
             "Base Support": "true",
             "Comment": null,
-            "Last Updated": "31.10.2024"
+            "Last Updated": "12.05.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Beluga",
             "Code": "ESG B4",
-            "Workshop Link": "",
-            "Class": null,
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3472295322",
+            "Class": "Ship",
             "Usage": [
-                ""
+                "Fishing"
             ],
             "Location": [
-                ""
+                "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V4",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
+            "Current Version": "V10",
+            "Weight": "41362",
+            "Cost": "402105",
+            "Crew Capacity": "1-5",
+            "Passenger Capacity": "4",
             "Old Names": "Fishing Boat, Fishing Boar",
             "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
             "Comment": null,
-            "Last Updated": "01.04.2025"
+            "Last Updated": "13.05.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Beluga Crab Pot",
+            "Code": "ESG B4-CP",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3472295322",
+            "Class": "Subassembly",
+            "Usage": [
+                "Fishing"
+            ],
+            "Location": [
+                "Sea",
+                "Underwater"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "217",
+            "Cost": "1736",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "28.04.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Beluga Tanker",
             "Code": "ESG B4-T",
-            "Workshop Link": "",
-            "Class": null,
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3472296447",
+            "Class": "Ship",
             "Usage": [
-                ""
+                "Liquid Transport"
             ],
             "Location": [
-                ""
+                "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V4",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
+            "Current Version": "V10",
+            "Weight": "59194",
+            "Cost": "541696",
+            "Crew Capacity": "1-5",
+            "Passenger Capacity": "4",
             "Old Names": null,
             "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
             "Comment": null,
-            "Last Updated": "01.04.2025"
+            "Last Updated": "13.05.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -419,7 +446,7 @@
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V3",
+            "Current Version": "V4",
             "Weight": null,
             "Cost": null,
             "Crew Capacity": "0",
@@ -429,7 +456,7 @@
             "Trailer Support": "false",
             "Base Support": "true",
             "Comment": null,
-            "Last Updated": "06.04.2025"
+            "Last Updated": "12.05.2025"
         },
         {
             "Manufacturer": "Homebrew",
@@ -455,6 +482,31 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "NONE",
+            "Name": "Cat Boat",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": null,
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": null,
+            "Current Version": null,
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": "Sail Cruiser",
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "21.05.2025"
         },
         {
             "Manufacturer": "Homebrew",
@@ -576,7 +628,7 @@
                 "Land"
             ],
             "Status": "Complete",
-            "Current Version": "V5",
+            "Current Version": "V6",
             "Weight": "1652.5",
             "Cost": "22803",
             "Crew Capacity": "2",
@@ -586,7 +638,7 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "22.04.2025"
+            "Last Updated": "01.06.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -604,7 +656,7 @@
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V4",
+            "Current Version": "V5",
             "Weight": "2897",
             "Cost": "30697",
             "Crew Capacity": "2",
@@ -614,7 +666,7 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "22.04.2025"
+            "Last Updated": "31.05.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -631,7 +683,7 @@
                 "Land"
             ],
             "Status": "Complete",
-            "Current Version": "V5",
+            "Current Version": "V6",
             "Weight": "1543",
             "Cost": "21789",
             "Crew Capacity": "2",
@@ -641,7 +693,7 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "22.04.2025"
+            "Last Updated": "31.05.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -725,36 +777,10 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Garage Container",
-            "Code": "ESG C-B1-A1",
+            "Name": "Flugameise",
+            "Code": "ESG F2",
             "Workshop Link": "",
-            "Class": "Container",
-            "Usage": [
-                "Base Building",
-                "Vehicle Storage"
-            ],
-            "Location": [
-                ""
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "true",
-            "Comment": "Fits an ESG M1 Maus",
-            "Last Updated": null
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Gletscherfloh",
-            "Code": "ESG G1",
-            "Workshop Link": "",
-            "Class": null,
+            "Class": "Helicopter",
             "Usage": [
                 ""
             ],
@@ -773,6 +799,57 @@
             "Base Support": null,
             "Comment": null,
             "Last Updated": null
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Garage Container",
+            "Code": "ESG C-B1-A1",
+            "Workshop Link": "",
+            "Class": "Container",
+            "Usage": [
+                "Base Building",
+                "Vehicle Storage"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": "Fits an ESG M1 Maus",
+            "Last Updated": "12.05.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Gletscherfloh",
+            "Code": "ESG G1",
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "12.05.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -805,25 +882,26 @@
             "Name": "Hub Container",
             "Code": "ESG C-B1-H1",
             "Workshop Link": "",
-            "Class": null,
+            "Class": "Container",
             "Usage": [
-                ""
+                "Base Building"
             ],
             "Location": [
-                ""
+                "Land",
+                "Sea"
             ],
-            "Status": null,
-            "Current Version": null,
+            "Status": "Complete",
+            "Current Version": "V2",
             "Weight": null,
             "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
+            "Crew Capacity": "0",
+            "Passenger Capacity": "5",
             "Old Names": "Corridor Container",
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "true",
             "Comment": null,
-            "Last Updated": "06.04.2025"
+            "Last Updated": "12.05.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -933,7 +1011,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Igel Scout MG",
             "Code": "ESG I1-SMG",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3397821089",
             "Class": "Car",
             "Usage": [
                 "Short Range Transport",
@@ -971,7 +1049,7 @@
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V6",
+            "Current Version": "V7",
             "Weight": "2251",
             "Cost": "34735",
             "Crew Capacity": "0",
@@ -981,7 +1059,7 @@
             "Trailer Support": "false",
             "Base Support": "true",
             "Comment": null,
-            "Last Updated": "06.04.2025"
+            "Last Updated": "12.05.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1041,23 +1119,23 @@
             "Workshop Link": "",
             "Class": "Container",
             "Usage": [
-                ""
+                "Base Building"
             ],
             "Location": [
                 "Land"
             ],
-            "Status": null,
-            "Current Version": "V2",
+            "Status": "Complete",
+            "Current Version": "V3",
             "Weight": null,
             "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
+            "Crew Capacity": "0",
+            "Passenger Capacity": "4",
             "Old Names": "Container Lift",
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "true",
             "Comment": null,
-            "Last Updated": "06.04.2025"
+            "Last Updated": "12.05.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1113,6 +1191,33 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
+            "Name": "Manatee",
+            "Code": "M5",
+            "Workshop Link": "",
+            "Class": "Submarine",
+            "Usage": [
+                "Exploration",
+                "SAR"
+            ],
+            "Location": [
+                "Sea",
+                "Underwater"
+            ],
+            "Status": "Development",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1-3",
+            "Passenger Capacity": "0",
+            "Old Names": "Exploration Sub",
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": null
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
             "Name": "Maus",
             "Code": "ESG M1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3470056009",
@@ -1142,25 +1247,52 @@
             "Name": "Medical Container",
             "Code": "ESG C-B1-M1",
             "Workshop Link": "",
-            "Class": null,
+            "Class": "Container",
             "Usage": [
-                ""
+                "Base Building",
+                "Medical"
             ],
             "Location": [
-                ""
+                "Land",
+                "Sea"
             ],
-            "Status": null,
-            "Current Version": null,
+            "Status": "Complete",
+            "Current Version": "V2",
             "Weight": null,
             "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "4",
             "Old Names": null,
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "true",
             "Comment": null,
-            "Last Updated": "07.04.2025"
+            "Last Updated": "12.05.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Medium Power Generator 85",
+            "Code": "PG-M85-1",
+            "Workshop Link": "",
+            "Class": "Generator",
+            "Usage": [
+                "Subassembly"
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": "Small Generator",
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "17.05.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1211,6 +1343,59 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Micro Sub",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "Submarine",
+            "Usage": [
+                "Exploration",
+                "SAR",
+                "Medium Range Transport"
+            ],
+            "Location": [
+                "Sea",
+                "Underwater"
+            ],
+            "Status": "Development",
+            "Current Version": "D5",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "14.05.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Mini Quad",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": null,
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": null,
+            "Current Version": "P1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": null
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1268,7 +1453,7 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Möwe",
-            "Code": "ESG M2",
+            "Code": "ESG M4",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3456060299",
             "Class": "Aircraft",
             "Usage": [
@@ -1282,9 +1467,9 @@
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": "5823",
-            "Cost": "77989",
+            "Current Version": "V3",
+            "Weight": "5845",
+            "Cost": "78667",
             "Crew Capacity": "2-3",
             "Passenger Capacity": "20+2",
             "Old Names": "Seaplane",
@@ -1292,7 +1477,7 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "01.04.2025"
+            "Last Updated": "30.04.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1310,7 +1495,7 @@
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V2",
+            "Current Version": "V3",
             "Weight": "4054",
             "Cost": "66241",
             "Crew Capacity": "1-2",
@@ -1320,7 +1505,7 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "01.04.2025"
+            "Last Updated": "22.05.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1519,7 +1704,7 @@
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V5",
+            "Current Version": "V6",
             "Weight": "1743",
             "Cost": "31672",
             "Crew Capacity": "0",
@@ -1529,7 +1714,7 @@
             "Trailer Support": "false",
             "Base Support": "true",
             "Comment": null,
-            "Last Updated": "06.04.2025"
+            "Last Updated": "12.05.2025"
         },
         {
             "Manufacturer": "Homebrew",
@@ -1778,7 +1963,7 @@
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V10",
+            "Current Version": "V11",
             "Weight": "3325",
             "Cost": "52374",
             "Crew Capacity": "2",
@@ -1788,7 +1973,7 @@
             "Trailer Support": "true",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "30.10.2024"
+            "Last Updated": "13.05.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1971,29 +2156,31 @@
             "Last Updated": null
         },
         {
-            "Manufacturer": "NONE",
-            "Name": "Small Sail Boat",
-            "Code": null,
-            "Workshop Link": "",
-            "Class": null,
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Stevia",
+            "Code": "V1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3492190453",
+            "Class": "Ship",
             "Usage": [
-                ""
+                "Recreation",
+                "Medium Range Transport",
+                "Long Range Transport"
             ],
             "Location": [
-                ""
+                "Sea"
             ],
-            "Status": null,
-            "Current Version": "D3",
+            "Status": "Complete",
+            "Current Version": "V1",
             "Weight": null,
             "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
+            "Crew Capacity": "1-4",
+            "Passenger Capacity": "0-6",
+            "Old Names": "Small Sail Boat",
             "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
             "Comment": null,
-            "Last Updated": null
+            "Last Updated": "02.06.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -2082,20 +2269,20 @@
                 "Base Building"
             ],
             "Location": [
-                ""
+                "Land"
             ],
-            "Status": null,
-            "Current Version": null,
+            "Status": "Complete",
+            "Current Version": "V2",
             "Weight": null,
             "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
             "Old Names": null,
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "true",
             "Comment": null,
-            "Last Updated": null
+            "Last Updated": "12.05.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -2153,25 +2340,50 @@
             "Name": "Winterhaft",
             "Code": "ESG W1",
             "Workshop Link": "",
-            "Class": null,
+            "Class": "Car",
             "Usage": [
-                ""
+                "Short Range Transport"
             ],
             "Location": [
-                ""
+                "Land"
             ],
-            "Status": null,
-            "Current Version": null,
+            "Status": "Complete",
+            "Current Version": "V2",
             "Weight": null,
             "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1",
             "Old Names": null,
             "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
+            "Trailer Support": "true",
+            "Base Support": "true",
             "Comment": null,
-            "Last Updated": null
+            "Last Updated": "12.05.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Winterhaft Tractor",
+            "Code": "ESG W1-T",
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "12.05.2025"
         }
     ]
 }

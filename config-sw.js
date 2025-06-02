@@ -1,5 +1,5 @@
 self.config = {
-  "version": "1.0.0.328-s",
+  "version": "1.0.0.330",
   "pageTitle": "Creations Manager",
   "cookieIdentifier": "creations_manager",
   "foundationYear": 2024,
