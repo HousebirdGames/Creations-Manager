@@ -43,7 +43,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Arctic Garage Container",
             "Code": "ESG C-B1-A1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493760960",
             "Class": "Container",
             "Usage": [
                 "Base Building",
@@ -62,7 +62,85 @@
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "true",
-            "Comment": "Fits ESG W1 Winterhaft or ESG G1 Gletscherfloh",
+            "Comment": "Fits ESG W1 Winterhaft, W1-T Winterhaft Tractor or ESG G1 Gletscherfloh",
+            "Last Updated": "12.05.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Arctic Garage Container (with Gletscherfloh)",
+            "Code": "ESG C-B1-A1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493761863",
+            "Class": "Container",
+            "Usage": [
+                "Base Building",
+                "Vehicle Storage"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V3",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "0",
+            "Passenger Capacity": "2",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "12.05.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Arctic Garage Container (with Winterhaft Tractor)",
+            "Code": "ESG C-B1-A1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493761617",
+            "Class": "Container",
+            "Usage": [
+                "Base Building",
+                "Vehicle Storage"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V3",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "0",
+            "Passenger Capacity": "2",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "12.05.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Arctic Garage Container (with Winterhaft)",
+            "Code": "ESG C-B1-A1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493761410",
+            "Class": "Container",
+            "Usage": [
+                "Base Building",
+                "Vehicle Storage"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V3",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "0",
+            "Passenger Capacity": "2",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
             "Last Updated": "12.05.2025"
         },
         {
@@ -434,7 +512,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Camper Container",
             "Code": "ESG C-B1-C2",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493584552",
             "Class": "Container",
             "Usage": [
                 "Accomodation",
@@ -829,8 +907,8 @@
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Garage Container",
-            "Code": "ESG C-B1-A1",
-            "Workshop Link": "",
+            "Code": "ESG C-B1-G1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493626176",
             "Class": "Container",
             "Usage": [
                 "Base Building",
@@ -850,13 +928,13 @@
             "Trailer Support": "false",
             "Base Support": "true",
             "Comment": "Fits an ESG M1 Maus",
-            "Last Updated": "12.05.2025"
+            "Last Updated": "05.06.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Gletscherfloh",
             "Code": "ESG G1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493745840",
             "Class": "Car",
             "Usage": [
                 "Short Range Transport"
@@ -907,7 +985,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Hub Container",
             "Code": "ESG C-B1-H1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493612961",
             "Class": "Container",
             "Usage": [
                 "Base Building"
@@ -1064,7 +1142,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Kitchen Container",
             "Code": "ESG C-B1-K1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493593170",
             "Class": "Container",
             "Usage": [
                 "Catering",
@@ -1142,7 +1220,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Lift Container",
             "Code": "ESG C-B1-L1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493697493",
             "Class": "Container",
             "Usage": [
                 "Base Building"
@@ -1151,7 +1229,7 @@
                 "Land"
             ],
             "Status": "Complete",
-            "Current Version": "V3",
+            "Current Version": "V4",
             "Weight": null,
             "Cost": null,
             "Crew Capacity": "0",
@@ -1161,7 +1239,7 @@
             "Trailer Support": "false",
             "Base Support": "true",
             "Comment": null,
-            "Last Updated": "12.05.2025"
+            "Last Updated": "05.06.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1272,7 +1350,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Medical Container",
             "Code": "ESG C-B1-M1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493619583",
             "Class": "Container",
             "Usage": [
                 "Base Building",
@@ -1719,7 +1797,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Quarters Container",
             "Code": "ESG C-B1-Q1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493603176",
             "Class": "Container",
             "Usage": [
                 "Accommodation",
@@ -2209,6 +2287,31 @@
             "Last Updated": "10.03.2025"
         },
         {
+            "Manufacturer": "NONE",
+            "Name": "Sport Sail Boat",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": null,
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Development",
+            "Current Version": "D5",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "04.06.2025"
+        },
+        {
             "Manufacturer": "EINSCHLAG",
             "Name": "Stevia",
             "Code": "V1",
@@ -2264,10 +2367,11 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Tank Container",
             "Code": "ESG C-B1-T1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493638698",
             "Class": "Container",
             "Usage": [
-                "Base Building"
+                "Base Building",
+                "Tank"
             ],
             "Location": [
                 "Land"
@@ -2283,7 +2387,7 @@
             "Trailer Support": "false",
             "Base Support": "true",
             "Comment": null,
-            "Last Updated": "12.05.2025"
+            "Last Updated": "05.06.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -2340,7 +2444,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Winterhaft",
             "Code": "ESG W1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493719925",
             "Class": "Car",
             "Usage": [
                 "Short Range Transport"
@@ -2365,7 +2469,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Winterhaft Tractor",
             "Code": "ESG W1-T",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493726331",
             "Class": "Car",
             "Usage": [
                 "Short Range Transport"
@@ -2385,31 +2489,6 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "12.05.2025"
-        },
-        {
-            "Manufacturer": "NONE",
-            "Name": "Sport Sail Boat",
-            "Code": null,
-            "Workshop Link": "",
-            "Class": null,
-            "Usage": [
-                ""
-            ],
-            "Location": [
-                ""
-            ],
-            "Status": "Development",
-            "Current Version": "D5",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "04.06.2025"
         }
     ]
 }
