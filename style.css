@@ -649,6 +649,33 @@ button.edit-button:hover {
     width: 100%;
 }
 
+.input-container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.input-container input {
+    flex: 1;
+    width: auto;
+}
+
+.today-button {
+    padding: 0.2rem 0.6rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: var(--button-text-color);
+    background-color: var(--button-bg-color);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.2s ease;
+}
+
+.today-button:hover {
+    background-color: var(--button-hover-bg-color);
+}
+
 #vehicleForm,
 .action-buttons {
     display: flex;

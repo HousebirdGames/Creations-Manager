@@ -642,7 +642,30 @@ function showEditModal(index = null) {
         }
 
         formGroup.appendChild(label);
-        formGroup.appendChild(input);
+        
+        if (key === 'Last Updated') {
+            const inputContainer = document.createElement('div');
+            inputContainer.className = 'input-container';
+            inputContainer.appendChild(input);
+            
+            const todayButton = document.createElement('button');
+            todayButton.type = 'button';
+            todayButton.textContent = 'Today';
+            todayButton.className = 'today-button';
+            todayButton.addEventListener('click', function() {
+                const today = new Date();
+                const day = today.getDate().toString().padStart(2, '0');
+                const month = (today.getMonth() + 1).toString().padStart(2, '0');
+                const year = today.getFullYear();
+                input.value = `${day}.${month}.${year}`;
+            });
+            
+            inputContainer.appendChild(todayButton);
+            formGroup.appendChild(inputContainer);
+        } else {
+            formGroup.appendChild(input);
+        }
+        
         form.appendChild(formGroup);
     });
 
