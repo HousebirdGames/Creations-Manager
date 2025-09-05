@@ -171,6 +171,33 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
+            "Name": "ATV",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "Car,Tank,Boat",
+            "Usage": [
+                "Medium Range Transport",
+                "SAR"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Development",
+            "Current Version": "D12",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "01.09.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
             "Name": "Base Container",
             "Code": "ESG C-B1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3492872551",
@@ -568,7 +595,7 @@
             "Workshop Link": "",
             "Class": "Boat",
             "Usage": [
-                "Recreational",
+                "Recreation",
                 "Medium Range Transport",
                 "Long Range Transport"
             ],
@@ -956,6 +983,35 @@
             "Base Support": "true",
             "Comment": null,
             "Last Updated": "12.05.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Hopper",
+            "Code": "HB H1",
+            "Workshop Link": "",
+            "Class": "Helicopter",
+            "Usage": [
+                "Passenger Transport",
+                "Recreation",
+                "Medium Range Transport",
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Air",
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "4",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "01.09.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1479,6 +1535,31 @@
             "Last Updated": "14.05.2025"
         },
         {
+            "Manufacturer": "NONE",
+            "Name": "Mini Generator Trike",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Development",
+            "Current Version": "D5",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "01.09.2025"
+        },
+        {
             "Manufacturer": "EINSCHLAG",
             "Name": "Mini Quad",
             "Code": null,
@@ -1612,6 +1693,83 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "22.05.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Nutria",
+            "Code": "ESG N2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3509252795",
+            "Class": "Car",
+            "Usage": [
+                "Trailer Transport",
+                "Long Range Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2 + 1",
+            "Old Names": "Modular Truck",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": "The following will have to be added to V2 as well: Added vehicle code \"ESG N2\" to map marker and added labels to the passenger seats and bed.",
+            "Last Updated": "01.09.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Nutria Attachment Base",
+            "Code": "N2-AB",
+            "Workshop Link": "",
+            "Class": null,
+            "Usage": [
+                "Base"
+            ],
+            "Location": [
+                "Nutria"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "01.09.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Nutria V2 Camper Base",
+            "Code": "ESG N2-C",
+            "Workshop Link": "",
+            "Class": "Module",
+            "Usage": [
+                "Recreation",
+                "Long Range Transport"
+            ],
+            "Location": [
+                "Nutria"
+            ],
+            "Status": "Development",
+            "Current Version": "D5",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "01.09.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -2237,6 +2395,33 @@
             "Last Updated": "06.01.2025"
         },
         {
+            "Manufacturer": "NONE",
+            "Name": "Skipper",
+            "Code": null,
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3562518601",
+            "Class": "Aircraft",
+            "Usage": [
+                "Racing",
+                "Long Range Transport"
+            ],
+            "Location": [
+                "Air",
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": "Fast Seaplane",
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "05.09.2025"
+        },
+        {
             "Manufacturer": "EINSCHLAG",
             "Name": "Small Tank Trailer ",
             "Code": null,
@@ -2312,6 +2497,32 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "04.06.2025"
+        },
+        {
+            "Manufacturer": "NONE",
+            "Name": "Sport Sail Boat",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "Boat",
+            "Usage": [
+                "Recreation",
+                "Medium Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": null,
+            "Current Version": "D4",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "01.09.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -2394,7 +2605,7 @@
         {
             "Manufacturer": "Homebrew",
             "Name": "The Tourist",
-            "Code": "HB T1",
+            "Code": "HB TT1",
             "Workshop Link": "",
             "Class": null,
             "Usage": [
@@ -2408,6 +2619,32 @@
             "Weight": null,
             "Cost": null,
             "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "01.09.2025"
+        },
+        {
+            "Manufacturer": "Homebrew",
+            "Name": "Thruster",
+            "Code": "HB T1",
+            "Workshop Link": "",
+            "Class": "Plane",
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                "Air",
+                "Land"
+            ],
+            "Status": "Development",
+            "Current Version": "D5",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
             "Passenger Capacity": null,
             "Old Names": null,
             "Video": null,
@@ -2516,164 +2753,6 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "12.05.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Hopper",
-            "Code": "HB H1",
-            "Workshop Link": "",
-            "Class": "Helicopter",
-            "Usage": [
-                "Passenger Transport",
-                "Recreational",
-                "Medium Range Transport",
-                "Short Range Transport"
-            ],
-            "Location": [
-                "Air",
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "4",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "01.09.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "ATV",
-            "Code": null,
-            "Workshop Link": "",
-            "Class": "Car,Tank,Boat",
-            "Usage": [
-                "Medium Range Transport",
-                "SAR"
-            ],
-            "Location": [
-                "Land",
-                "Sea"
-            ],
-            "Status": "Development",
-            "Current Version": "D12",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": null,
-            "Last Updated": "01.09.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Nutria",
-            "Code": "ESG N2",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3509252795",
-            "Class": "Car",
-            "Usage": [
-                "Trailer Transport",
-                "Long Range Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "2 + 1",
-            "Old Names": "Modular Truck",
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": "The following will have to be added to V2 as well: Added vehicle code \"ESG N2\" to map marker and added labels to the passenger seats and bed.",
-            "Last Updated": "01.09.2025"
-        },
-        {
-            "Manufacturer": "NONE",
-            "Name": "Mini Generator Trike",
-            "Code": null,
-            "Workshop Link": "",
-            "Class": "Car",
-            "Usage": [
-                "Short Range Transport"
-            ],
-            "Location": [
-                ""
-            ],
-            "Status": "Development",
-            "Current Version": "D5",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": null,
-            "Last Updated": "01.09.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Nutria V2 Camper Base",
-            "Code": "ESG N2-C",
-            "Workshop Link": "",
-            "Class": "Module",
-            "Usage": [
-                "Recreational",
-                "Long Range Transport"
-            ],
-            "Location": [
-                "Nutria"
-            ],
-            "Status": "Development",
-            "Current Version": "D5",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": null,
-            "Last Updated": "01.09.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Nutria Attachment Base",
-            "Code": "N2-AB",
-            "Workshop Link": "",
-            "Class": null,
-            "Usage": [
-                "Base"
-            ],
-            "Location": [
-                "Nutria"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": null,
-            "Last Updated": "01.09.2025"
         }
     ]
 }
