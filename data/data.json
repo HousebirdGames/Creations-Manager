@@ -536,6 +536,32 @@
             "Last Updated": "10.03.2025"
         },
         {
+            "Manufacturer": "Homebrew",
+            "Name": "Breeze",
+            "Code": "HB B1",
+            "Workshop Link": "",
+            "Class": "Boat",
+            "Usage": [
+                "Short Range Transport",
+                "Recreation"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "6",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "15.09.2025"
+        },
+        {
             "Manufacturer": "EINSCHLAG",
             "Name": "Camper Container",
             "Code": "ESG C-B1-C2",
@@ -2150,7 +2176,7 @@
                 "Sea"
             ],
             "Status": "Polishing",
-            "Current Version": "V3",
+            "Current Version": "V4",
             "Weight": null,
             "Cost": null,
             "Crew Capacity": null,
@@ -2160,7 +2186,7 @@
             "Trailer Support": null,
             "Base Support": null,
             "Comment": null,
-            "Last Updated": "07.01.2025"
+            "Last Updated": "15.09.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -2191,26 +2217,29 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Schildkröte",
             "Code": "ESG S4",
-            "Workshop Link": "",
-            "Class": null,
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3569867769",
+            "Class": "Container",
             "Usage": [
-                ""
+                "Short Range Transport",
+                "Container Transport",
+                "Generator",
+                "Base Building"
             ],
             "Location": [
-                ""
+                "Land"
             ],
-            "Status": "Development",
-            "Current Version": null,
-            "Weight": null,
-            "Cost": null,
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "1896",
+            "Cost": "31376",
             "Crew Capacity": "1",
-            "Passenger Capacity": "0",
-            "Old Names": null,
+            "Passenger Capacity": "1",
+            "Old Names": "Container Companion,Container Companion 2",
             "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
             "Comment": null,
-            "Last Updated": null
+            "Last Updated": "17.09.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
