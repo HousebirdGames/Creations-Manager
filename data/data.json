@@ -15,7 +15,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Albatross",
             "Code": "ESG A1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3572257514",
             "Class": "Aircraft",
             "Usage": [
                 "Container Transport",
@@ -26,18 +26,18 @@
                 "Land",
                 "Sea"
             ],
-            "Status": "Development",
-            "Current Version": "D31",
+            "Status": "Complete",
+            "Current Version": "V1",
             "Weight": null,
             "Cost": null,
-            "Crew Capacity": "2-4",
-            "Passenger Capacity": null,
+            "Crew Capacity": "1-4",
+            "Passenger Capacity": "5 + 2",
             "Old Names": "Quadra, Eule",
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "10.03.2025"
+            "Last Updated": "21.09.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -174,7 +174,7 @@
             "Name": "ATV",
             "Code": null,
             "Workshop Link": "",
-            "Class": "Car,Tank,Boat",
+            "Class": "ATV",
             "Usage": [
                 "Medium Range Transport",
                 "SAR"
@@ -1195,6 +1195,32 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "13.01.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Jaguar",
+            "Code": "ESG J1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3570858915",
+            "Class": "Car",
+            "Usage": [
+                "Medium Range Transport",
+                "Base"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "19.09.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
