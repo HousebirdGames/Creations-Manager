@@ -236,7 +236,7 @@
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V11",
+            "Current Version": "V12",
             "Weight": "41362",
             "Cost": "402105",
             "Crew Capacity": "1-5",
@@ -246,7 +246,7 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "03.10.2025"
+            "Last Updated": "02.11.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -287,7 +287,7 @@
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V12",
+            "Current Version": "V14",
             "Weight": "59194",
             "Cost": "541696",
             "Crew Capacity": "1-5",
@@ -297,7 +297,7 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "03.10.2025"
+            "Last Updated": "02.11.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -480,6 +480,33 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
+            "Name": "Blaeuling Helicopter Scout",
+            "Code": "ESG B3-HS",
+            "Workshop Link": "",
+            "Class": "Helicopter",
+            "Usage": [
+                "Light Attack",
+                "Scouting"
+            ],
+            "Location": [
+                "Air",
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "2",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "28.10.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
             "Name": "Bläuling",
             "Code": "ESG B3",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3415843823",
@@ -534,6 +561,31 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "10.03.2025"
+        },
+        {
+            "Manufacturer": "NONE",
+            "Name": "Bomber Torpedo",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "Aircraft",
+            "Usage": [
+                "Heavy Attack"
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Development",
+            "Current Version": "D4",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "03.10.2025"
         },
         {
             "Manufacturer": "Homebrew",
@@ -1013,6 +1065,34 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
+            "Name": "Grauwal",
+            "Code": "ESG G2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597438600",
+            "Class": "Submarine",
+            "Usage": [
+                "Heavy Attack",
+                "Medium Attack",
+                "Light Attack"
+            ],
+            "Location": [
+                "Underwater",
+                "Sea"
+            ],
+            "Status": "Development",
+            "Current Version": "V1",
+            "Weight": "35305",
+            "Cost": "485314",
+            "Crew Capacity": "5-9",
+            "Passenger Capacity": "10",
+            "Old Names": "Torpedo Uboat",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "01.11.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
             "Name": "Hopper",
             "Code": "HB H1",
             "Workshop Link": "",
@@ -1199,6 +1279,81 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
+            "Name": "Impala",
+            "Code": "ESG I2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597566374",
+            "Class": "Car",
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": null,
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "3",
+            "Old Names": "Muscle Car",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "01.11.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Impala Cruiser",
+            "Code": "ESG I2-C",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597567540",
+            "Class": "Car",
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": null,
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "3",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "01.11.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Impala Ranger",
+            "Code": "ESG I2-R",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597567008",
+            "Class": "Car",
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": null,
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "3",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "01.11.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
             "Name": "Jaguar",
             "Code": "ESG J1",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3570858915",
@@ -1328,6 +1483,32 @@
             "Last Updated": "03.10.2025"
         },
         {
+            "Manufacturer": "Homebrew",
+            "Name": "Landlord Touring",
+            "Code": "HB L1-T",
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "Recreation",
+                "Passenger Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "4",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "03.10.2025"
+        },
+        {
             "Manufacturer": "EINSCHLAG",
             "Name": "Lift Container",
             "Code": "ESG C-B1-L1",
@@ -1351,6 +1532,31 @@
             "Base Support": "true",
             "Comment": null,
             "Last Updated": "05.06.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Lotus",
+            "Code": "ESG TPD-L1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597427765",
+            "Class": "Torpedo",
+            "Usage": [
+                "Heavy Attack"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": "222",
+            "Cost": "3770",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": "Medium Torpedo",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "01.11.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1419,7 +1625,7 @@
                 "Underwater"
             ],
             "Status": "Complete",
-            "Current Version": "V5",
+            "Current Version": "V6",
             "Weight": null,
             "Cost": null,
             "Crew Capacity": "1-3",
@@ -1429,7 +1635,7 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "03.10.2025"
+            "Last Updated": "28.10.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1707,7 +1913,7 @@
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V4",
+            "Current Version": "V5",
             "Weight": "5845",
             "Cost": "78667",
             "Crew Capacity": "2-3",
@@ -1717,7 +1923,7 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "03.10.2025"
+            "Last Updated": "30.10.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -2060,6 +2266,31 @@
             "Last Updated": "11.03.2025"
         },
         {
+            "Manufacturer": "NONE",
+            "Name": "Recon Seaplane",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "Aircraft",
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Development",
+            "Current Version": null,
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "03.10.2025"
+        },
+        {
             "Manufacturer": "EINSCHLAG",
             "Name": "Remora",
             "Code": "ESG R3",
@@ -2192,9 +2423,9 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Ruderboot",
-            "Code": null,
-            "Workshop Link": "",
+            "Name": "Rowboat",
+            "Code": "ESG R4",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3598219923",
             "Class": "Ship",
             "Usage": [
                 "Short Range Transport"
@@ -2203,17 +2434,17 @@
                 "Sea"
             ],
             "Status": "Polishing",
-            "Current Version": "V4",
+            "Current Version": "V1",
             "Weight": null,
             "Cost": null,
             "Crew Capacity": null,
             "Passenger Capacity": null,
-            "Old Names": null,
+            "Old Names": "Ruderboot",
             "Video": null,
             "Trailer Support": null,
             "Base Support": null,
             "Comment": null,
-            "Last Updated": "15.09.2025"
+            "Last Updated": "02.11.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -2608,6 +2839,32 @@
             "Last Updated": "02.06.2025"
         },
         {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Survival Dinghy",
+            "Code": "ESG SD1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3598220528",
+            "Class": "Ship",
+            "Usage": [
+                "Survival",
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": null,
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "2",
+            "Passenger Capacity": "4",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "02.11.2025"
+        },
+        {
             "Manufacturer": "Homebrew",
             "Name": "Tank",
             "Code": "HB T1-X",
@@ -2723,7 +2980,7 @@
                 "Land"
             ],
             "Status": "Complete",
-            "Current Version": "V1",
+            "Current Version": "V2",
             "Weight": "735",
             "Cost": "22219",
             "Crew Capacity": "0",
@@ -2733,7 +2990,7 @@
             "Trailer Support": "true",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "10.03.2025"
+            "Last Updated": "02.11.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -2759,6 +3016,32 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "Homebrew",
+            "Name": "Windmill",
+            "Code": "HB W1",
+            "Workshop Link": "",
+            "Class": "Train",
+            "Usage": [
+                "Medium Range Transport",
+                "Long Range Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "P2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1-2",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "26.10.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -2809,159 +3092,6 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "12.05.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Lotus",
-            "Code": "ESG TPD-L1",
-            "Workshop Link": "",
-            "Class": "Torpedo",
-            "Usage": [
-                "Heavy Attack"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "0",
-            "Passenger Capacity": "0",
-            "Old Names": "Medium Torpedo",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "03.10.2025"
-        },
-        {
-            "Manufacturer": "NONE",
-            "Name": "Recon Seaplane",
-            "Code": null,
-            "Workshop Link": "",
-            "Class": "Aircraft",
-            "Usage": [
-                ""
-            ],
-            "Location": [
-                ""
-            ],
-            "Status": "Development",
-            "Current Version": null,
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "03.10.2025"
-        },
-        {
-            "Manufacturer": "NONE",
-            "Name": "Bomber Torpedo",
-            "Code": null,
-            "Workshop Link": "",
-            "Class": "Aircraft",
-            "Usage": [
-                "Heavy Attack"
-            ],
-            "Location": [
-                ""
-            ],
-            "Status": "Development",
-            "Current Version": "D4",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": null,
-            "Last Updated": "03.10.2025"
-        },
-        {
-            "Manufacturer": "NONE",
-            "Name": "Torpedo Uboat",
-            "Code": null,
-            "Workshop Link": "",
-            "Class": "Submarine",
-            "Usage": [
-                ""
-            ],
-            "Location": [
-                "Underwater",
-                "Sea"
-            ],
-            "Status": "Development",
-            "Current Version": "D3",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "03.10.2025"
-        },
-        {
-            "Manufacturer": "Homebrew",
-            "Name": "Windmill",
-            "Code": "HB W1",
-            "Workshop Link": "",
-            "Class": "Train",
-            "Usage": [
-                "Medium Range Transport",
-                "Long Range Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "P1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1-2",
-            "Passenger Capacity": "0",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "03.10.2025"
-        },
-        {
-            "Manufacturer": "Homebrew",
-            "Name": "Landlord Touring",
-            "Code": "HB L1-T",
-            "Workshop Link": "",
-            "Class": "Car",
-            "Usage": [
-                "Recreation",
-                "Passenger Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "4",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "03.10.2025"
         }
     ]
 }
