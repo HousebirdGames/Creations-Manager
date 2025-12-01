@@ -59,6 +59,7 @@
     --manufacturer-default: #646668;
     --manufacturer-einschlag: #1e3955;
     --manufacturer-homebrew: #8b7b1b;
+    --manufacturer-up-tec: #c28642;
 }
 
 /* Dark mode variables */
@@ -720,6 +721,10 @@ button.edit-button:hover {
 
 .manufacturer.manufacturer-homebrew {
     background-color: var(--manufacturer-homebrew);
+}
+
+.manufacturer.manufacturer-up-tec {
+    background-color: var(--manufacturer-up-tec);
 }
 
 /* Save notification styles */
