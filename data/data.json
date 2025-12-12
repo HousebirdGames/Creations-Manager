@@ -239,7 +239,7 @@
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V12",
+            "Current Version": "V14",
             "Weight": "41362",
             "Cost": "402105",
             "Crew Capacity": "1-5",
@@ -249,7 +249,7 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "02.11.2025"
+            "Last Updated": "02.12.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -279,6 +279,31 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
+            "Name": "Beluga Freigther",
+            "Code": "ESG B4-F",
+            "Workshop Link": "",
+            "Class": null,
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": null,
+            "Current Version": null,
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "03.12.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
             "Name": "Beluga Tanker",
             "Code": "ESG B4-T",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3472296447",
@@ -290,7 +315,7 @@
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V14",
+            "Current Version": "V15",
             "Weight": "59194",
             "Cost": "541696",
             "Crew Capacity": "1-5",
@@ -300,7 +325,7 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "02.11.2025"
+            "Last Updated": "02.12.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1541,7 +1566,7 @@
             "Class": "Subassembly",
             "Usage": [
                 "Rescue",
-                "Subcomponent"
+                "Subassembly"
             ],
             "Location": [
                 "Sea"
@@ -1695,7 +1720,8 @@
             "Class": "Subassembly",
             "Usage": [
                 "Rescue",
-                "Medium Range Transport"
+                "Medium Range Transport",
+                "Subassembly"
             ],
             "Location": [
                 "Sea"
@@ -2890,6 +2916,31 @@
             "Base Support": null,
             "Comment": null,
             "Last Updated": "05.09.2025"
+        },
+        {
+            "Manufacturer": "NONE",
+            "Name": "Small Nuclear Reactor",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "Generator",
+            "Usage": [
+                "Subassembly"
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Development",
+            "Current Version": null,
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "04.12.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
