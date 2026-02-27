@@ -1068,7 +1068,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Flugameise",
             "Code": "ESG F2",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3622277330",
             "Class": "Helicopter",
             "Usage": [
                 "Container Transport"
@@ -1078,7 +1078,7 @@
                 "Land"
             ],
             "Status": "Complete",
-            "Current Version": "V6",
+            "Current Version": "V7",
             "Weight": null,
             "Cost": null,
             "Crew Capacity": "1-2",
@@ -1088,7 +1088,7 @@
             "Trailer Support": "false",
             "Base Support": "true",
             "Comment": null,
-            "Last Updated": "03.10.2025"
+            "Last Updated": "12.12.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
