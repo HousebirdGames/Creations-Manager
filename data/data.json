@@ -358,7 +358,7 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Beluga Freigther",
+            "Name": "Beluga Freighter",
             "Code": "ESG B4-F",
             "Workshop Link": "",
             "Class": null,
@@ -537,7 +537,7 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Biene Snowmobil",
+            "Name": "Biene Snowmobile",
             "Code": "ESG B1-S",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384223020",
             "Class": "Car",
@@ -548,17 +548,17 @@
                 "Land"
             ],
             "Status": "Complete",
-            "Current Version": "V1",
+            "Current Version": "V3",
             "Weight": "396",
             "Cost": "8800",
             "Crew Capacity": "1",
             "Passenger Capacity": "2",
-            "Old Names": "Biene Arctic",
+            "Old Names": "Biene Arctic, Biene Snowmobil",
             "Video": null,
             "Trailer Support": "Breaks Only",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "30.10.2024"
+            "Last Updated": "07.04.2026"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1460,6 +1460,31 @@
             "Last Updated": "10.02.2026"
         },
         {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Hermelin",
+            "Code": "ESG H3",
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "Personal Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1",
+            "Old Names": "Small Snowmobil,Too Long Snowmobil",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "06.04.2026"
+        },
+        {
             "Manufacturer": "Homebrew",
             "Name": "Hopper",
             "Code": "HB H1",
@@ -1652,12 +1677,12 @@
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597566374",
             "Class": "Car",
             "Usage": [
-                ""
+                "Personal Transport"
             ],
             "Location": [
                 "Land"
             ],
-            "Status": null,
+            "Status": "Complete",
             "Current Version": "V2",
             "Weight": null,
             "Cost": null,
@@ -1677,12 +1702,12 @@
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597567540",
             "Class": "Car",
             "Usage": [
-                ""
+                "Personal Transport"
             ],
             "Location": [
                 "Land"
             ],
-            "Status": null,
+            "Status": "Complete",
             "Current Version": "V1",
             "Weight": null,
             "Cost": null,
@@ -1702,12 +1727,12 @@
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597567008",
             "Class": "Car",
             "Usage": [
-                ""
+                "Personal Transport"
             ],
             "Location": [
                 "Land"
             ],
-            "Status": null,
+            "Status": "Complete",
             "Current Version": "V2",
             "Weight": null,
             "Cost": null,
@@ -1867,7 +1892,7 @@
             "Location": [
                 "Sea"
             ],
-            "Status": "Comnplete",
+            "Status": "Complete",
             "Current Version": "V1",
             "Weight": "3231",
             "Cost": "22331",
@@ -3497,6 +3522,35 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "06.01.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Seaplane Fighter",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "Aircraft",
+            "Usage": [
+                "Scouting",
+                "Light Attack",
+                "Medium Attack"
+            ],
+            "Location": [
+                "Air",
+                "Sea",
+                "Land"
+            ],
+            "Status": "Development",
+            "Current Version": "D7",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "3",
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "02.04.2026"
         },
         {
             "Manufacturer": "NONE",

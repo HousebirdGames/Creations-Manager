@@ -1,5 +1,5 @@
 export default {
-  "version": "1.0.0.379-s",
+  "version": "1.0.0.380-s",
   "pageTitle": "Creations Manager",
   "cookieIdentifier": "creations_manager",
   "foundationYear": 2024,
