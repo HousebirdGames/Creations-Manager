@@ -122,6 +122,32 @@
             "Last Updated": "03.10.2025"
         },
         {
+            "Manufacturer": "Homebrew",
+            "Name": "Apace",
+            "Code": "HB A2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3709329977",
+            "Class": "Car",
+            "Usage": [
+                "Racing",
+                "Personal Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1",
+            "Old Names": "V12 Race Car,V12 Modular Engine",
+            "Video": null,
+            "Trailer Support": "Just connector",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "18.04.2026"
+        },
+        {
             "Manufacturer": "EINSCHLAG",
             "Name": "Arctic Garage Container",
             "Code": "ESG C-B1-A1",
@@ -695,6 +721,35 @@
             "Last Updated": "03.10.2025"
         },
         {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Brandgans",
+            "Code": "ESG B5",
+            "Workshop Link": "",
+            "Class": "Aircraft",
+            "Usage": [
+                "Scouting",
+                "Light Attack",
+                "Medium Attack"
+            ],
+            "Location": [
+                "Air",
+                "Sea",
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "3",
+            "Passenger Capacity": "-",
+            "Old Names": "Seaplane Fighter",
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "12.04.2026"
+        },
+        {
             "Manufacturer": "Homebrew",
             "Name": "Breeze",
             "Code": "HB B1",
@@ -1092,7 +1147,7 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Equipment Container",
             "Code": "ESG C-E1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3709389874",
             "Class": "Container",
             "Usage": [
                 "Equipment Transport",
@@ -1103,7 +1158,7 @@
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V5",
+            "Current Version": "V6",
             "Weight": "2022",
             "Cost": "33378",
             "Crew Capacity": "0",
@@ -1113,7 +1168,7 @@
             "Trailer Support": "false",
             "Base Support": "true",
             "Comment": null,
-            "Last Updated": "06.04.2025"
+            "Last Updated": "18.04.2026"
         },
         {
             "Manufacturer": "Homebrew",
@@ -1461,11 +1516,12 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Hermelin",
-            "Code": "ESG H3",
-            "Workshop Link": "",
+            "Name": "Hermelin Aerosled",
+            "Code": "ESG H3-A",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3704631132",
             "Class": "Car",
             "Usage": [
+                "Exploration",
                 "Personal Transport"
             ],
             "Location": [
@@ -1477,12 +1533,62 @@
             "Cost": null,
             "Crew Capacity": "1",
             "Passenger Capacity": "1",
+            "Old Names": "Hermelin Snow Speeder",
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "18.04.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Hermelin Snowmobile",
+            "Code": "ESG H3-S",
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "Personal Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1",
             "Old Names": "Small Snowmobil,Too Long Snowmobil",
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "06.04.2026"
+            "Last Updated": "07.04.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Hermelin Survival Trailer",
+            "Code": "ESG H3-T-S1",
+            "Workshop Link": "",
+            "Class": "Trailer",
+            "Usage": [
+                "Exploration"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": null,
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "-",
+            "Passenger Capacity": "1",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "08.04.2026"
         },
         {
             "Manufacturer": "Homebrew",
@@ -1733,7 +1839,7 @@
                 "Land"
             ],
             "Status": "Complete",
-            "Current Version": "V2",
+            "Current Version": "V4",
             "Weight": null,
             "Cost": null,
             "Crew Capacity": "1",
@@ -1743,7 +1849,7 @@
             "Trailer Support": "true",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "01.11.2025"
+            "Last Updated": "18.04.2026"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -2364,7 +2470,7 @@
                 "Land"
             ],
             "Status": "Complete",
-            "Current Version": "V3",
+            "Current Version": "V4",
             "Weight": null,
             "Cost": null,
             "Crew Capacity": "2",
@@ -2374,7 +2480,7 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "16.03.2026"
+            "Last Updated": "18.04.2026"
         },
         {
             "Manufacturer": "NONE",
@@ -3094,7 +3200,7 @@
                 "Land"
             ],
             "Status": "Complete",
-            "Current Version": "V6",
+            "Current Version": "V8",
             "Weight": "1579",
             "Cost": "22501",
             "Crew Capacity": "1",
@@ -3104,7 +3210,7 @@
             "Trailer Support": "true",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "17.04.2025"
+            "Last Updated": "18.04.2026"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -3343,33 +3449,6 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Schnabeltier Arctic Emergency Truck",
-            "Code": "ESG S1-ET-A",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384204527",
-            "Class": "Car",
-            "Usage": [
-                "Rescue",
-                "Defense"
-            ],
-            "Location": [
-                "Land",
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V11",
-            "Weight": "3325",
-            "Cost": "52374",
-            "Crew Capacity": "2",
-            "Passenger Capacity": "5+2",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "13.05.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
             "Name": "Schnabeltier Base",
             "Code": "ESG S1-B",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384205434",
@@ -3395,7 +3474,7 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Schnabeltier Emergency Truck",
+            "Name": "Schnabeltier ET",
             "Code": "ESG S1-ET",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384205839",
             "Class": "Car",
@@ -3413,12 +3492,39 @@
             "Cost": "44413",
             "Crew Capacity": "1",
             "Passenger Capacity": "7+2",
-            "Old Names": null,
+            "Old Names": "Schnabeltier Emergency Truck",
             "Video": null,
             "Trailer Support": "true",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "07.11.2024"
+            "Last Updated": "16.04.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Schnabeltier ET Arctic",
+            "Code": "ESG S1-ET-A",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384204527",
+            "Class": "Car",
+            "Usage": [
+                "Rescue",
+                "Defense"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V12",
+            "Weight": "3325",
+            "Cost": "52374",
+            "Crew Capacity": "2",
+            "Passenger Capacity": "5+2",
+            "Old Names": "Schnabeltier Arctic Emergency Truck",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "16.04.2026"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -3522,35 +3628,6 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "06.01.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Seaplane Fighter",
-            "Code": null,
-            "Workshop Link": "",
-            "Class": "Aircraft",
-            "Usage": [
-                "Scouting",
-                "Light Attack",
-                "Medium Attack"
-            ],
-            "Location": [
-                "Air",
-                "Sea",
-                "Land"
-            ],
-            "Status": "Development",
-            "Current Version": "D7",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "3",
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": null,
-            "Last Updated": "02.04.2026"
         },
         {
             "Manufacturer": "NONE",
@@ -4114,6 +4191,31 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "12.05.2025"
+        },
+        {
+            "Manufacturer": "NONE",
+            "Name": "V12 Modular Engine",
+            "Code": "V12-1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3709331068",
+            "Class": "Subassembly",
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "-",
+            "Passenger Capacity": "-",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "18.04.2026"
         }
     ]
 }
