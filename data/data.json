@@ -2648,26 +2648,28 @@
             "Manufacturer": "Up-Tec",
             "Name": "Nomad",
             "Code": "UT N1",
-            "Workshop Link": "",
-            "Class": null,
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3737369905",
+            "Class": "Car",
             "Usage": [
-                ""
+                "SAR",
+                "Exploration"
             ],
             "Location": [
-                ""
+                "Land",
+                "Air"
             ],
-            "Status": "Development",
-            "Current Version": null,
+            "Status": "Complete",
+            "Current Version": "V3",
             "Weight": null,
             "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
+            "Crew Capacity": "1-2",
+            "Passenger Capacity": "4+2",
             "Old Names": "Land Train",
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": null,
-            "Last Updated": "06.05.2026"
+            "Video": "https://www.youtube.com/playlist?list=PLZQozcqDf6odpPmdeLdeBq26U6p9ElZee",
+            "Trailer Support": "true",
+            "Base Support": "flase",
+            "Comment": "Has a nuclear reactor trailer; Carries an UT Pocket Comet",
+            "Last Updated": "02.06.2026"
         },
         {
             "Manufacturer": "Up-Tec",
@@ -3058,7 +3060,7 @@
             "Manufacturer": "Up-Tec",
             "Name": "Pocket Comet",
             "Code": "UT PC1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3737369173",
             "Class": null,
             "Usage": [
                 "Exploration",
@@ -3076,11 +3078,11 @@
             "Crew Capacity": "1",
             "Passenger Capacity": "1",
             "Old Names": "Hydrogen Jet",
-            "Video": null,
+            "Video": "https://youtu.be/TP_26CfEpBg",
             "Trailer Support": "false",
             "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "02.05.2026"
+            "Comment": "Can be carried by the UT Nomad",
+            "Last Updated": "02.06.2026"
         },
         {
             "Manufacturer": "Up-Tec",
@@ -4154,6 +4156,32 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
+            "Name": "Tümmler",
+            "Code": "ESG T2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3733475032",
+            "Class": "Ship",
+            "Usage": [
+                "Personal Transport",
+                "Recreation"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "8 + 2",
+            "Old Names": "Hb Sailing Catamaran",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "26.05.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
             "Name": "UH1",
             "Code": null,
             "Workshop Link": "",
@@ -4380,30 +4408,57 @@
             "Last Updated": "12.05.2025"
         },
         {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Tümmler",
-            "Code": "ESG T2",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3733475032",
-            "Class": "Ship",
+            "Manufacturer": "Up-Tec",
+            "Name": "Small Spaceship",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "Spacecraft",
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                "Space",
+                "Air",
+                "Land"
+            ],
+            "Status": null,
+            "Current Version": null,
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": "Can be docked to the Spaceship",
+            "Last Updated": "04.06.2026"
+        },
+        {
+            "Manufacturer": "NONE",
+            "Name": "Schnelle Kartoffel",
+            "Code": null,
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3738654192",
+            "Class": "Car",
             "Usage": [
                 "Personal Transport",
                 "Recreation"
             ],
             "Location": [
-                "Sea"
+                "Land"
             ],
             "Status": "Complete",
             "Current Version": "V1",
             "Weight": null,
             "Cost": null,
             "Crew Capacity": "1",
-            "Passenger Capacity": "8 + 2",
-            "Old Names": "Hb Sailing Catamaran",
-            "Video": null,
-            "Trailer Support": "false",
+            "Passenger Capacity": "3",
+            "Old Names": "Stream No MC Car",
+            "Video": "https://youtube.com/live/CFk4uusGS6Y",
+            "Trailer Support": "Just connector",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "26.05.2026"
+            "Last Updated": "04.06.2026"
         }
     ]
 }
