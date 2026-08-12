@@ -1332,6 +1332,33 @@
             "Last Updated": "12.12.2025"
         },
         {
+            "Manufacturer": "Up-Tec",
+            "Name": "Flying Wing",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "VTOL",
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                "Air",
+                "Land",
+                "Sea"
+            ],
+            "Status": null,
+            "Current Version": null,
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "02.08.2026"
+        },
+        {
             "Manufacturer": "EINSCHLAG",
             "Name": "Gans",
             "Code": "ESG G3",
@@ -1387,7 +1414,7 @@
             "Last Updated": "05.06.2025"
         },
         {
-            "Manufacturer": "NONE",
+            "Manufacturer": "EINSCHLAG",
             "Name": "Gepard",
             "Code": "ESG G5",
             "Workshop Link": "",
@@ -1400,7 +1427,7 @@
                 "Land"
             ],
             "Status": null,
-            "Current Version": "D4",
+            "Current Version": "V1",
             "Weight": null,
             "Cost": null,
             "Crew Capacity": "1",
@@ -1410,7 +1437,7 @@
             "Trailer Support": null,
             "Base Support": null,
             "Comment": null,
-            "Last Updated": "21.04.2026"
+            "Last Updated": "12.08.2026"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1481,7 +1508,7 @@
                 "Sea"
             ],
             "Status": "Development",
-            "Current Version": "V8",
+            "Current Version": "V12",
             "Weight": "35305",
             "Cost": "485314",
             "Crew Capacity": "5-9",
@@ -1491,7 +1518,7 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "15.03.2026"
+            "Last Updated": "20.07.2026"
         },
         {
             "Manufacturer": "Up-Tec",
@@ -1675,6 +1702,34 @@
             "Last Updated": "10.03.2025"
         },
         {
+            "Manufacturer": "Up-Tec",
+            "Name": "Hoverbarge",
+            "Code": "UT H1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3765224106",
+            "Class": "Hovercraft",
+            "Usage": [
+                "Container Transport",
+                "SAR",
+                "Long Range Transport"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1-6",
+            "Passenger Capacity": "11 + 6",
+            "Old Names": "Hovercraft",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": "ESG Remora included",
+            "Last Updated": "15.07.2026"
+        },
+        {
             "Manufacturer": "EINSCHLAG",
             "Name": "Hub Container",
             "Code": "ESG C-B1-H1",
@@ -1725,6 +1780,31 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "01.09.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Hyäne",
+            "Code": "ESG H4",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3767216173",
+            "Class": "Motorcycle",
+            "Usage": [
+                "Personal Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2",
+            "Old Names": "Hyaene",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "18.07.2026"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -2091,6 +2171,31 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "03.10.2025"
+        },
+        {
+            "Manufacturer": "NONE",
+            "Name": "Large Steam Locomotive",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "Train",
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Development",
+            "Current Version": "D10",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "16.07.2026"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -3242,6 +3347,34 @@
             "Last Updated": "03.10.2025"
         },
         {
+            "Manufacturer": "Up-Tec",
+            "Name": "Redline",
+            "Code": "UT R1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3765845533",
+            "Class": "Spacecraft",
+            "Usage": [
+                "Personal Transport",
+                "Light Attack"
+            ],
+            "Location": [
+                "Space",
+                "Air",
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "4+2",
+            "Old Names": "Small Spaceship",
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": "Can be docked to the Spaceship",
+            "Last Updated": "16.07.2026"
+        },
+        {
             "Manufacturer": "EINSCHLAG",
             "Name": "Remora",
             "Code": "ESG R3",
@@ -3736,6 +3869,32 @@
             "Base Support": "false",
             "Comment": "Can submerge for a limited amount of time",
             "Last Updated": "26.03.2026"
+        },
+        {
+            "Manufacturer": "NONE",
+            "Name": "Schnelle Kartoffel",
+            "Code": null,
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3738654192",
+            "Class": "Car",
+            "Usage": [
+                "Personal Transport",
+                "Recreation"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "3",
+            "Old Names": "Stream No MC Car",
+            "Video": "https://youtube.com/live/CFk4uusGS6Y",
+            "Trailer Support": "Just connector",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "04.06.2026"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -4307,6 +4466,32 @@
             "Last Updated": "15.03.2026"
         },
         {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Wahoo",
+            "Code": "ESG W2",
+            "Workshop Link": "",
+            "Class": "Ship",
+            "Usage": [
+                "Recreation",
+                "Personal Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "8+1",
+            "Old Names": "Speed Boat",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "12.08.2026"
+        },
+        {
             "Manufacturer": "NONE",
             "Name": "Welding Generator",
             "Code": null,
@@ -4408,41 +4593,14 @@
             "Last Updated": "12.05.2025"
         },
         {
-            "Manufacturer": "Up-Tec",
-            "Name": "Small Spaceship",
-            "Code": null,
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Gazelle",
+            "Code": "ESG G6",
             "Workshop Link": "",
-            "Class": "Spacecraft",
-            "Usage": [
-                ""
-            ],
-            "Location": [
-                "Space",
-                "Air",
-                "Land"
-            ],
-            "Status": null,
-            "Current Version": null,
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": "Can be docked to the Spaceship",
-            "Last Updated": "04.06.2026"
-        },
-        {
-            "Manufacturer": "NONE",
-            "Name": "Schnelle Kartoffel",
-            "Code": null,
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3738654192",
             "Class": "Car",
             "Usage": [
                 "Personal Transport",
-                "Recreation"
+                "Scouting"
             ],
             "Location": [
                 "Land"
@@ -4453,12 +4611,39 @@
             "Cost": null,
             "Crew Capacity": "1",
             "Passenger Capacity": "3",
-            "Old Names": "Stream No MC Car",
-            "Video": "https://youtube.com/live/CFk4uusGS6Y",
+            "Old Names": "Small Cart",
+            "Video": "https://youtu.be/mssEenq1yuA",
             "Trailer Support": "Just connector",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "04.06.2026"
+            "Last Updated": "12.08.2026"
+        },
+        {
+            "Manufacturer": "Up-Tec",
+            "Name": "Pebble",
+            "Code": "UT P1",
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "Exploration",
+                "Personal Transport"
+            ],
+            "Location": [
+                "Land",
+                "Moon"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1 + 1",
+            "Old Names": "Moon Rover",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "12.08.2026"
         }
     ]
 }
