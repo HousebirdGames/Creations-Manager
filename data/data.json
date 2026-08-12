@@ -16,6 +16,33 @@
     "Vehicles": [
         {
             "Manufacturer": "EINSCHLAG",
+            "Name": "Bläuling Helicopter Scout",
+            "Code": "ESG B3-H-S",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3782218994",
+            "Class": "Helicopter",
+            "Usage": [
+                "Light Attack",
+                "Scouting"
+            ],
+            "Location": [
+                "Air",
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "2",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "12.08.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
             "Name": "Hyäne",
             "Code": "ESG H4",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3767216173",
@@ -317,6 +344,34 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
+            "Name": "Beluga Freighter",
+            "Code": "ESG B4-F",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3714698770",
+            "Class": "Ship",
+            "Usage": [
+                "Container Transport",
+                "Cargo Transport",
+                "Long Range Transport",
+                "Exploration"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V3",
+            "Weight": "96463",
+            "Cost": "663592",
+            "Crew Capacity": "1-5",
+            "Passenger Capacity": "20+",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": "Includes ESG K2 Kolibri",
+            "Last Updated": "12.08.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
             "Name": "Kolibri",
             "Code": "ESG K2",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3714686768",
@@ -422,7 +477,7 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Hermelin Aerosled",
+            "Name": "Hermelin Aerosledge",
             "Code": "ESG H3-A",
             "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3704631132",
             "Class": "Car",
@@ -441,8 +496,8 @@
             "Passenger Capacity": "1",
             "Old Names": "Hermelin Snow Speeder",
             "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
+            "Trailer Support": "Just connector",
+            "Base Support": "false",
             "Comment": null,
             "Last Updated": "18.04.2026"
         },
@@ -1540,7 +1595,7 @@
             "Weight": "59194",
             "Cost": "541696",
             "Crew Capacity": "1-5",
-            "Passenger Capacity": "4",
+            "Passenger Capacity": "20+",
             "Old Names": null,
             "Video": null,
             "Trailer Support": "false",
@@ -1565,7 +1620,7 @@
             "Weight": "41362",
             "Cost": "402105",
             "Crew Capacity": "1-5",
-            "Passenger Capacity": "4",
+            "Passenger Capacity": "20+",
             "Old Names": "Fishing Boat, Fishing Boar",
             "Video": null,
             "Trailer Support": "false",
@@ -2810,34 +2865,6 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Beluga Freighter",
-            "Code": "ESG B4-F",
-            "Workshop Link": "",
-            "Class": "Ship",
-            "Usage": [
-                "Container Transport",
-                "Cargo Transport",
-                "Long Range Transport",
-                "Exploration"
-            ],
-            "Location": [
-                ""
-            ],
-            "Status": null,
-            "Current Version": "P1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": null,
-            "Last Updated": "23.04.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
             "Name": "Biber Base",
             "Code": "ESG B2-B",
             "Workshop Link": "",
@@ -2860,33 +2887,6 @@
             "Base Support": "false",
             "Comment": "Would have been based on B1-CT",
             "Last Updated": "06.05.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Blaeuling Helicopter Scout",
-            "Code": "ESG B3-HS",
-            "Workshop Link": "",
-            "Class": "Helicopter",
-            "Usage": [
-                "Light Attack",
-                "Scouting"
-            ],
-            "Location": [
-                "Air",
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "2",
-            "Passenger Capacity": "0",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "28.10.2025"
         },
         {
             "Manufacturer": "NONE",
@@ -3307,10 +3307,11 @@
             "Manufacturer": "EINSCHLAG",
             "Name": "Hermelin Snowmobile",
             "Code": "ESG H3-S",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3782248319",
             "Class": "Car",
             "Usage": [
-                "Personal Transport"
+                "Personal Transport",
+                "Exploration"
             ],
             "Location": [
                 "Land"
@@ -3321,27 +3322,28 @@
             "Cost": null,
             "Crew Capacity": "1",
             "Passenger Capacity": "1",
-            "Old Names": "Small Snowmobil,Too Long Snowmobil",
+            "Old Names": "Small Snowmobil, Too Long Snowmobil, Hermelin",
             "Video": null,
-            "Trailer Support": "false",
+            "Trailer Support": "Just connector",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "07.04.2026"
+            "Last Updated": "12.08.2026"
         },
         {
             "Manufacturer": "EINSCHLAG",
             "Name": "Hermelin Survival Trailer",
             "Code": "ESG H3-T-S1",
-            "Workshop Link": "",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3782264938",
             "Class": "Trailer",
             "Usage": [
-                "Exploration"
+                "Exploration",
+                "Survival"
             ],
             "Location": [
                 "Land"
             ],
-            "Status": null,
-            "Current Version": "V1",
+            "Status": "Complete",
+            "Current Version": "V2",
             "Weight": null,
             "Cost": null,
             "Crew Capacity": "-",
@@ -3351,7 +3353,7 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "08.04.2026"
+            "Last Updated": "12.08.2026"
         },
         {
             "Manufacturer": "Homebrew",
@@ -4639,33 +4641,6 @@
             "Crew Capacity": "1",
             "Passenger Capacity": "1 + 1",
             "Old Names": "Moon Rover",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "12.08.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Bläuling Helicopter Scout",
-            "Code": "ESG B3-H-S",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3782218994",
-            "Class": "Helicopter",
-            "Usage": [
-                "Light Attack",
-                "Scouting"
-            ],
-            "Location": [
-                "Air",
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "2",
-            "Passenger Capacity": "0",
-            "Old Names": null,
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "false",
