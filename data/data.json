@@ -15,684 +15,6 @@
     ],
     "Vehicles": [
         {
-            "Manufacturer": "Up-Tec",
-            "Name": "Venture",
-            "Code": "UT V1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3782775905",
-            "Class": "Aircraft",
-            "Usage": [
-                "Medium Attack",
-                "Heavy Attack",
-                "Dropship"
-            ],
-            "Location": [
-                "Air",
-                "Land",
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V4",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1-3",
-            "Passenger Capacity": "8 + 1",
-            "Old Names": "HB Diesel Steam Plane",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": "Workshop Loadout: Radar Missiles",
-            "Last Updated": "13.08.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Hermelin Survival Trailer",
-            "Code": "ESG H3-T-S1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3782264938",
-            "Class": "Trailer",
-            "Usage": [
-                "Exploration",
-                "Survival"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "-",
-            "Passenger Capacity": "1",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "12.08.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Hermelin Snowmobile",
-            "Code": "ESG H3-S",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3782248319",
-            "Class": "Car",
-            "Usage": [
-                "Personal Transport",
-                "Exploration"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "1",
-            "Old Names": "Small Snowmobil, Too Long Snowmobil, Hermelin",
-            "Video": null,
-            "Trailer Support": "Just connector",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "12.08.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Bläuling Helicopter Scout",
-            "Code": "ESG B3-H-S",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3782218994",
-            "Class": "Helicopter",
-            "Usage": [
-                "Light Attack",
-                "Scouting"
-            ],
-            "Location": [
-                "Air",
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V3",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "2",
-            "Passenger Capacity": "0",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "12.08.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Hyäne",
-            "Code": "ESG H4",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3767216173",
-            "Class": "Motorcycle",
-            "Usage": [
-                "Personal Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "2",
-            "Old Names": "Hyaene",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "18.07.2026"
-        },
-        {
-            "Manufacturer": "Up-Tec",
-            "Name": "Redline",
-            "Code": "UT R1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3765845533",
-            "Class": "Spacecraft",
-            "Usage": [
-                "Personal Transport",
-                "Light Attack"
-            ],
-            "Location": [
-                "Space",
-                "Air",
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "4+2",
-            "Old Names": "Small Spaceship",
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": "Can be docked to the Spaceship",
-            "Last Updated": "16.07.2026"
-        },
-        {
-            "Manufacturer": "Up-Tec",
-            "Name": "Hoverbarge",
-            "Code": "UT H1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3765224106",
-            "Class": "Hovercraft",
-            "Usage": [
-                "Container Transport",
-                "SAR",
-                "Long Range Transport"
-            ],
-            "Location": [
-                "Land",
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1-6",
-            "Passenger Capacity": "11 + 6",
-            "Old Names": "Hovercraft",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": "ESG Remora included",
-            "Last Updated": "15.07.2026"
-        },
-        {
-            "Manufacturer": "NONE",
-            "Name": "Schnelle Kartoffel",
-            "Code": null,
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3738654192",
-            "Class": "Car",
-            "Usage": [
-                "Personal Transport",
-                "Recreation"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "3",
-            "Old Names": "Stream No MC Car",
-            "Video": "https://youtube.com/live/CFk4uusGS6Y",
-            "Trailer Support": "Just connector",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "04.06.2026"
-        },
-        {
-            "Manufacturer": "Up-Tec",
-            "Name": "Nomad",
-            "Code": "UT N1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3737369905",
-            "Class": "Car",
-            "Usage": [
-                "SAR",
-                "Exploration"
-            ],
-            "Location": [
-                "Land",
-                "Air"
-            ],
-            "Status": "Complete",
-            "Current Version": "V3",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1-2",
-            "Passenger Capacity": "4+2",
-            "Old Names": "Land Train",
-            "Video": "https://www.youtube.com/playlist?list=PLZQozcqDf6odpPmdeLdeBq26U6p9ElZee",
-            "Trailer Support": "true",
-            "Base Support": "flase",
-            "Comment": "Has a nuclear reactor trailer; Carries an UT Pocket Comet",
-            "Last Updated": "02.06.2026"
-        },
-        {
-            "Manufacturer": "Up-Tec",
-            "Name": "Pocket Comet",
-            "Code": "UT PC1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3737369173",
-            "Class": "Aircraft",
-            "Usage": [
-                "Exploration",
-                "Scouting",
-                "Recreation",
-                "Personal Transport"
-            ],
-            "Location": [
-                "Air",
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "1",
-            "Old Names": "Hydrogen Jet",
-            "Video": "https://youtu.be/TP_26CfEpBg",
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": "Can be carried by the UT Nomad",
-            "Last Updated": "13.08.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Tümmler",
-            "Code": "ESG T2",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3733475032",
-            "Class": "Ship",
-            "Usage": [
-                "Personal Transport",
-                "Recreation"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "8 + 2",
-            "Old Names": "Hb Sailing Catamaran",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "26.05.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Brandgans",
-            "Code": "ESG B5",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3733310327",
-            "Class": "Aircraft",
-            "Usage": [
-                "Scouting",
-                "Light Attack",
-                "Medium Attack"
-            ],
-            "Location": [
-                "Air",
-                "Sea",
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "3",
-            "Passenger Capacity": "-",
-            "Old Names": "Seaplane Fighter",
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": null,
-            "Last Updated": "26.05.2026"
-        },
-        {
-            "Manufacturer": "Homebrew",
-            "Name": "Tumble",
-            "Code": "HB T2",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3723003057",
-            "Class": "Helicopter",
-            "Usage": [
-                "SAR",
-                "Personal Transport",
-                "Exploration",
-                "Recreation"
-            ],
-            "Location": [
-                "Air",
-                "Land",
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "8",
-            "Old Names": "Scout Helicopter",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "09.05.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Biber Trailer",
-            "Code": "ESG B2-T",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3720937790",
-            "Class": "Trailer",
-            "Usage": [
-                "Long Range Transport",
-                "Medium Range Transport",
-                "Short Range Transport",
-                "Container Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V7",
-            "Weight": "1831",
-            "Cost": "23668",
-            "Crew Capacity": "0",
-            "Passenger Capacity": "0",
-            "Old Names": "Biber Container Trailer",
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "06.05.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Biber CT",
-            "Code": "ESG B2-CT",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3720937549",
-            "Class": "Car",
-            "Usage": [
-                "Long Range Transport",
-                "Container Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V8",
-            "Weight": "3179",
-            "Cost": "44548",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "1+1",
-            "Old Names": "Biber Container Truck",
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "true",
-            "Comment": null,
-            "Last Updated": "06.05.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Beluga Freighter",
-            "Code": "ESG B4-F",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3714698770",
-            "Class": "Ship",
-            "Usage": [
-                "Container Transport",
-                "Cargo Transport",
-                "Long Range Transport",
-                "Exploration"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V3",
-            "Weight": "96463",
-            "Cost": "663592",
-            "Crew Capacity": "1-5",
-            "Passenger Capacity": "20+",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": "Includes ESG K2 Kolibri",
-            "Last Updated": "12.08.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Kolibri",
-            "Code": "ESG K2",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3714686768",
-            "Class": "Helicopter",
-            "Usage": [
-                "Container Transport",
-                "Short Range Transport"
-            ],
-            "Location": [
-                "Air",
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V7",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "0",
-            "Old Names": "Tandem Rotor Container Helicopter",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "08.05.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Equipment Container",
-            "Code": "ESG C-E1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3709389874",
-            "Class": "Container",
-            "Usage": [
-                "Equipment Transport",
-                "Base Building"
-            ],
-            "Location": [
-                "Land",
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V6",
-            "Weight": "2022",
-            "Cost": "33378",
-            "Crew Capacity": "0",
-            "Passenger Capacity": "4",
-            "Old Names": "Container Equipment",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "true",
-            "Comment": null,
-            "Last Updated": "18.04.2026"
-        },
-        {
-            "Manufacturer": "NONE",
-            "Name": "V12 Modular Engine",
-            "Code": "V12-1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3709331068",
-            "Class": "Subassembly",
-            "Usage": [
-                ""
-            ],
-            "Location": [
-                ""
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "-",
-            "Passenger Capacity": "-",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "18.04.2026"
-        },
-        {
-            "Manufacturer": "Homebrew",
-            "Name": "Apace",
-            "Code": "HB A2",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3709329977",
-            "Class": "Car",
-            "Usage": [
-                "Racing",
-                "Personal Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "1",
-            "Old Names": "V12 Race Car,V12 Modular Engine",
-            "Video": null,
-            "Trailer Support": "Just connector",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "18.04.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Hermelin Aerosledge",
-            "Code": "ESG H3-A",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3704631132",
-            "Class": "Car",
-            "Usage": [
-                "Exploration",
-                "Personal Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "1",
-            "Old Names": "Hermelin Snow Speeder",
-            "Video": null,
-            "Trailer Support": "Just connector",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "18.04.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Schnecke",
-            "Code": "ESG S3",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3692639867",
-            "Class": "Tank",
-            "Usage": [
-                "Light Attack",
-                "Medium Attack"
-            ],
-            "Location": [
-                "Land",
-                "Underwater"
-            ],
-            "Status": "Complete",
-            "Current Version": "V5",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "2",
-            "Old Names": "Small Tank",
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": "Can submerge for a limited amount of time",
-            "Last Updated": "26.03.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Vallis",
-            "Code": "ESG TPD-V1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3674769314",
-            "Class": "Torpedo",
-            "Usage": [
-                "Heavy Attack"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "-",
-            "Passenger Capacity": "-",
-            "Old Names": "Anti Submarine Torpedo",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": "Also engages submerged targets",
-            "Last Updated": "27.02.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Rose",
-            "Code": "ESG MSL-R1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3645080171",
-            "Class": "Missile",
-            "Usage": [
-                "Medium Range Attack",
-                "Short Range Attack",
-                "Heavy Attack"
-            ],
-            "Location": [
-                "Land",
-                "Air"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": null,
-            "Last Updated": "12.01.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Gans",
-            "Code": "ESG G3",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3645077942",
-            "Class": "Aircraft",
-            "Usage": [
-                "Passenger Transport",
-                "Exploration",
-                "Light Freight Transport",
-                "Long Range Transport"
-            ],
-            "Location": [
-                "Air",
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "2",
-            "Passenger Capacity": "4 + 1",
-            "Old Names": "Recreational Plane",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "12.01.2026"
-        },
-        {
             "Manufacturer": "NONE",
             "Name": "2026 New Year's Fireworks",
             "Code": null,
@@ -719,281 +41,52 @@
         },
         {
             "Manufacturer": "NONE",
-            "Name": "Christmas Locomotive",
+            "Name": "Acrobat Plane",
             "Code": null,
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3625989747",
-            "Class": "Train",
+            "Workshop Link": "",
+            "Class": "Aircraft",
             "Usage": [
-                "Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1-2",
-            "Passenger Capacity": "0",
-            "Old Names": "Christmas Train",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": "Works with HB Windmill cars",
-            "Last Updated": "15.03.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Flugameise",
-            "Code": "ESG F2",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3622277330",
-            "Class": "Helicopter",
-            "Usage": [
-                "Container Transport"
+                "Racing",
+                "Personal Transport"
             ],
             "Location": [
                 "Air",
                 "Land"
             ],
-            "Status": "Complete",
-            "Current Version": "V7",
+            "Status": "Development",
+            "Current Version": "D3",
             "Weight": null,
             "Cost": null,
-            "Crew Capacity": "1-2",
+            "Crew Capacity": "1",
             "Passenger Capacity": "0",
             "Old Names": null,
             "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "true",
-            "Comment": null,
-            "Last Updated": "12.12.2025"
-        },
-        {
-            "Manufacturer": "Homebrew",
-            "Name": "Patron",
-            "Code": "HB P1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3607527814",
-            "Class": "Ship",
-            "Usage": [
-                "SAR",
-                "Starter"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": "3354",
-            "Cost": "29249",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "10",
-            "Old Names": "Career Patrol Boat, Career Starter Boat",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "17.11.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Survival Dinghy",
-            "Code": "ESG SD1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3598220528",
-            "Class": "Ship",
-            "Usage": [
-                "Survival",
-                "Short Range Transport"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": null,
-            "Current Version": "V2",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "2",
-            "Passenger Capacity": "4",
-            "Old Names": null,
-            "Video": null,
             "Trailer Support": null,
             "Base Support": null,
             "Comment": null,
-            "Last Updated": "02.11.2025"
+            "Last Updated": "15.03.2026"
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Rowboat",
-            "Code": "ESG R4",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3598219923",
-            "Class": "Ship",
+            "Name": "Air Defense Missile System",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "System",
             "Usage": [
-                "Short Range Transport"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Polishing",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": "Ruderboot",
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": null,
-            "Last Updated": "02.11.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Impala Cruiser",
-            "Code": "ESG I2-C",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597567540",
-            "Class": "Car",
-            "Usage": [
-                "Personal Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "3",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "01.11.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Impala Ranger",
-            "Code": "ESG I2-R",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597567008",
-            "Class": "Car",
-            "Usage": [
-                "Personal Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V4",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "3",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "18.04.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Impala",
-            "Code": "ESG I2",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597566374",
-            "Class": "Car",
-            "Usage": [
-                "Personal Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "3",
-            "Old Names": "Muscle Car",
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "01.11.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Grauwal",
-            "Code": "ESG G2",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597438600",
-            "Class": "Submarine",
-            "Usage": [
-                "Heavy Attack",
-                "Medium Attack",
                 "Light Attack"
             ],
             "Location": [
-                "Underwater",
-                "Sea"
-            ],
-            "Status": "Development",
-            "Current Version": "V12",
-            "Weight": "35305",
-            "Cost": "485314",
-            "Crew Capacity": "5-9",
-            "Passenger Capacity": "10",
-            "Old Names": "Torpedo Uboat",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "20.07.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Lotus",
-            "Code": "ESG TPD-L1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597427765",
-            "Class": "Torpedo",
-            "Usage": [
-                "Heavy Attack"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V4",
-            "Weight": "222",
-            "Cost": "3770",
-            "Crew Capacity": "0",
-            "Passenger Capacity": "0",
-            "Old Names": "Medium Torpedo",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "01.11.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Manatee",
-            "Code": "ESG M5",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3575602703",
-            "Class": "Submarine",
-            "Usage": [
-                "Exploration",
-                "SAR"
-            ],
-            "Location": [
+                "Land",
                 "Sea",
-                "Underwater"
+                "Air"
             ],
-            "Status": "Complete",
-            "Current Version": "V8",
+            "Status": "Prototype",
+            "Current Version": "P1",
             "Weight": null,
             "Cost": null,
-            "Crew Capacity": "1-3",
-            "Passenger Capacity": "3 + 2",
-            "Old Names": "Exploration Sub",
+            "Crew Capacity": "-",
+            "Passenger Capacity": "-",
+            "Old Names": null,
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "false",
@@ -1029,95 +122,14 @@
             "Last Updated": "03.10.2025"
         },
         {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Jaguar",
-            "Code": "ESG J1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3570858915",
+            "Manufacturer": "Homebrew",
+            "Name": "Apace",
+            "Code": "HB A2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3709329977",
             "Class": "Car",
-            "Usage": [
-                "Medium Range Transport",
-                "Base"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "1",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "19.09.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Schildkröte",
-            "Code": "ESG S4",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3569867769",
-            "Class": "Container",
-            "Usage": [
-                "Short Range Transport",
-                "Container Transport",
-                "Generator",
-                "Base Building"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": "1896",
-            "Cost": "31376",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "1",
-            "Old Names": "Container Companion,Container Companion 2",
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "17.09.2025"
-        },
-        {
-            "Manufacturer": "NONE",
-            "Name": "Skipper",
-            "Code": null,
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3562518601",
-            "Class": "Aircraft",
             "Usage": [
                 "Racing",
-                "Long Range Transport"
-            ],
-            "Location": [
-                "Air",
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": "Fast Seaplane",
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": null,
-            "Last Updated": "05.09.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Nutria",
-            "Code": "ESG N2",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3509252795",
-            "Class": "Car",
-            "Usage": [
-                "Trailer Transport",
-                "Long Range Transport"
+                "Personal Transport"
             ],
             "Location": [
                 "Land"
@@ -1127,39 +139,39 @@
             "Weight": null,
             "Cost": null,
             "Crew Capacity": "1",
-            "Passenger Capacity": "2 + 1",
-            "Old Names": "Modular Truck",
+            "Passenger Capacity": "1",
+            "Old Names": "V12 Race Car,V12 Modular Engine",
             "Video": null,
-            "Trailer Support": "true",
+            "Trailer Support": "Just connector",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "01.09.2025"
+            "Last Updated": "18.04.2026"
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Hummel",
-            "Code": "ESG H2",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3494237519",
-            "Class": "VTOL",
+            "Name": "Arctic Garage Container",
+            "Code": "ESG C-B1-A1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493760960",
+            "Class": "Container",
             "Usage": [
-                "Container Transport"
+                "Base Building",
+                "Vehicle Storage"
             ],
             "Location": [
-                "Air",
                 "Land"
             ],
             "Status": "Complete",
-            "Current Version": "V8",
+            "Current Version": "V3",
             "Weight": null,
             "Cost": null,
-            "Crew Capacity": "1-2",
-            "Passenger Capacity": "0",
-            "Old Names": "Cargo VTOL",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "2",
+            "Old Names": null,
             "Video": null,
             "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "01.09.2025"
+            "Base Support": "true",
+            "Comment": "Fits ESG W1 Winterhaft, W1-T Winterhaft Tractor or ESG G1 Gletscherfloh",
+            "Last Updated": "12.05.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1240,345 +252,57 @@
             "Last Updated": "12.05.2025"
         },
         {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Arctic Garage Container",
-            "Code": "ESG C-B1-A1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493760960",
-            "Class": "Container",
-            "Usage": [
-                "Base Building",
-                "Vehicle Storage"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V3",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "0",
-            "Passenger Capacity": "2",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "true",
-            "Comment": "Fits ESG W1 Winterhaft, W1-T Winterhaft Tractor or ESG G1 Gletscherfloh",
-            "Last Updated": "12.05.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Gletscherfloh",
-            "Code": "ESG G1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493745840",
-            "Class": "Car",
-            "Usage": [
-                "Short Range Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "2",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "true",
-            "Comment": null,
-            "Last Updated": "12.05.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Winterhaft Tractor",
-            "Code": "ESG W1-T",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493726331",
-            "Class": "Car",
-            "Usage": [
-                "Short Range Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "1",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "12.05.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Winterhaft",
-            "Code": "ESG W1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493719925",
-            "Class": "Car",
-            "Usage": [
-                "Short Range Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "1",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "true",
-            "Comment": null,
-            "Last Updated": "12.05.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Lift Container",
-            "Code": "ESG C-B1-L1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493697493",
-            "Class": "Container",
-            "Usage": [
-                "Base Building"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V4",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "0",
-            "Passenger Capacity": "4",
-            "Old Names": "Container Lift",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "true",
-            "Comment": null,
-            "Last Updated": "05.06.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Tank Container",
-            "Code": "ESG C-B1-T1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493638698",
-            "Class": "Container",
-            "Usage": [
-                "Base Building",
-                "Tank"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "0",
-            "Passenger Capacity": "0",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "true",
-            "Comment": null,
-            "Last Updated": "06.05.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Garage Container",
-            "Code": "ESG C-B1-G1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493626176",
-            "Class": "Container",
-            "Usage": [
-                "Base Building",
-                "Vehicle Storage"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "0",
-            "Passenger Capacity": "0",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "true",
-            "Comment": "Fits an ESG M1 Maus",
-            "Last Updated": "05.06.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Medical Container",
-            "Code": "ESG C-B1-M1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493619583",
-            "Class": "Container",
-            "Usage": [
-                "Base Building",
-                "Medical"
-            ],
-            "Location": [
-                "Land",
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "4",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "true",
-            "Comment": null,
-            "Last Updated": "12.05.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Hub Container",
-            "Code": "ESG C-B1-H1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493612961",
-            "Class": "Container",
-            "Usage": [
-                "Base Building"
-            ],
-            "Location": [
-                "Land",
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "0",
-            "Passenger Capacity": "5",
-            "Old Names": "Corridor Container",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "true",
-            "Comment": null,
-            "Last Updated": "12.05.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Quarters Container",
-            "Code": "ESG C-B1-Q1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493603176",
-            "Class": "Container",
-            "Usage": [
-                "Accommodation",
-                "Base Building"
-            ],
-            "Location": [
-                "Land",
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V6",
-            "Weight": "1743",
-            "Cost": "31672",
-            "Crew Capacity": "0",
-            "Passenger Capacity": "4",
-            "Old Names": "Container Quarters",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "true",
-            "Comment": null,
-            "Last Updated": "12.05.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Kitchen Container",
-            "Code": "ESG C-B1-K1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493593170",
-            "Class": "Container",
-            "Usage": [
-                "Catering",
-                "Base Building"
-            ],
-            "Location": [
-                "Land",
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V7",
-            "Weight": "2251",
-            "Cost": "34735",
-            "Crew Capacity": "0",
-            "Passenger Capacity": "0",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "true",
-            "Comment": null,
-            "Last Updated": "12.05.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Camper Container",
-            "Code": "ESG C-B1-C2",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493584552",
-            "Class": "Container",
-            "Usage": [
-                "Accomodation",
-                "Catering",
-                "Base Building"
-            ],
-            "Location": [
-                "Land",
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V4",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "0",
-            "Passenger Capacity": "2+3",
-            "Old Names": "Container Camper",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "true",
-            "Comment": null,
-            "Last Updated": "12.05.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Container Companion",
-            "Code": "ESG C-B1-C1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493345297",
-            "Class": "Container",
+            "Manufacturer": "Homebrew",
+            "Name": "Ares",
+            "Code": "HB A1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3442559202",
+            "Class": "Ship",
             "Usage": [
                 "Short Range Transport",
-                "Container Transport",
-                "Generator",
-                "Base Building"
+                "Medium Range Transport"
             ],
             "Location": [
-                "Land"
+                "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V6",
+            "Current Version": "V4",
+            "Weight": "1158",
+            "Cost": "12634",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "6",
+            "Old Names": "Aeris, Airfoil Speeder",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "11.03.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "ATV",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "ATV",
+            "Usage": [
+                "Medium Range Transport",
+                "SAR"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Development",
+            "Current Version": "D12",
             "Weight": null,
             "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "0",
-            "Old Names": "Container Handler",
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
             "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "true",
-            "Comment": "Supports being a trailer as well as towing a trailer",
-            "Last Updated": "04.06.2025"
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "01.09.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1606,84 +330,6 @@
             "Base Support": "true",
             "Comment": null,
             "Last Updated": "12.05.2025"
-        },
-        {
-            "Manufacturer": "Homebrew",
-            "Name": "Drifter",
-            "Code": "HB D2",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3492627409",
-            "Class": "Ship",
-            "Usage": [
-                "Base",
-                "Medium Range Transport"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1-6",
-            "Passenger Capacity": "0",
-            "Old Names": "Sloop, Labor of Love",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": "Comes without equipment and is easily modifiable",
-            "Last Updated": "03.06.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Stevia",
-            "Code": "V1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3492190453",
-            "Class": "Ship",
-            "Usage": [
-                "Recreation",
-                "Medium Range Transport",
-                "Long Range Transport"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1-4",
-            "Passenger Capacity": "0-6",
-            "Old Names": "Small Sail Boat",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "02.06.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Beluga Tanker",
-            "Code": "ESG B4-T",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3472296447",
-            "Class": "Ship",
-            "Usage": [
-                "Liquid Transport"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V15",
-            "Weight": "59194",
-            "Cost": "541696",
-            "Crew Capacity": "1-5",
-            "Passenger Capacity": "20+",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "02.12.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1738,217 +384,263 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Mahi Deployment System",
-            "Code": "ESG M2-DS",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3471688674",
-            "Class": "Subassembly",
-            "Usage": [
-                "Rescue",
-                "Medium Range Transport",
-                "Subassembly"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": "25592",
-            "Cost": "200986",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "6",
-            "Old Names": null,
-            "Video": "https://youtu.be/yyQdn5r-14w",
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "27.04.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Kugelfisch Launch System",
-            "Code": "ESG K1-LS",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3471539909",
-            "Class": "Subassembly",
-            "Usage": [
-                "Rescue",
-                "Subassembly"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": "3231",
-            "Cost": "22331",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "6",
-            "Old Names": null,
-            "Video": "https://youtu.be/mi_dT1d-D88",
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "27.04.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Kugelfisch",
-            "Code": "ESG K1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3471537972",
+            "Name": "Beluga Freighter",
+            "Code": "ESG B4-F",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3714698770",
             "Class": "Ship",
             "Usage": [
-                "Lifeboat"
+                "Container Transport",
+                "Cargo Transport",
+                "Long Range Transport",
+                "Exploration"
             ],
             "Location": [
                 "Sea"
             ],
             "Status": "Complete",
             "Current Version": "V3",
-            "Weight": "552",
-            "Cost": "12564",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "6",
-            "Old Names": "Lifeboat",
-            "Video": "\thttps://youtu.be/mi_dT1d-D88",
+            "Weight": "96463",
+            "Cost": "663592",
+            "Crew Capacity": "1-5",
+            "Passenger Capacity": "20+",
+            "Old Names": null,
+            "Video": null,
             "Trailer Support": "false",
             "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "27.04.2025"
+            "Comment": "Includes ESG K2 Kolibri",
+            "Last Updated": "12.08.2026"
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Feldmaus",
-            "Code": "ESG F1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3470056133",
-            "Class": "Car",
-            "Usage": [
-                "Short Range Transport",
-                "Medium Range Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": "846",
-            "Cost": "15624",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "3",
-            "Old Names": null,
-            "Video": "https://youtu.be/_-heKmA8s68",
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "25.04.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Maus",
-            "Code": "ESG M1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3470056009",
-            "Class": "Car",
-            "Usage": [
-                "Short Range Transport",
-                "Medium Range Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V3",
-            "Weight": "551",
-            "Cost": "13088",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "3",
-            "Old Names": "Small Car",
-            "Video": "https://youtu.be/_-heKmA8s68",
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "25.04.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Mobula",
-            "Code": "ESG M3",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3456155883",
+            "Name": "Beluga Tanker",
+            "Code": "ESG B4-T",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3472296447",
             "Class": "Ship",
             "Usage": [
-                "Exploration",
-                "Fishing",
-                "Long Range Transport"
+                "Liquid Transport"
             ],
             "Location": [
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V16",
-            "Weight": "6747",
-            "Cost": "134399",
-            "Crew Capacity": "2-4",
-            "Passenger Capacity": "5-16",
-            "Old Names": "Catamaran",
+            "Current Version": "V15",
+            "Weight": "59194",
+            "Cost": "541696",
+            "Crew Capacity": "1-5",
+            "Passenger Capacity": "20+",
+            "Old Names": null,
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "15.03.2026"
+            "Last Updated": "02.12.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Möwe",
-            "Code": "ESG M4",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3456060299",
-            "Class": "Aircraft",
+            "Name": "Biber Base",
+            "Code": "ESG B2-B",
+            "Workshop Link": "",
+            "Class": "Car",
             "Usage": [
-                "Passenger Transport",
-                "Exploration",
-                "Long Range Transport"
+                "BASE"
             ],
             "Location": [
-                "Air",
-                "Land",
+                "Land"
+            ],
+            "Status": "Discontinued",
+            "Current Version": "-",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": "false",
+            "Comment": "Would have been based on B1-CT",
+            "Last Updated": "06.05.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Biber CT",
+            "Code": "ESG B2-CT",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3720937549",
+            "Class": "Car",
+            "Usage": [
+                "Long Range Transport",
+                "Container Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V8",
+            "Weight": "3179",
+            "Cost": "44548",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1+1",
+            "Old Names": "Biber Container Truck",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "06.05.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Biber Trailer",
+            "Code": "ESG B2-T",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3720937790",
+            "Class": "Trailer",
+            "Usage": [
+                "Long Range Transport",
+                "Medium Range Transport",
+                "Short Range Transport",
+                "Container Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V7",
+            "Weight": "1831",
+            "Cost": "23668",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": "Biber Container Trailer",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "06.05.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Biene Jetski",
+            "Code": "ESG B1-J",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384223654",
+            "Class": "Ship",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
                 "Sea"
             ],
             "Status": "Complete",
             "Current Version": "V5",
-            "Weight": "5845",
-            "Cost": "78667",
-            "Crew Capacity": "2-3",
-            "Passenger Capacity": "20+2",
-            "Old Names": "Seaplane",
+            "Weight": "242",
+            "Cost": "4567",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2",
+            "Old Names": null,
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "30.10.2025"
+            "Last Updated": "30.10.2024"
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Narwal",
-            "Code": "ESG N1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3455720127",
-            "Class": "Ship",
+            "Name": "Biene Quad",
+            "Code": "ESG B1-Q",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384221074",
+            "Class": "Car",
             "Usage": [
-                "Exploration",
-                "Fishing",
-                "Recreation",
-                "Long Range Transport"
+                "Short Range Transport"
             ],
             "Location": [
-                "Sea"
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V5",
+            "Weight": "300",
+            "Cost": "7651",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2",
+            "Old Names": "Quad, Tiger",
+            "Video": null,
+            "Trailer Support": "Breaks Only",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Biene Snowmobile",
+            "Code": "ESG B1-S",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384223020",
+            "Class": "Car",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Land"
             ],
             "Status": "Complete",
             "Current Version": "V3",
-            "Weight": "4054",
-            "Cost": "66241",
-            "Crew Capacity": "1-2",
-            "Passenger Capacity": "4-8",
-            "Old Names": "Sailing Boat",
+            "Weight": "396",
+            "Cost": "8800",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2",
+            "Old Names": "Biene Arctic, Biene Snowmobil",
+            "Video": null,
+            "Trailer Support": "Breaks Only",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "07.04.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Biene Trailer",
+            "Code": "ESG B1-T",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384222285",
+            "Class": "Trailer",
+            "Usage": [
+                "Vehicle Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V5",
+            "Weight": "439",
+            "Cost": "6686",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": "Jetski Trailer, Mini Trailer",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": "Can transport Biene Jetski and Biene Quad",
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Bläuling",
+            "Code": "ESG B3",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3415843823",
+            "Class": "Aircraft",
+            "Usage": [
+                "Recreation",
+                "Medium Range Transport",
+                "Long Range Transport"
+            ],
+            "Location": [
+                "Air",
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": "713",
+            "Cost": "14669",
+            "Crew Capacity": "2",
+            "Passenger Capacity": "0",
+            "Old Names": "Ultralight Plane",
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "22.05.2025"
+            "Last Updated": "10.03.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -1980,82 +672,191 @@
             "Last Updated": "10.03.2025"
         },
         {
-            "Manufacturer": "Homebrew",
-            "Name": "Raft",
-            "Code": "HB R1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3442605911",
-            "Class": "Ship",
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Bläuling Helicopter Scout",
+            "Code": "ESG B3-H-S",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3782218994",
+            "Class": "Helicopter",
             "Usage": [
-                "Rescue",
-                "Short Range Transport"
+                "Light Attack",
+                "Scouting"
             ],
             "Location": [
-                "Sea"
+                "Air",
+                "Land"
             ],
             "Status": "Complete",
-            "Current Version": "V14",
-            "Weight": "1040",
-            "Cost": "11111",
+            "Current Version": "V3",
+            "Weight": null,
+            "Cost": null,
             "Crew Capacity": "2",
-            "Passenger Capacity": "8",
+            "Passenger Capacity": "0",
             "Old Names": null,
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "11.03.2025"
+            "Last Updated": "12.08.2026"
+        },
+        {
+            "Manufacturer": "NONE",
+            "Name": "Bomber Torpedo",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "Aircraft",
+            "Usage": [
+                "Heavy Attack"
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Development",
+            "Current Version": "D5",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "03.10.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Brandgans",
+            "Code": "ESG B5",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3733310327",
+            "Class": "Aircraft",
+            "Usage": [
+                "Scouting",
+                "Light Attack",
+                "Medium Attack"
+            ],
+            "Location": [
+                "Air",
+                "Sea",
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "3",
+            "Passenger Capacity": "-",
+            "Old Names": "Seaplane Fighter",
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "26.05.2026"
         },
         {
             "Manufacturer": "Homebrew",
-            "Name": "Ares",
-            "Code": "HB A1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3442559202",
-            "Class": "Ship",
+            "Name": "Breeze",
+            "Code": "HB B1",
+            "Workshop Link": "",
+            "Class": "Boat",
             "Usage": [
                 "Short Range Transport",
-                "Medium Range Transport"
+                "Recreation"
             ],
             "Location": [
                 "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V4",
-            "Weight": "1158",
-            "Cost": "12634",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
             "Crew Capacity": "1",
             "Passenger Capacity": "6",
-            "Old Names": "Aeris, Airfoil Speeder",
+            "Old Names": null,
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "11.03.2024"
+            "Last Updated": "19.04.2026"
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Travel Trailer",
-            "Code": "ESG T1-T",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3421511270",
-            "Class": "Trailer",
+            "Name": "Camper Container",
+            "Code": "ESG C-B1-C2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493584552",
+            "Class": "Container",
             "Usage": [
                 "Accomodation",
-                "Recreation"
+                "Catering",
+                "Base Building"
             ],
             "Location": [
-                "Land"
+                "Land",
+                "Sea"
             ],
             "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": "735",
-            "Cost": "22219",
+            "Current Version": "V4",
+            "Weight": null,
+            "Cost": null,
             "Crew Capacity": "0",
-            "Passenger Capacity": "1",
-            "Old Names": "Camper Trailer",
+            "Passenger Capacity": "2+3",
+            "Old Names": "Container Camper",
             "Video": null,
-            "Trailer Support": "true",
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "12.05.2025"
+        },
+        {
+            "Manufacturer": "Homebrew",
+            "Name": "Career Boat",
+            "Code": "HB CB1-X",
+            "Workshop Link": "",
+            "Class": "Ship",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Discontinued",
+            "Current Version": null,
+            "Weight": "518",
+            "Cost": "4641",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "02.11.2025"
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "NONE",
+            "Name": "Cat Boat",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "Boat",
+            "Usage": [
+                "Recreation",
+                "Medium Range Transport",
+                "Long Range Transport"
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Development",
+            "Current Version": "D21",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": "Sail Cruiser",
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "01.09.2025"
         },
         {
             "Manufacturer": "Homebrew",
@@ -2084,32 +885,239 @@
             "Last Updated": "10.03.2025"
         },
         {
+            "Manufacturer": "NONE",
+            "Name": "Christmas Locomotive",
+            "Code": null,
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3625989747",
+            "Class": "Train",
+            "Usage": [
+                "Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1-2",
+            "Passenger Capacity": "0",
+            "Old Names": "Christmas Train",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": "Works with HB Windmill cars",
+            "Last Updated": "15.03.2026"
+        },
+        {
+            "Manufacturer": "Up-Tec",
+            "Name": "Constant",
+            "Code": "UT PG-C1",
+            "Workshop Link": "",
+            "Class": "Generator",
+            "Usage": [
+                "Subassembly"
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": null,
+            "Current Version": null,
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": "Produces Infinite Electricity",
+            "Last Updated": "20.11.2025"
+        },
+        {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Bläuling",
-            "Code": "ESG B3",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3415843823",
+            "Name": "Container Companion",
+            "Code": "ESG C-B1-C1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493345297",
+            "Class": "Container",
+            "Usage": [
+                "Short Range Transport",
+                "Container Transport",
+                "Generator",
+                "Base Building"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V6",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "0",
+            "Old Names": "Container Handler",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "true",
+            "Comment": "Supports being a trailer as well as towing a trailer",
+            "Last Updated": "04.06.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Container Mover",
+            "Code": "ESG C2",
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                "Container Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Discontinued",
+            "Current Version": "D6",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "08.04.2025"
+        },
+        {
+            "Manufacturer": "Up-Tec",
+            "Name": "Courier",
+            "Code": "UT C1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3786892518",
             "Class": "Aircraft",
             "Usage": [
-                "Recreation",
-                "Medium Range Transport",
-                "Long Range Transport"
+                "Heavy Attack",
+                "Medium Attack",
+                "Scouting"
+            ],
+            "Location": [
+                "Air",
+                "Land"
+            ],
+            "Status": null,
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "0",
+            "Old Names": "Figther Jet,Small Fighter Jet",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": "Can be used as an UAV",
+            "Last Updated": "20.08.2026"
+        },
+        {
+            "Manufacturer": "NONE",
+            "Name": "Cute Tractor",
+            "Code": null,
+            "Workshop Link": "",
+            "Class": "Car",
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "0",
+            "Old Names": "Tractor 119751",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "22.01.2026"
+        },
+        {
+            "Manufacturer": "Homebrew",
+            "Name": "Diver Speeder",
+            "Code": "HB D1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384225779",
+            "Class": "Submarine",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Sea",
+                "Underwater"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "226",
+            "Cost": "10140",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "Homebrew",
+            "Name": "Drifter",
+            "Code": "HB D2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3492627409",
+            "Class": "Ship",
+            "Usage": [
+                "Base",
+                "Medium Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1-6",
+            "Passenger Capacity": "0",
+            "Old Names": "Sloop, Labor of Love",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": "Comes without equipment and is easily modifiable",
+            "Last Updated": "03.06.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Eisvogel",
+            "Code": "ESG E1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3413583231",
+            "Class": "Aircraft",
+            "Usage": [
+                "Firefighting",
+                "Medium Range Transport"
             ],
             "Location": [
                 "Air",
                 "Land"
             ],
             "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": "713",
-            "Cost": "14669",
+            "Current Version": "V6",
+            "Weight": "1652.5",
+            "Cost": "22803",
             "Crew Capacity": "2",
             "Passenger Capacity": "0",
-            "Old Names": "Ultralight Plane",
+            "Old Names": "Simple Biplane",
             "Video": null,
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "10.03.2025"
+            "Last Updated": "01.06.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -2168,985 +1176,30 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
-            "Name": "Eisvogel",
-            "Code": "ESG E1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3413583231",
-            "Class": "Aircraft",
+            "Name": "Equipment Container",
+            "Code": "ESG C-E1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3709389874",
+            "Class": "Container",
             "Usage": [
-                "Firefighting",
-                "Medium Range Transport"
+                "Equipment Transport",
+                "Base Building"
             ],
             "Location": [
-                "Air",
-                "Land"
+                "Land",
+                "Sea"
             ],
             "Status": "Complete",
             "Current Version": "V6",
-            "Weight": "1652.5",
-            "Cost": "22803",
-            "Crew Capacity": "2",
-            "Passenger Capacity": "0",
-            "Old Names": "Simple Biplane",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "01.06.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Igel Scout MG",
-            "Code": "ESG I1-SMG",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3397821089",
-            "Class": "Car",
-            "Usage": [
-                "Short Range Transport",
-                "Medium Range Transport",
-                "Light Attack"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V3",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "2",
-            "Passenger Capacity": "1",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "13.01.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Igel Scout",
-            "Code": "ESG I1-S",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3397132125",
-            "Class": "Car",
-            "Usage": [
-                "Short Range Transport",
-                "Medium Range Transport",
-                "Light Attack"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V4",
-            "Weight": "618",
-            "Cost": "18347",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "1",
-            "Old Names": "Igel A",
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "13.01.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Igel Runner",
-            "Code": "ESG I1-R",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3397131712",
-            "Class": "Car",
-            "Usage": [
-                "Short Range Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": "486",
-            "Cost": "13226",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "5",
-            "Old Names": "Cart, Adventure Cart, Igel PT",
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "31.12.2024"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Saturn",
-            "Code": "ESG ENG-S1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384231822",
-            "Class": "Engine",
-            "Usage": [
-                "Plane Engine"
-            ],
-            "Location": [
-                ""
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": "9742",
-            "Cost": "57975",
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "25.03.2024"
-        },
-        {
-            "Manufacturer": "Homebrew",
-            "Name": "Diver Speeder",
-            "Code": "HB D1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384225779",
-            "Class": "Submarine",
-            "Usage": [
-                "Short Range Transport"
-            ],
-            "Location": [
-                "Sea",
-                "Underwater"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": "226",
-            "Cost": "10140",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "2",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "30.10.2024"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Tulpe",
-            "Code": "ESG MSL-T1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384224854",
-            "Class": "Missile",
-            "Usage": [
-                "Medium Range Attack"
-            ],
-            "Location": [
-                "Air"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": "37",
-            "Cost": "1345",
+            "Weight": "2022",
+            "Cost": "33378",
             "Crew Capacity": "0",
-            "Passenger Capacity": "0",
-            "Old Names": null,
+            "Passenger Capacity": "4",
+            "Old Names": "Container Equipment",
             "Video": null,
             "Trailer Support": "false",
-            "Base Support": "false",
+            "Base Support": "true",
             "Comment": null,
-            "Last Updated": "30.10.2024"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Hornisse",
-            "Code": "ESG H1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384224437",
-            "Class": "Helicopter",
-            "Usage": [
-                "Light Attack"
-            ],
-            "Location": [
-                "Air",
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V11",
-            "Weight": "1294",
-            "Cost": "24154",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "2",
-            "Old Names": "Bussard",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "10.03.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Biene Jetski",
-            "Code": "ESG B1-J",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384223654",
-            "Class": "Ship",
-            "Usage": [
-                "Short Range Transport"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V5",
-            "Weight": "242",
-            "Cost": "4567",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "2",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "30.10.2024"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Biene Snowmobile",
-            "Code": "ESG B1-S",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384223020",
-            "Class": "Car",
-            "Usage": [
-                "Short Range Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V3",
-            "Weight": "396",
-            "Cost": "8800",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "2",
-            "Old Names": "Biene Arctic, Biene Snowmobil",
-            "Video": null,
-            "Trailer Support": "Breaks Only",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "07.04.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Biene Trailer",
-            "Code": "ESG B1-T",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384222285",
-            "Class": "Trailer",
-            "Usage": [
-                "Vehicle Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V5",
-            "Weight": "439",
-            "Cost": "6686",
-            "Crew Capacity": "0",
-            "Passenger Capacity": "0",
-            "Old Names": "Jetski Trailer, Mini Trailer",
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": "Can transport Biene Jetski and Biene Quad",
-            "Last Updated": "30.10.2024"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Biene Quad",
-            "Code": "ESG B1-Q",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384221074",
-            "Class": "Car",
-            "Usage": [
-                "Short Range Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V5",
-            "Weight": "300",
-            "Cost": "7651",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "2",
-            "Old Names": "Quad, Tiger",
-            "Video": null,
-            "Trailer Support": "Breaks Only",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "30.10.2024"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Schnabeltier Fire Truck",
-            "Code": "ESG S1-FT",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384206197",
-            "Class": "Car",
-            "Usage": [
-                "Firefighting"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V4",
-            "Weight": "2519",
-            "Cost": "35492",
-            "Crew Capacity": "2",
-            "Passenger Capacity": "2",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "30.10.2024"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Schnabeltier ET",
-            "Code": "ESG S1-ET",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384205839",
-            "Class": "Car",
-            "Usage": [
-                "Rescue",
-                "Defense"
-            ],
-            "Location": [
-                "Land",
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V4",
-            "Weight": "2880",
-            "Cost": "44413",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "7+2",
-            "Old Names": "Schnabeltier Emergency Truck",
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "16.04.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Schnabeltier Base",
-            "Code": "ESG S1-B",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384205434",
-            "Class": "Car",
-            "Usage": [
-                "BASE"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V4",
-            "Weight": "1720",
-            "Cost": "24701",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "3",
-            "Old Names": "Esel",
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "30.10.2024"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Schnabeltier Pickup Truck",
-            "Code": "ESG S1-PT",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384204990",
-            "Class": "Car",
-            "Usage": [
-                "Medium Range Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V4",
-            "Weight": "1846",
-            "Cost": "27825",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "3",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": "Can transport Biene Quad",
-            "Last Updated": "08.04.2024"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Schnabeltier ET Arctic",
-            "Code": "ESG S1-ET-A",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384204527",
-            "Class": "Car",
-            "Usage": [
-                "Rescue",
-                "Defense"
-            ],
-            "Location": [
-                "Land",
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V12",
-            "Weight": "3325",
-            "Cost": "52374",
-            "Crew Capacity": "2",
-            "Passenger Capacity": "5+2",
-            "Old Names": "Schnabeltier Arctic Emergency Truck",
-            "Video": null,
-            "Trailer Support": "true",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "16.04.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Pelikan Cargo",
-            "Code": "ESG P1-C",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3383482001",
-            "Class": "Aircraft",
-            "Usage": [
-                "Cargo Transport"
-            ],
-            "Location": [
-                "Air"
-            ],
-            "Status": "Complete",
-            "Current Version": "V5",
-            "Weight": "16378",
-            "Cost": "151353",
-            "Crew Capacity": "1-2",
-            "Passenger Capacity": "12",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "12.12.2024"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Portable Radio",
-            "Code": "ESG EPT-P1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3367771384",
-            "Class": "Equipment",
-            "Usage": [
-                "Communication"
-            ],
-            "Location": [
-                ""
-            ],
-            "Status": "Complete",
-            "Current Version": null,
-            "Weight": "27",
-            "Cost": "1340",
-            "Crew Capacity": "0",
-            "Passenger Capacity": "0",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "30.10.2024"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Small Tank Trailer ",
-            "Code": null,
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3367764975",
-            "Class": "Trailer",
-            "Usage": [
-                "Liquid Transport",
-                "Gas Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": "85",
-            "Cost": "1758",
-            "Crew Capacity": "0",
-            "Passenger Capacity": "0",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "30.10.2024"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Mahi",
-            "Code": "ESG M2",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3357793718",
-            "Class": "Ship",
-            "Usage": [
-                "Rescue",
-                "Medium Range Transport"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V5",
-            "Weight": "778",
-            "Cost": "18236",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "6",
-            "Old Names": "Orbit (O1)",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "26.04.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Orbit",
-            "Code": "ESG ENG-O1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3357792909",
-            "Class": "Engine",
-            "Usage": [
-                "Outboard Motor"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": null,
-            "Old Names": "Kuda (K1)",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "31.10.2024"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Schwalbe",
-            "Code": "ESG S2",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3356199518",
-            "Class": "Helicopter",
-            "Usage": [
-                "Rescue"
-            ],
-            "Location": [
-                "Air",
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V4",
-            "Weight": "1794",
-            "Cost": "29044",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "10+2",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "06.01.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Qualle",
-            "Code": "ESG Q1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3349831574",
-            "Class": "Submarine",
-            "Usage": [
-                "Exploration",
-                "SAR",
-                "Medium Range Transport"
-            ],
-            "Location": [
-                "Sea",
-                "Land",
-                "Underwater"
-            ],
-            "Status": "Complete",
-            "Current Version": "V16",
-            "Weight": "5753",
-            "Cost": "141925",
-            "Crew Capacity": "2",
-            "Passenger Capacity": "6",
-            "Old Names": "Submarine",
-            "Video": "Complete",
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "01.12.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Robbe",
-            "Code": "ESG R1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3342896669&result=1",
-            "Class": "Ship",
-            "Usage": [
-                "Short Range Transport"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V4",
-            "Weight": "104",
-            "Cost": "2439",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "2",
-            "Old Names": "Otter",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "30.10.2024"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Pelikan",
-            "Code": "ESG P1",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3341179796",
-            "Class": "Aircraft",
-            "Usage": [
-                "SAR"
-            ],
-            "Location": [
-                "Air",
-                "Land",
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "A9",
-            "Weight": "11862",
-            "Cost": "124155",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "4+5",
-            "Old Names": "Saturn",
-            "Video": "Complete",
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "30.10.2024"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Remora",
-            "Code": "ESG R3",
-            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?edit=true&id=3456156169",
-            "Class": "Diving Bell",
-            "Usage": [
-                "Exploration",
-                "Diving"
-            ],
-            "Location": [
-                "Sea",
-                "Underwater"
-            ],
-            "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": "1515",
-            "Cost": "28852",
-            "Crew Capacity": "2",
-            "Passenger Capacity": "2",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": "Diving Bell Adapter for Mobula Catamaran",
-            "Last Updated": "01.04.2025"
-        },
-        {
-            "Manufacturer": "NONE",
-            "Name": "Acrobat Plane",
-            "Code": null,
-            "Workshop Link": "",
-            "Class": "Aircraft",
-            "Usage": [
-                "Racing",
-                "Personal Transport"
-            ],
-            "Location": [
-                "Air",
-                "Land"
-            ],
-            "Status": "Development",
-            "Current Version": "D3",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "0",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": null,
-            "Last Updated": "15.03.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Air Defense Missile System",
-            "Code": null,
-            "Workshop Link": "",
-            "Class": "System",
-            "Usage": [
-                "Light Attack"
-            ],
-            "Location": [
-                "Land",
-                "Sea",
-                "Air"
-            ],
-            "Status": "Prototype",
-            "Current Version": "P1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "-",
-            "Passenger Capacity": "-",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "15.03.2026"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "ATV",
-            "Code": null,
-            "Workshop Link": "",
-            "Class": "ATV",
-            "Usage": [
-                "Medium Range Transport",
-                "SAR"
-            ],
-            "Location": [
-                "Land",
-                "Sea"
-            ],
-            "Status": "Development",
-            "Current Version": "D12",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": null,
-            "Last Updated": "01.09.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Biber Base",
-            "Code": "ESG B2-B",
-            "Workshop Link": "",
-            "Class": "Car",
-            "Usage": [
-                "BASE"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Discontinued",
-            "Current Version": "-",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": "false",
-            "Comment": "Would have been based on B1-CT",
-            "Last Updated": "06.05.2026"
-        },
-        {
-            "Manufacturer": "NONE",
-            "Name": "Bomber Torpedo",
-            "Code": null,
-            "Workshop Link": "",
-            "Class": "Aircraft",
-            "Usage": [
-                "Heavy Attack"
-            ],
-            "Location": [
-                ""
-            ],
-            "Status": "Development",
-            "Current Version": "D5",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": null,
-            "Last Updated": "03.10.2025"
-        },
-        {
-            "Manufacturer": "Homebrew",
-            "Name": "Breeze",
-            "Code": "HB B1",
-            "Workshop Link": "",
-            "Class": "Boat",
-            "Usage": [
-                "Short Range Transport",
-                "Recreation"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Complete",
-            "Current Version": "V2",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "6",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "19.04.2026"
-        },
-        {
-            "Manufacturer": "Homebrew",
-            "Name": "Career Boat",
-            "Code": "HB CB1-X",
-            "Workshop Link": "",
-            "Class": "Ship",
-            "Usage": [
-                "Short Range Transport"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": "Discontinued",
-            "Current Version": null,
-            "Weight": "518",
-            "Cost": "4641",
-            "Crew Capacity": "1",
-            "Passenger Capacity": "0",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "30.10.2024"
-        },
-        {
-            "Manufacturer": "NONE",
-            "Name": "Cat Boat",
-            "Code": null,
-            "Workshop Link": "",
-            "Class": "Boat",
-            "Usage": [
-                "Recreation",
-                "Medium Range Transport",
-                "Long Range Transport"
-            ],
-            "Location": [
-                ""
-            ],
-            "Status": "Development",
-            "Current Version": "D21",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": "Sail Cruiser",
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": null,
-            "Last Updated": "01.09.2025"
-        },
-        {
-            "Manufacturer": "Up-Tec",
-            "Name": "Constant",
-            "Code": "UT PG-C1",
-            "Workshop Link": "",
-            "Class": "Generator",
-            "Usage": [
-                "Subassembly"
-            ],
-            "Location": [
-                ""
-            ],
-            "Status": null,
-            "Current Version": null,
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": "Produces Infinite Electricity",
-            "Last Updated": "20.11.2025"
-        },
-        {
-            "Manufacturer": "EINSCHLAG",
-            "Name": "Container Mover",
-            "Code": "ESG C2",
-            "Workshop Link": "",
-            "Class": "Car",
-            "Usage": [
-                "Container Transport"
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Discontinued",
-            "Current Version": "D6",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "0",
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "08.04.2025"
-        },
-        {
-            "Manufacturer": "NONE",
-            "Name": "Cute Tractor",
-            "Code": null,
-            "Workshop Link": "",
-            "Class": "Car",
-            "Usage": [
-                ""
-            ],
-            "Location": [
-                "Land"
-            ],
-            "Status": "Complete",
-            "Current Version": "V1",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": "1",
-            "Passenger Capacity": "0",
-            "Old Names": "Tractor 119751",
-            "Video": null,
-            "Trailer Support": "false",
-            "Base Support": "false",
-            "Comment": null,
-            "Last Updated": "22.01.2026"
+            "Last Updated": "18.04.2026"
         },
         {
             "Manufacturer": "Homebrew",
@@ -3230,6 +1283,32 @@
             "Last Updated": "15.03.2026"
         },
         {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Feldmaus",
+            "Code": "ESG F1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3470056133",
+            "Class": "Car",
+            "Usage": [
+                "Short Range Transport",
+                "Medium Range Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": "846",
+            "Cost": "15624",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "3",
+            "Old Names": null,
+            "Video": "https://youtu.be/_-heKmA8s68",
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "25.04.2025"
+        },
+        {
             "Manufacturer": "Up-Tec",
             "Name": "Fighter Jet",
             "Code": null,
@@ -3253,6 +1332,32 @@
             "Base Support": null,
             "Comment": null,
             "Last Updated": "29.11.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Flugameise",
+            "Code": "ESG F2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3622277330",
+            "Class": "Helicopter",
+            "Usage": [
+                "Container Transport"
+            ],
+            "Location": [
+                "Air",
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V7",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1-2",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "12.12.2025"
         },
         {
             "Manufacturer": "Up-Tec",
@@ -3280,6 +1385,61 @@
             "Base Support": null,
             "Comment": null,
             "Last Updated": "02.08.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Gans",
+            "Code": "ESG G3",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3645077942",
+            "Class": "Aircraft",
+            "Usage": [
+                "Passenger Transport",
+                "Exploration",
+                "Light Freight Transport",
+                "Long Range Transport"
+            ],
+            "Location": [
+                "Air",
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "2",
+            "Passenger Capacity": "4 + 1",
+            "Old Names": "Recreational Plane",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "12.01.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Garage Container",
+            "Code": "ESG C-B1-G1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493626176",
+            "Class": "Container",
+            "Usage": [
+                "Base Building",
+                "Vehicle Storage"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": "Fits an ESG M1 Maus",
+            "Last Updated": "05.06.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -3335,6 +1495,31 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
+            "Name": "Gletscherfloh",
+            "Code": "ESG G1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493745840",
+            "Class": "Car",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "12.05.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
             "Name": "Gnu",
             "Code": "ESG G4",
             "Workshop Link": "",
@@ -3360,6 +1545,34 @@
             "Base Support": "false",
             "Comment": "Can submerge for a limited amount of time",
             "Last Updated": "15.03.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Grauwal",
+            "Code": "ESG G2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597438600",
+            "Class": "Submarine",
+            "Usage": [
+                "Heavy Attack",
+                "Medium Attack",
+                "Light Attack"
+            ],
+            "Location": [
+                "Underwater",
+                "Sea"
+            ],
+            "Status": "Development",
+            "Current Version": "V12",
+            "Weight": "35305",
+            "Cost": "485314",
+            "Crew Capacity": "5-9",
+            "Passenger Capacity": "10",
+            "Old Names": "Torpedo Uboat",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "20.07.2026"
         },
         {
             "Manufacturer": "Up-Tec",
@@ -3412,6 +1625,84 @@
             "Last Updated": "10.02.2026"
         },
         {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Hermelin Aerosledge",
+            "Code": "ESG H3-A",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3704631132",
+            "Class": "Car",
+            "Usage": [
+                "Exploration",
+                "Personal Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1",
+            "Old Names": "Hermelin Snow Speeder",
+            "Video": null,
+            "Trailer Support": "Just connector",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "18.04.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Hermelin Snowmobile",
+            "Code": "ESG H3-S",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3782248319",
+            "Class": "Car",
+            "Usage": [
+                "Personal Transport",
+                "Exploration"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1",
+            "Old Names": "Small Snowmobil, Too Long Snowmobil, Hermelin",
+            "Video": null,
+            "Trailer Support": "Just connector",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "12.08.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Hermelin Survival Trailer",
+            "Code": "ESG H3-T-S1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3782264938",
+            "Class": "Trailer",
+            "Usage": [
+                "Exploration",
+                "Survival"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "-",
+            "Passenger Capacity": "1",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "12.08.2026"
+        },
+        {
             "Manufacturer": "Homebrew",
             "Name": "Hopper",
             "Code": "HB H1",
@@ -3442,6 +1733,291 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
+            "Name": "Hornisse",
+            "Code": "ESG H1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384224437",
+            "Class": "Helicopter",
+            "Usage": [
+                "Light Attack"
+            ],
+            "Location": [
+                "Air",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V11",
+            "Weight": "1294",
+            "Cost": "24154",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2",
+            "Old Names": "Bussard",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "10.03.2025"
+        },
+        {
+            "Manufacturer": "Up-Tec",
+            "Name": "Hoverbarge",
+            "Code": "UT H1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3765224106",
+            "Class": "Hovercraft",
+            "Usage": [
+                "Container Transport",
+                "SAR",
+                "Long Range Transport"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V3",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1-6",
+            "Passenger Capacity": "11 + 6",
+            "Old Names": "Hovercraft",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": "ESG Remora included",
+            "Last Updated": "16.08.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Hub Container",
+            "Code": "ESG C-B1-H1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493612961",
+            "Class": "Container",
+            "Usage": [
+                "Base Building"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "0",
+            "Passenger Capacity": "5",
+            "Old Names": "Corridor Container",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "12.05.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Hummel",
+            "Code": "ESG H2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3494237519",
+            "Class": "VTOL",
+            "Usage": [
+                "Container Transport"
+            ],
+            "Location": [
+                "Air",
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V8",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1-2",
+            "Passenger Capacity": "0",
+            "Old Names": "Cargo VTOL",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "01.09.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Hyäne",
+            "Code": "ESG H4",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3767216173",
+            "Class": "Motorcycle",
+            "Usage": [
+                "Personal Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2",
+            "Old Names": "Hyaene",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "18.07.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Igel Runner",
+            "Code": "ESG I1-R",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3397131712",
+            "Class": "Car",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "486",
+            "Cost": "13226",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "5",
+            "Old Names": "Cart, Adventure Cart, Igel PT",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "31.12.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Igel Scout",
+            "Code": "ESG I1-S",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3397132125",
+            "Class": "Car",
+            "Usage": [
+                "Short Range Transport",
+                "Medium Range Transport",
+                "Light Attack"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": "618",
+            "Cost": "18347",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1",
+            "Old Names": "Igel A",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "13.01.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Igel Scout MG",
+            "Code": "ESG I1-SMG",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3397821089",
+            "Class": "Car",
+            "Usage": [
+                "Short Range Transport",
+                "Medium Range Transport",
+                "Light Attack"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V3",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "2",
+            "Passenger Capacity": "1",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "13.01.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Impala",
+            "Code": "ESG I2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597566374",
+            "Class": "Car",
+            "Usage": [
+                "Personal Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "3",
+            "Old Names": "Muscle Car",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "01.11.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Impala Cruiser",
+            "Code": "ESG I2-C",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597567540",
+            "Class": "Car",
+            "Usage": [
+                "Personal Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "3",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "01.11.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Impala Ranger",
+            "Code": "ESG I2-R",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597567008",
+            "Class": "Car",
+            "Usage": [
+                "Personal Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "3",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "18.04.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
             "Name": "Iris",
             "Code": "ESG MSL-I1",
             "Workshop Link": "",
@@ -3468,6 +2044,137 @@
             "Base Support": null,
             "Comment": null,
             "Last Updated": "27.02.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Jaguar",
+            "Code": "ESG J1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3570858915",
+            "Class": "Car",
+            "Usage": [
+                "Medium Range Transport",
+                "Base"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "19.09.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Kitchen Container",
+            "Code": "ESG C-B1-K1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493593170",
+            "Class": "Container",
+            "Usage": [
+                "Catering",
+                "Base Building"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V7",
+            "Weight": "2251",
+            "Cost": "34735",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "12.05.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Kolibri",
+            "Code": "ESG K2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3714686768",
+            "Class": "Helicopter",
+            "Usage": [
+                "Container Transport",
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Air",
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V7",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "0",
+            "Old Names": "Tandem Rotor Container Helicopter",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "08.05.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Kugelfisch",
+            "Code": "ESG K1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3471537972",
+            "Class": "Ship",
+            "Usage": [
+                "Lifeboat"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V3",
+            "Weight": "552",
+            "Cost": "12564",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "6",
+            "Old Names": "Lifeboat",
+            "Video": "\thttps://youtu.be/mi_dT1d-D88",
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "27.04.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Kugelfisch Launch System",
+            "Code": "ESG K1-LS",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3471539909",
+            "Class": "Subassembly",
+            "Usage": [
+                "Rescue",
+                "Subassembly"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "3231",
+            "Cost": "22331",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "6",
+            "Old Names": null,
+            "Video": "https://youtu.be/mi_dT1d-D88",
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "27.04.2025"
         },
         {
             "Manufacturer": "Homebrew",
@@ -3545,6 +2252,189 @@
             "Base Support": null,
             "Comment": null,
             "Last Updated": "16.07.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Lift Container",
+            "Code": "ESG C-B1-L1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493697493",
+            "Class": "Container",
+            "Usage": [
+                "Base Building"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "0",
+            "Passenger Capacity": "4",
+            "Old Names": "Container Lift",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "05.06.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Lotus",
+            "Code": "ESG TPD-L1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3597427765",
+            "Class": "Torpedo",
+            "Usage": [
+                "Heavy Attack"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": "222",
+            "Cost": "3770",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": "Medium Torpedo",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "01.11.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Mahi",
+            "Code": "ESG M2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3357793718",
+            "Class": "Ship",
+            "Usage": [
+                "Rescue",
+                "Medium Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V5",
+            "Weight": "778",
+            "Cost": "18236",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "6",
+            "Old Names": "Orbit (O1)",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "26.04.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Mahi Deployment System",
+            "Code": "ESG M2-DS",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3471688674",
+            "Class": "Subassembly",
+            "Usage": [
+                "Rescue",
+                "Medium Range Transport",
+                "Subassembly"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "25592",
+            "Cost": "200986",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "6",
+            "Old Names": null,
+            "Video": "https://youtu.be/yyQdn5r-14w",
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "27.04.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Manatee",
+            "Code": "ESG M5",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3575602703",
+            "Class": "Submarine",
+            "Usage": [
+                "Exploration",
+                "SAR"
+            ],
+            "Location": [
+                "Sea",
+                "Underwater"
+            ],
+            "Status": "Complete",
+            "Current Version": "V8",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1-3",
+            "Passenger Capacity": "3 + 2",
+            "Old Names": "Exploration Sub",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "15.03.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Maus",
+            "Code": "ESG M1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3470056009",
+            "Class": "Car",
+            "Usage": [
+                "Short Range Transport",
+                "Medium Range Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V3",
+            "Weight": "551",
+            "Cost": "13088",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "3",
+            "Old Names": "Small Car",
+            "Video": "https://youtu.be/_-heKmA8s68",
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "25.04.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Medical Container",
+            "Code": "ESG C-B1-M1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493619583",
+            "Class": "Container",
+            "Usage": [
+                "Base Building",
+                "Medical"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "4",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "12.05.2025"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -3726,6 +2616,33 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
+            "Name": "Mobula",
+            "Code": "ESG M3",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3456155883",
+            "Class": "Ship",
+            "Usage": [
+                "Exploration",
+                "Fishing",
+                "Long Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V16",
+            "Weight": "6747",
+            "Cost": "134399",
+            "Crew Capacity": "2-4",
+            "Passenger Capacity": "5-16",
+            "Old Names": "Catamaran",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "15.03.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
             "Name": "Monoplane Fighter",
             "Code": null,
             "Workshop Link": "",
@@ -3830,6 +2747,90 @@
             "Base Support": null,
             "Comment": null,
             "Last Updated": "15.03.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Möwe",
+            "Code": "ESG M4",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3456060299",
+            "Class": "Aircraft",
+            "Usage": [
+                "Passenger Transport",
+                "Exploration",
+                "Long Range Transport"
+            ],
+            "Location": [
+                "Air",
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V5",
+            "Weight": "5845",
+            "Cost": "78667",
+            "Crew Capacity": "2-3",
+            "Passenger Capacity": "20+2",
+            "Old Names": "Seaplane",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Narwal",
+            "Code": "ESG N1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3455720127",
+            "Class": "Ship",
+            "Usage": [
+                "Exploration",
+                "Fishing",
+                "Recreation",
+                "Long Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V3",
+            "Weight": "4054",
+            "Cost": "66241",
+            "Crew Capacity": "1-2",
+            "Passenger Capacity": "4-8",
+            "Old Names": "Sailing Boat",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "22.05.2025"
+        },
+        {
+            "Manufacturer": "Up-Tec",
+            "Name": "Nomad",
+            "Code": "UT N1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3737369905",
+            "Class": "Car",
+            "Usage": [
+                "SAR",
+                "Exploration"
+            ],
+            "Location": [
+                "Land",
+                "Air"
+            ],
+            "Status": "Complete",
+            "Current Version": "V3",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1-2",
+            "Passenger Capacity": "4+2",
+            "Old Names": "Land Train",
+            "Video": "https://www.youtube.com/playlist?list=PLZQozcqDf6odpPmdeLdeBq26U6p9ElZee",
+            "Trailer Support": "true",
+            "Base Support": "flase",
+            "Comment": "Has a nuclear reactor trailer; Carries an UT Pocket Comet",
+            "Last Updated": "02.06.2026"
         },
         {
             "Manufacturer": "Up-Tec",
@@ -3937,6 +2938,32 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
+            "Name": "Nutria",
+            "Code": "ESG N2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3509252795",
+            "Class": "Car",
+            "Usage": [
+                "Trailer Transport",
+                "Long Range Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2 + 1",
+            "Old Names": "Modular Truck",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "01.09.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
             "Name": "Nutria Attachment Base",
             "Code": "N2-AB",
             "Workshop Link": "",
@@ -4013,6 +3040,31 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
+            "Name": "Orbit",
+            "Code": "ESG ENG-O1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3357792909",
+            "Class": "Engine",
+            "Usage": [
+                "Outboard Motor"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": null,
+            "Old Names": "Kuda (K1)",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "31.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
             "Name": "Orka",
             "Code": "ESG O2",
             "Workshop Link": "",
@@ -4036,6 +3088,32 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "28.10.2024"
+        },
+        {
+            "Manufacturer": "Homebrew",
+            "Name": "Patron",
+            "Code": "HB P1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3607527814",
+            "Class": "Ship",
+            "Usage": [
+                "SAR",
+                "Starter"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "3354",
+            "Cost": "29249",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "10",
+            "Old Names": "Career Patrol Boat, Career Starter Boat",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "17.11.2025"
         },
         {
             "Manufacturer": "Up-Tec",
@@ -4063,6 +3141,58 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "12.08.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Pelikan",
+            "Code": "ESG P1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3341179796",
+            "Class": "Aircraft",
+            "Usage": [
+                "SAR"
+            ],
+            "Location": [
+                "Air",
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "A9",
+            "Weight": "11862",
+            "Cost": "124155",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "4+5",
+            "Old Names": "Saturn",
+            "Video": "Complete",
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Pelikan Cargo",
+            "Code": "ESG P1-C",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3383482001",
+            "Class": "Aircraft",
+            "Usage": [
+                "Cargo Transport"
+            ],
+            "Location": [
+                "Air"
+            ],
+            "Status": "Complete",
+            "Current Version": "V5",
+            "Weight": "16378",
+            "Cost": "151353",
+            "Crew Capacity": "1-2",
+            "Passenger Capacity": "12",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "12.12.2024"
         },
         {
             "Manufacturer": "Up-Tec",
@@ -4116,6 +3246,35 @@
         },
         {
             "Manufacturer": "Up-Tec",
+            "Name": "Pocket Comet",
+            "Code": "UT PC1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3737369173",
+            "Class": "Aircraft",
+            "Usage": [
+                "Exploration",
+                "Scouting",
+                "Recreation",
+                "Personal Transport"
+            ],
+            "Location": [
+                "Air",
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1",
+            "Old Names": "Hydrogen Jet",
+            "Video": "https://youtu.be/TP_26CfEpBg",
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": "Can be carried by the UT Nomad",
+            "Last Updated": "13.08.2026"
+        },
+        {
+            "Manufacturer": "Up-Tec",
             "Name": "Pointer",
             "Code": "UT BMB-P1",
             "Workshop Link": "",
@@ -4138,6 +3297,113 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "15.12.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Portable Radio",
+            "Code": "ESG EPT-P1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3367771384",
+            "Class": "Equipment",
+            "Usage": [
+                "Communication"
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Complete",
+            "Current Version": null,
+            "Weight": "27",
+            "Cost": "1340",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Qualle",
+            "Code": "ESG Q1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3349831574",
+            "Class": "Submarine",
+            "Usage": [
+                "Exploration",
+                "SAR",
+                "Medium Range Transport"
+            ],
+            "Location": [
+                "Sea",
+                "Land",
+                "Underwater"
+            ],
+            "Status": "Complete",
+            "Current Version": "V16",
+            "Weight": "5753",
+            "Cost": "141925",
+            "Crew Capacity": "2",
+            "Passenger Capacity": "6",
+            "Old Names": "Submarine",
+            "Video": "Complete",
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "01.12.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Quarters Container",
+            "Code": "ESG C-B1-Q1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493603176",
+            "Class": "Container",
+            "Usage": [
+                "Accommodation",
+                "Base Building"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V6",
+            "Weight": "1743",
+            "Cost": "31672",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "4",
+            "Old Names": "Container Quarters",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "12.05.2025"
+        },
+        {
+            "Manufacturer": "Homebrew",
+            "Name": "Raft",
+            "Code": "HB R1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3442605911",
+            "Class": "Ship",
+            "Usage": [
+                "Rescue",
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V14",
+            "Weight": "1040",
+            "Cost": "11111",
+            "Crew Capacity": "2",
+            "Passenger Capacity": "8",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "11.03.2025"
         },
         {
             "Manufacturer": "NONE",
@@ -4163,6 +3429,61 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "03.10.2025"
+        },
+        {
+            "Manufacturer": "Up-Tec",
+            "Name": "Redline",
+            "Code": "UT R1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3765845533",
+            "Class": "Spacecraft",
+            "Usage": [
+                "Personal Transport",
+                "Light Attack"
+            ],
+            "Location": [
+                "Space",
+                "Air",
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "4+2",
+            "Old Names": "Small Spaceship",
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": "Can be docked to the Spaceship",
+            "Last Updated": "16.07.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Remora",
+            "Code": "ESG R3",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?edit=true&id=3456156169",
+            "Class": "Diving Bell",
+            "Usage": [
+                "Exploration",
+                "Diving"
+            ],
+            "Location": [
+                "Sea",
+                "Underwater"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": "1515",
+            "Cost": "28852",
+            "Crew Capacity": "2",
+            "Passenger Capacity": "2",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": "Diving Bell Adapter for Mobula Catamaran",
+            "Last Updated": "01.04.2025"
         },
         {
             "Manufacturer": "Homebrew",
@@ -4323,6 +3644,109 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
+            "Name": "Robbe",
+            "Code": "ESG R1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3342896669&result=1",
+            "Class": "Ship",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": "104",
+            "Cost": "2439",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2",
+            "Old Names": "Otter",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Rose",
+            "Code": "ESG MSL-R1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3645080171",
+            "Class": "Missile",
+            "Usage": [
+                "Medium Range Attack",
+                "Short Range Attack",
+                "Heavy Attack"
+            ],
+            "Location": [
+                "Land",
+                "Air"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "17.08.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Rowboat",
+            "Code": "ESG R4",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3598219923",
+            "Class": "Ship",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Polishing",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": "Ruderboot",
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "02.11.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Saturn",
+            "Code": "ESG ENG-S1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384231822",
+            "Class": "Engine",
+            "Usage": [
+                "Plane Engine"
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "9742",
+            "Cost": "57975",
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "25.03.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
             "Name": "Sauerklee",
             "Code": "ESG MSL-S1",
             "Workshop Link": "",
@@ -4345,6 +3769,269 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "14.12.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Schildkröte",
+            "Code": "ESG S4",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3569867769",
+            "Class": "Container",
+            "Usage": [
+                "Short Range Transport",
+                "Container Transport",
+                "Generator",
+                "Base Building"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "1896",
+            "Cost": "31376",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1",
+            "Old Names": "Container Companion,Container Companion 2",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "17.09.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Schnabeltier Base",
+            "Code": "ESG S1-B",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384205434",
+            "Class": "Car",
+            "Usage": [
+                "BASE"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": "1720",
+            "Cost": "24701",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "3",
+            "Old Names": "Esel",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Schnabeltier ET",
+            "Code": "ESG S1-ET",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384205839",
+            "Class": "Car",
+            "Usage": [
+                "Rescue",
+                "Defense"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": "2880",
+            "Cost": "44413",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "7+2",
+            "Old Names": "Schnabeltier Emergency Truck",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "16.04.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Schnabeltier ET Arctic",
+            "Code": "ESG S1-ET-A",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384204527",
+            "Class": "Car",
+            "Usage": [
+                "Rescue",
+                "Defense"
+            ],
+            "Location": [
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V12",
+            "Weight": "3325",
+            "Cost": "52374",
+            "Crew Capacity": "2",
+            "Passenger Capacity": "5+2",
+            "Old Names": "Schnabeltier Arctic Emergency Truck",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "16.04.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Schnabeltier Fire Truck",
+            "Code": "ESG S1-FT",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384206197",
+            "Class": "Car",
+            "Usage": [
+                "Firefighting"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": "2519",
+            "Cost": "35492",
+            "Crew Capacity": "2",
+            "Passenger Capacity": "2",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Schnabeltier Pickup Truck",
+            "Code": "ESG S1-PT",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384204990",
+            "Class": "Car",
+            "Usage": [
+                "Medium Range Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": "1846",
+            "Cost": "27825",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "3",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": "Can transport Biene Quad",
+            "Last Updated": "08.04.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Schnecke",
+            "Code": "ESG S3",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3692639867",
+            "Class": "Tank",
+            "Usage": [
+                "Light Attack",
+                "Medium Attack"
+            ],
+            "Location": [
+                "Land",
+                "Underwater"
+            ],
+            "Status": "Complete",
+            "Current Version": "V5",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "2",
+            "Old Names": "Small Tank",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": "Can submerge for a limited amount of time",
+            "Last Updated": "26.03.2026"
+        },
+        {
+            "Manufacturer": "NONE",
+            "Name": "Schnelle Kartoffel",
+            "Code": null,
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3738654192",
+            "Class": "Car",
+            "Usage": [
+                "Personal Transport",
+                "Recreation"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "3",
+            "Old Names": "Stream No MC Car",
+            "Video": "https://youtube.com/live/CFk4uusGS6Y",
+            "Trailer Support": "Just connector",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "04.06.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Schwalbe",
+            "Code": "ESG S2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3356199518",
+            "Class": "Helicopter",
+            "Usage": [
+                "Rescue"
+            ],
+            "Location": [
+                "Air",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": "1794",
+            "Cost": "29044",
+            "Crew Capacity": "1",
+            "Passenger Capacity": "10+2",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "06.01.2025"
+        },
+        {
+            "Manufacturer": "NONE",
+            "Name": "Skipper",
+            "Code": null,
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3562518601",
+            "Class": "Aircraft",
+            "Usage": [
+                "Racing",
+                "Long Range Transport"
+            ],
+            "Location": [
+                "Air",
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": "Fast Seaplane",
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "05.09.2025"
         },
         {
             "Manufacturer": "NONE",
@@ -4370,6 +4057,32 @@
             "Base Support": null,
             "Comment": null,
             "Last Updated": "04.12.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Small Tank Trailer ",
+            "Code": null,
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3367764975",
+            "Class": "Trailer",
+            "Usage": [
+                "Liquid Transport",
+                "Gas Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "85",
+            "Cost": "1758",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -4449,6 +4162,59 @@
             "Last Updated": "01.09.2025"
         },
         {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Stevia",
+            "Code": "V1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3492190453",
+            "Class": "Ship",
+            "Usage": [
+                "Recreation",
+                "Medium Range Transport",
+                "Long Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1-4",
+            "Passenger Capacity": "0-6",
+            "Old Names": "Small Sail Boat",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "02.06.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Survival Dinghy",
+            "Code": "ESG SD1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3598220528",
+            "Class": "Ship",
+            "Usage": [
+                "Survival",
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": null,
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "2",
+            "Passenger Capacity": "4",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": null,
+            "Last Updated": "02.11.2025"
+        },
+        {
             "Manufacturer": "Homebrew",
             "Name": "Tank",
             "Code": "HB T1-X",
@@ -4472,6 +4238,32 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Tank Container",
+            "Code": "ESG C-B1-T1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493638698",
+            "Class": "Container",
+            "Usage": [
+                "Base Building",
+                "Tank"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "06.05.2026"
         },
         {
             "Manufacturer": "Homebrew",
@@ -4526,6 +4318,113 @@
         },
         {
             "Manufacturer": "EINSCHLAG",
+            "Name": "Travel Trailer",
+            "Code": "ESG T1-T",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3421511270",
+            "Class": "Trailer",
+            "Usage": [
+                "Accomodation",
+                "Recreation"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": "735",
+            "Cost": "22219",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "1",
+            "Old Names": "Camper Trailer",
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "02.11.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Tulpe",
+            "Code": "ESG MSL-T1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384224854",
+            "Class": "Missile",
+            "Usage": [
+                "Medium Range Attack"
+            ],
+            "Location": [
+                "Air"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": "37",
+            "Cost": "1345",
+            "Crew Capacity": "0",
+            "Passenger Capacity": "0",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "30.10.2024"
+        },
+        {
+            "Manufacturer": "Homebrew",
+            "Name": "Tumble",
+            "Code": "HB T2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3723003057",
+            "Class": "Helicopter",
+            "Usage": [
+                "SAR",
+                "Personal Transport",
+                "Exploration",
+                "Recreation"
+            ],
+            "Location": [
+                "Air",
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "8",
+            "Old Names": "Scout Helicopter",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "09.05.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Tümmler",
+            "Code": "ESG T2",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3733475032",
+            "Class": "Ship",
+            "Usage": [
+                "Personal Transport",
+                "Recreation"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "8 + 2",
+            "Old Names": "Hb Sailing Catamaran",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "26.05.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
             "Name": "UH1",
             "Code": null,
             "Workshop Link": "",
@@ -4549,6 +4448,85 @@
             "Base Support": null,
             "Comment": null,
             "Last Updated": "15.03.2026"
+        },
+        {
+            "Manufacturer": "NONE",
+            "Name": "V12 Modular Engine",
+            "Code": "V12-1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3709331068",
+            "Class": "Subassembly",
+            "Usage": [
+                ""
+            ],
+            "Location": [
+                ""
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "-",
+            "Passenger Capacity": "-",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "18.04.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Vallis",
+            "Code": "ESG TPD-V1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3674769314",
+            "Class": "Torpedo",
+            "Usage": [
+                "Heavy Attack"
+            ],
+            "Location": [
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "-",
+            "Passenger Capacity": "-",
+            "Old Names": "Anti Submarine Torpedo",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": "Also engages submerged targets",
+            "Last Updated": "27.02.2026"
+        },
+        {
+            "Manufacturer": "Up-Tec",
+            "Name": "Venture",
+            "Code": "UT V1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3782775905",
+            "Class": "Aircraft",
+            "Usage": [
+                "Medium Attack",
+                "Heavy Attack",
+                "Dropship"
+            ],
+            "Location": [
+                "Air",
+                "Land",
+                "Sea"
+            ],
+            "Status": "Complete",
+            "Current Version": "V4",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1-3",
+            "Passenger Capacity": "8 + 1",
+            "Old Names": "HB Diesel Steam Plane",
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": "Workshop Loadout: Radar Missiles",
+            "Last Updated": "13.08.2026"
         },
         {
             "Manufacturer": "Up-Tec",
@@ -4651,6 +4629,56 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "26.10.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Winterhaft",
+            "Code": "ESG W1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493719925",
+            "Class": "Car",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V2",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "true",
+            "Comment": null,
+            "Last Updated": "12.05.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Winterhaft Tractor",
+            "Code": "ESG W1-T",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3493726331",
+            "Class": "Car",
+            "Usage": [
+                "Short Range Transport"
+            ],
+            "Location": [
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "1",
+            "Passenger Capacity": "1",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "true",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "12.05.2025"
         }
     ]
 }
