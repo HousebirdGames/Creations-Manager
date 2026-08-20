@@ -1002,7 +1002,7 @@
                 "Air",
                 "Land"
             ],
-            "Status": null,
+            "Status": "Complete",
             "Current Version": "V2",
             "Weight": null,
             "Cost": null,
