@@ -1403,7 +1403,7 @@
                 "Land"
             ],
             "Status": "Complete",
-            "Current Version": "V2",
+            "Current Version": "V3",
             "Weight": null,
             "Cost": null,
             "Crew Capacity": "2",
@@ -1413,7 +1413,36 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "12.01.2026"
+            "Last Updated": "22.08.2026"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Gans Jet",
+            "Code": "ESG G3-J",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3788182103",
+            "Class": "Aircraft",
+            "Usage": [
+                "Passenger Transport",
+                "Exploration",
+                "Light Freight Transport",
+                "Long Range Transport"
+            ],
+            "Location": [
+                "Air",
+                "Land"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": "2",
+            "Passenger Capacity": "4 + 1",
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": "false",
+            "Base Support": "false",
+            "Comment": null,
+            "Last Updated": "21.08.2026"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -3524,7 +3553,7 @@
                 ""
             ],
             "Status": "Development",
-            "Current Version": null,
+            "Current Version": "D1",
             "Weight": null,
             "Cost": null,
             "Crew Capacity": null,
@@ -3534,7 +3563,7 @@
             "Trailer Support": null,
             "Base Support": null,
             "Comment": "Built for ESG G3 Gans",
-            "Last Updated": "15.03.2026"
+            "Last Updated": "22.08.2026"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -4115,12 +4144,13 @@
             "Name": "Sport Sail Boat",
             "Code": null,
             "Workshop Link": "",
-            "Class": null,
+            "Class": "Boat",
             "Usage": [
-                ""
+                "Recreation",
+                "Medium Range Transport"
             ],
             "Location": [
-                ""
+                "Sea"
             ],
             "Status": "Development",
             "Current Version": "D5",
@@ -4133,33 +4163,7 @@
             "Trailer Support": "false",
             "Base Support": "false",
             "Comment": null,
-            "Last Updated": "04.06.2025"
-        },
-        {
-            "Manufacturer": "NONE",
-            "Name": "Sport Sail Boat",
-            "Code": null,
-            "Workshop Link": "",
-            "Class": "Boat",
-            "Usage": [
-                "Recreation",
-                "Medium Range Transport"
-            ],
-            "Location": [
-                "Sea"
-            ],
-            "Status": null,
-            "Current Version": "D4",
-            "Weight": null,
-            "Cost": null,
-            "Crew Capacity": null,
-            "Passenger Capacity": null,
-            "Old Names": null,
-            "Video": null,
-            "Trailer Support": null,
-            "Base Support": null,
-            "Comment": null,
-            "Last Updated": "01.09.2025"
+            "Last Updated": "22.08.2026"
         },
         {
             "Manufacturer": "EINSCHLAG",
@@ -4679,6 +4683,31 @@
             "Base Support": "false",
             "Comment": null,
             "Last Updated": "12.05.2025"
+        },
+        {
+            "Manufacturer": "EINSCHLAG",
+            "Name": "Apoapsis",
+            "Code": "ESG ENG-A1",
+            "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3788174065",
+            "Class": "Engine",
+            "Usage": [
+                "Plane Engine"
+            ],
+            "Location": [
+                "Air"
+            ],
+            "Status": "Complete",
+            "Current Version": "V1",
+            "Weight": null,
+            "Cost": null,
+            "Crew Capacity": null,
+            "Passenger Capacity": null,
+            "Old Names": null,
+            "Video": null,
+            "Trailer Support": null,
+            "Base Support": null,
+            "Comment": "Jet Engine",
+            "Last Updated": "22.08.2026"
         }
     ]
 }
