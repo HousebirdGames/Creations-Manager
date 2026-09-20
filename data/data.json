@@ -1086,11 +1086,11 @@
       "Crew Capacity": "1",
       "Passenger Capacity": "0",
       "Old Names": "Figther Jet,Small Fighter Jet",
-      "Video": null,
+      "Video": "https://youtu.be/cEhnnf3yO5w",
       "Trailer Support": "false",
       "Base Support": "false",
       "Comment": "Can be used as an UAV",
-      "Last Updated": "07.09.2026"
+      "Last Updated": "08.09.2026"
     },
     {
       "Manufacturer": "EINSCHLAG",
@@ -1195,6 +1195,32 @@
       "Base Support": "false",
       "Comment": "Comes without equipment and is easily modifiable",
       "Last Updated": "03.06.2025"
+    },
+    {
+      "Manufacturer": "EINSCHLAG",
+      "Name": "Ei",
+      "Code": "ESG E2",
+      "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3799668054",
+      "Class": "Helicopter",
+      "Usage": [
+        "Personal Transport"
+      ],
+      "Location": [
+        "Air",
+        "Land"
+      ],
+      "Status": "Complete",
+      "Current Version": "V1",
+      "Weight": null,
+      "Cost": null,
+      "Crew Capacity": "1",
+      "Passenger Capacity": "0",
+      "Old Names": "Crank Helicopter",
+      "Video": null,
+      "Trailer Support": "false",
+      "Base Support": "false",
+      "Comment": null,
+      "Last Updated": "11.09.2026"
     },
     {
       "Manufacturer": "EINSCHLAG",
@@ -1861,6 +1887,34 @@
       "Base Support": "false",
       "Comment": null,
       "Last Updated": "12.01.2026"
+    },
+    {
+      "Manufacturer": "Homebrew",
+      "Name": "Hopper Explorer",
+      "Code": "HB H1-E",
+      "Workshop Link": "",
+      "Class": "Helicopter",
+      "Usage": [
+        "Exploration",
+        "Personal Transport"
+      ],
+      "Location": [
+        "Air",
+        "Sea",
+        "Land"
+      ],
+      "Status": "Development",
+      "Current Version": "D1",
+      "Weight": null,
+      "Cost": null,
+      "Crew Capacity": null,
+      "Passenger Capacity": null,
+      "Old Names": null,
+      "Video": null,
+      "Trailer Support": "false",
+      "Base Support": "false",
+      "Comment": null,
+      "Last Updated": "12.09.2026"
     },
     {
       "Manufacturer": "EINSCHLAG",
@@ -3173,7 +3227,7 @@
       "Manufacturer": "Up-Tec",
       "Name": "Omniwing",
       "Code": "UT O1",
-      "Workshop Link": "",
+      "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3798552780",
       "Class": "VTOL",
       "Usage": [
         "Base",
@@ -3186,7 +3240,7 @@
         "Sea"
       ],
       "Status": null,
-      "Current Version": "P1",
+      "Current Version": "V1",
       "Weight": null,
       "Cost": null,
       "Crew Capacity": "1-3",
@@ -3196,7 +3250,7 @@
       "Trailer Support": null,
       "Base Support": null,
       "Comment": null,
-      "Last Updated": "07.09.2026"
+      "Last Updated": "09.09.2026"
     },
     {
       "Manufacturer": "EINSCHLAG",
@@ -3637,7 +3691,7 @@
       "Crew Capacity": "1",
       "Passenger Capacity": "4+2",
       "Old Names": "Small Spaceship",
-      "Video": null,
+      "Video": "https://youtu.be/xzcFql8tUSc",
       "Trailer Support": null,
       "Base Support": null,
       "Comment": "Can be docked to the Spaceship",
@@ -4941,11 +4995,11 @@
       "Crew Capacity": "1-3",
       "Passenger Capacity": "8 + 1",
       "Old Names": "HB Diesel Steam Plane",
-      "Video": null,
+      "Video": "https://youtube.com/live/rlT9Pk6seX4",
       "Trailer Support": "false",
       "Base Support": "false",
       "Comment": "Workshop Loadout: Radar Missiles",
-      "Last Updated": "13.08.2026"
+      "Last Updated": "08.09.2026"
     },
     {
       "Manufacturer": "Up-Tec",
@@ -4968,7 +5022,7 @@
       "Crew Capacity": "1-2",
       "Passenger Capacity": "2 + 2",
       "Old Names": "Verti Copter",
-      "Video": null,
+      "Video": "https://youtube.com/live/2ITcryJ2jE0",
       "Trailer Support": "false",
       "Base Support": "false",
       "Comment": "Semi-Submersible",
@@ -5100,6 +5154,37 @@
       "Base Support": "false",
       "Comment": null,
       "Last Updated": "12.05.2025"
+    },
+    {
+      "Manufacturer": "Up-Tec",
+      "Name": "Space Master",
+      "Code": "UT SM1",
+      "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3805188029",
+      "Class": "Spacecraft",
+      "Usage": [
+        "Exploration",
+        "Cargo Transport",
+        "Long Range Transport",
+        "Heavy Attack",
+        "SAR"
+      ],
+      "Location": [
+        "Space",
+        "Air",
+        "Land"
+      ],
+      "Status": "Complete",
+      "Current Version": "V1",
+      "Weight": null,
+      "Cost": null,
+      "Crew Capacity": "4",
+      "Passenger Capacity": "6+",
+      "Old Names": "Spaceship",
+      "Video": "https://www.youtube.com/playlist?list=PLSa1bGnhOz8I",
+      "Trailer Support": "false",
+      "Base Support": "false",
+      "Comment": "Game update v1.15.23 significantly broke flight",
+      "Last Updated": "20.09.2026"
     }
   ]
 }
