@@ -4376,6 +4376,37 @@
     },
     {
       "Manufacturer": "Up-Tec",
+      "Name": "Space Master",
+      "Code": "UT SM1",
+      "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3805188029",
+      "Class": "Spacecraft",
+      "Usage": [
+        "Exploration",
+        "Cargo Transport",
+        "Long Range Transport",
+        "Heavy Attack",
+        "SAR"
+      ],
+      "Location": [
+        "Space",
+        "Air",
+        "Land"
+      ],
+      "Status": "Complete",
+      "Current Version": "V2",
+      "Weight": null,
+      "Cost": null,
+      "Crew Capacity": "4",
+      "Passenger Capacity": "6+",
+      "Old Names": "Spaceship",
+      "Video": "https://www.youtube.com/playlist?list=PLSa1bGnhOz8I",
+      "Trailer Support": "false",
+      "Base Support": "false",
+      "Comment": "Game update v1.15.23 significantly broke flight (therefore used some XML-editing for weight reduction)",
+      "Last Updated": "20.09.2026"
+    },
+    {
+      "Manufacturer": "Up-Tec",
       "Name": "Spark",
       "Code": "UT S1",
       "Workshop Link": "",
@@ -5154,37 +5185,6 @@
       "Base Support": "false",
       "Comment": null,
       "Last Updated": "12.05.2025"
-    },
-    {
-      "Manufacturer": "Up-Tec",
-      "Name": "Space Master",
-      "Code": "UT SM1",
-      "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3805188029",
-      "Class": "Spacecraft",
-      "Usage": [
-        "Exploration",
-        "Cargo Transport",
-        "Long Range Transport",
-        "Heavy Attack",
-        "SAR"
-      ],
-      "Location": [
-        "Space",
-        "Air",
-        "Land"
-      ],
-      "Status": "Complete",
-      "Current Version": "V1",
-      "Weight": null,
-      "Cost": null,
-      "Crew Capacity": "4",
-      "Passenger Capacity": "6+",
-      "Old Names": "Spaceship",
-      "Video": "https://www.youtube.com/playlist?list=PLSa1bGnhOz8I",
-      "Trailer Support": "false",
-      "Base Support": "false",
-      "Comment": "Game update v1.15.23 significantly broke flight",
-      "Last Updated": "20.09.2026"
     }
   ]
 }
