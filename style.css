@@ -843,20 +843,26 @@ button.closePopupIcon {
     max-width: 100%;
 }
 
+.search-container {
+    flex-wrap: nowrap;
+}
+
 #searchInput,
 #clearSearchBtn {
     padding: 0.4rem 1rem;
     font-size: 1.2rem;
     border-radius: 1rem;
     border: none;
-    max-width: 70%;
 }
 
 #clearSearchBtn {
     padding: 0.4rem 0.4rem;
+    flex-shrink: 0;
 }
 
 #searchInput {
+    flex: 1;
+    min-width: 0;
     background-color: var(--text-color);
     color: var(--background-color);
 }
