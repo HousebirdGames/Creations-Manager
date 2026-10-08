@@ -34,7 +34,6 @@ export default async function Example(exampleData) {
         loadDataFromLocalStorage();
         applyDarkModeFromLocalStorage();
         applyExpandRowsFromLocalStorage();
-        sortTable('Name', 'asc');
     })
 
     const actions = [
@@ -114,20 +113,15 @@ export default async function Example(exampleData) {
         },
         {
             selector: '.manufacturer',
-            handler: (event) => {
-                const manufacturer = event.target.dataset.manufacturer;
-                document.getElementById('searchInput').value = `${manufacturer}`;
-                filterTable();
-            }
-
+            handler: (event) => addSearchFilter('manufacturer', event.target.dataset.manufacturer)
         },
         {
-            selector: '.tag, .class',
-            handler: (event) => {
-                const searchTerm = event.target.textContent.toLowerCase();
-                document.getElementById('searchInput').value = searchTerm;
-                filterTable();
-            }
+            selector: '.class',
+            handler: (event) => addSearchFilter('class', event.target.textContent)
+        },
+        {
+            selector: '.tag',
+            handler: (event) => addSearchFilter('tag', event.target.textContent)
         }
     ];
 
@@ -209,11 +203,9 @@ export default async function Example(exampleData) {
                            class="expanded">
                         <thead>
                             <tr role="row">
-                                <!-- Headers will be dynamically added by JavaScript -->
                             </tr>
                         </thead>
                         <tbody>
-                            <!-- Vehicle data will be dynamically added here -->
                         </tbody>
                     </table>
                 </div>
@@ -410,7 +402,8 @@ function renderTable() {
     thead.innerHTML = '';
     tbody.innerHTML = '';
 
-    // Use vehicleTemplate to control the order of the columns
+    applySort();
+
     Object.keys(vehicleTemplate).forEach(key => {
         const th = document.createElement('th');
         if (key === 'Workshop Link') {
@@ -418,12 +411,18 @@ function renderTable() {
         } else {
             th.textContent = key;
         }
+        if (key === sortState.key) {
+            const ascending = sortState.direction === 'asc';
+            th.textContent += ascending ? ' ▲' : ' ▼';
+            th.setAttribute('aria-sort', ascending ? 'ascending' : 'descending');
+        }
         th.addEventListener('click', () => sortTable(key));
         thead.appendChild(th);
     });
 
     data.Vehicles.forEach((vehicle, index) => {
         const row = document.createElement('tr');
+        row.dataset.index = index;
 
         Object.keys(vehicleTemplate).forEach(key => {
             const value = vehicle[key];
@@ -432,7 +431,11 @@ function renderTable() {
             switch (key) {
                 case 'Manufacturer':
                     const manufacturerValue = (value || '').toString();
-                    td.innerHTML = `<p class="manufacturer manufacturer-${sanitizeClassName(manufacturerValue)}" data-manufacturer="${sanitizeClassName(manufacturerValue)}">` + manufacturerValue + '</p>' || '-';
+                    const manufacturerElement = document.createElement('p');
+                    manufacturerElement.classList.add('manufacturer', `manufacturer-${sanitizeClassName(manufacturerValue)}`);
+                    manufacturerElement.dataset.manufacturer = manufacturerValue;
+                    manufacturerElement.textContent = manufacturerValue;
+                    td.appendChild(manufacturerElement);
                     break;
 
                 case 'Status':
@@ -479,7 +482,6 @@ function renderTable() {
 
                 case 'Trailer Support':
                 case 'Base Support':
-                    // Normalize the value to handle boolean values represented as strings
                     const normalizedValue = (value === 'true' || value === true) ? true : (value === 'false' || value === false) ? false : value;
 
                     if (normalizedValue === true) {
@@ -507,33 +509,53 @@ function renderTable() {
 
         tbody.appendChild(row);
     });
+
+    filterTable();
 }
 
 function sortTable(key, direction = null) {
-    if (direction === null) {
-        if (!sortDirections[key]) {
-            sortDirections[key] = 'asc';
-        } else {
-            sortDirections[key] = sortDirections[key] === 'asc' ? 'desc' : 'asc';
-        }
+    if (direction !== null) {
+        sortState = { key, direction };
+    } else if (sortState.key === key) {
+        sortState.direction = sortState.direction === 'asc' ? 'desc' : 'asc';
     } else {
-        sortDirections[key] = direction;
+        sortState = { key, direction: 'asc' };
     }
 
-    const currentDirection = sortDirections[key];
+    renderTable();
+}
+
+function applySort() {
+    const { key, direction } = sortState;
+    const factor = direction === 'asc' ? 1 : -1;
 
     data.Vehicles.sort((a, b) => {
-        const valueA = a[key] === null ? '' : a[key].toString().toLowerCase();
-        const valueB = b[key] === null ? '' : b[key].toString().toLowerCase();
+        const valueA = getSortValue(a, key);
+        const valueB = getSortValue(b, key);
 
-        if (currentDirection === 'asc') {
-            return valueA.localeCompare(valueB);
-        } else {
-            return valueB.localeCompare(valueA);
+        if (valueA === '' || valueB === '') {
+            return (valueA === '') - (valueB === '');
         }
-    });
 
-    renderTable();
+        return factor * valueA.localeCompare(valueB, undefined, { numeric: true, sensitivity: 'base' });
+    });
+}
+
+function getSortValue(vehicle, key) {
+    const value = vehicle[key];
+    if (value === null || value === undefined) return '';
+
+    const text = Array.isArray(value) ? value.filter(Boolean).join(', ') : value.toString().trim();
+    if (text === '-') return '';
+
+    if (key === 'Last Updated') {
+        const match = text.match(/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/);
+        if (match) {
+            return `${match[3]}-${match[2].padStart(2, '0')}-${match[1].padStart(2, '0')}`;
+        }
+    }
+
+    return text;
 }
 
 function renderManufacturers() {
@@ -559,16 +581,75 @@ function renderManufacturers() {
     container.appendChild(list);
 }
 
-let sortDirections = {};
+let sortState = { key: 'Name', direction: 'asc' };
+
+const filterFields = {
+    manufacturer: ['Manufacturer'],
+    class: ['Class'],
+    tag: ['Usage', 'Location']
+};
+
+const searchTokenPattern = /(\w+):(?:"([^"]*)"?|(\S*))|"([^"]*)"?|(\S+)/g;
+
+function parseSearch(query) {
+    const filters = [];
+    const terms = [];
+
+    for (const [token, field, quotedValue, value, phrase, word] of query.matchAll(searchTokenPattern)) {
+        const keys = field ? filterFields[field.toLowerCase()] : null;
+
+        if (keys) {
+            const fieldValue = (quotedValue ?? value).trim().toLowerCase();
+            if (fieldValue) {
+                filters.push({ keys, value: fieldValue });
+            }
+        } else {
+            const term = (phrase ?? word ?? token).trim().toLowerCase();
+            if (term) {
+                terms.push(term);
+            }
+        }
+    }
+
+    return { filters, terms };
+}
 
 function filterTable() {
-    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+    const { filters, terms } = parseSearch(document.getElementById('searchInput').value);
     const rows = document.querySelectorAll('#vehiclesTable tbody tr');
 
     rows.forEach(row => {
-        const text = row.textContent.toLowerCase();
-        row.style.display = text.includes(searchTerm) ? '' : 'none';
+        const vehicle = data.Vehicles[row.dataset.index];
+
+        const matchesFilters = filters.every(({ keys, value }) =>
+            keys.some(key => [].concat(vehicle[key] ?? []).some(v => v.toString().trim().toLowerCase() === value))
+        );
+
+        const text = Array.from(row.cells, cell => cell.textContent).join('\n').toLowerCase();
+        const matchesTerms = terms.every(term => text.includes(term));
+
+        row.style.display = matchesFilters && matchesTerms ? '' : 'none';
     });
+}
+
+function addSearchFilter(field, value) {
+    value = (value || '').trim();
+    if (!value || value === '-') return;
+
+    const searchInput = document.getElementById('searchInput');
+    const token = /[\s"]/.test(value) ? `${field}:"${value.replace(/"/g, '')}"` : `${field}:${value}`;
+    let query = searchInput.value.trim();
+
+    if (field === 'tag') {
+        const alreadyActive = parseSearch(query).filters.some(f => f.keys === filterFields.tag && f.value === value.toLowerCase());
+        if (alreadyActive) return;
+    } else {
+        const existingToken = new RegExp(`(^|\\s)${field}:("[^"]*"?|\\S+)`, 'gi');
+        query = query.replace(existingToken, ' ').replace(/\s+/g, ' ').trim();
+    }
+
+    searchInput.value = query ? `${query} ${token}` : token;
+    filterTable();
 }
 
 function showEditModal(index = null) {
@@ -713,7 +794,6 @@ function saveVehicle() {
     }
 
     renderTable();
-    filterTable();
     saveDataToLocalStorage();
     hideEditModal();
 }
@@ -749,7 +829,7 @@ function exportData() {
 }
 
 function validateFile(file) {
-    const maxSize = 5 * 1024 * 1024; // 5MB
+    const maxSize = 5 * 1024 * 1024;
     if (file.size > maxSize) {
         throw new Error('File too large');
     }

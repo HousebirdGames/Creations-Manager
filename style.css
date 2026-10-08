@@ -874,3 +874,13 @@ button.closePopupIcon {
 .show {
     display: flex;
 }
+
+#updateNotesButtonsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+}
+
+.popup-content.big h2 {
+    font-weight: bold;
+}

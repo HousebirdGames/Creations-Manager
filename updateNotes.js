@@ -9,6 +9,16 @@
 
 export const updateNotes = [
     {
+        "version": "1.0.1",
+        "title": "Better Sorting & Filtering",
+        "notes": [
+            "Sorting a column now keeps your current search and filters.",
+            "Numbers and dates (e.g. Weight, Cost, Last Updated) now sort correctly, and empty values always appear at the end.",
+            "Clicking a manufacturer, class or tag now filters by exactly that value (e.g. manufacturer:EINSCHLAG, class:Plane) and can be combined with other filters and search words.",
+            "The sorted column is now marked with ▲ or ▼.",
+        ]
+    },
+    {
         "version": "1.0.0",
         "title": "First Release",
         "notes": [

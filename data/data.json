@@ -423,7 +423,7 @@
         "Sea"
       ],
       "Status": "Complete",
-      "Current Version": "V3",
+      "Current Version": "V4",
       "Weight": "96463",
       "Cost": "663592",
       "Crew Capacity": "1-5",
@@ -433,7 +433,7 @@
       "Trailer Support": "false",
       "Base Support": "false",
       "Comment": "Includes ESG K2 Kolibri",
-      "Last Updated": "12.08.2026"
+      "Last Updated": "29.09.2026"
     },
     {
       "Manufacturer": "EINSCHLAG",
@@ -528,7 +528,7 @@
       "Weight": "3179",
       "Cost": "44548",
       "Crew Capacity": "1",
-      "Passenger Capacity": "1+1",
+      "Passenger Capacity": "1 + 1",
       "Old Names": "Biber Container Truck",
       "Video": null,
       "Trailer Support": "true",
@@ -848,7 +848,7 @@
       "Weight": null,
       "Cost": null,
       "Crew Capacity": "0",
-      "Passenger Capacity": "2+3",
+      "Passenger Capacity": "2 + 3",
       "Old Names": "Container Camper",
       "Video": null,
       "Trailer Support": "false",
@@ -1066,6 +1066,31 @@
     },
     {
       "Manufacturer": "Up-Tec",
+      "Name": "Container Submarine",
+      "Code": null,
+      "Workshop Link": "",
+      "Class": null,
+      "Usage": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Status": "Development",
+      "Current Version": "D3",
+      "Weight": null,
+      "Cost": null,
+      "Crew Capacity": null,
+      "Passenger Capacity": null,
+      "Old Names": null,
+      "Video": null,
+      "Trailer Support": null,
+      "Base Support": null,
+      "Comment": null,
+      "Last Updated": "30.09.2026"
+    },
+    {
+      "Manufacturer": "Up-Tec",
       "Name": "Courier",
       "Code": "UT C1",
       "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3786892518",
@@ -1224,6 +1249,35 @@
     },
     {
       "Manufacturer": "EINSCHLAG",
+      "Name": "Einhorn",
+      "Code": "ESG E3",
+      "Workshop Link": "",
+      "Class": "Tank",
+      "Usage": [
+        "Medium Attack",
+        "Heavy Attack",
+        "SAR",
+        "Scouting",
+        "Personal Transport"
+      ],
+      "Location": [
+        "Land"
+      ],
+      "Status": null,
+      "Current Version": "P2",
+      "Weight": null,
+      "Cost": null,
+      "Crew Capacity": "1-4",
+      "Passenger Capacity": "8 + 1",
+      "Old Names": "Starter Tank",
+      "Video": null,
+      "Trailer Support": "false",
+      "Base Support": "false",
+      "Comment": null,
+      "Last Updated": "05.10.2026"
+    },
+    {
+      "Manufacturer": "EINSCHLAG",
       "Name": "Eisvogel",
       "Code": "ESG E1",
       "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3413583231",
@@ -1350,7 +1404,7 @@
       "Weight": "11337",
       "Cost": "154715",
       "Crew Capacity": "2",
-      "Passenger Capacity": "0+1",
+      "Passenger Capacity": "0 + 1",
       "Old Names": null,
       "Video": null,
       "Trailer Support": "false",
@@ -2010,7 +2064,7 @@
         "Land"
       ],
       "Status": "Complete",
-      "Current Version": "V8",
+      "Current Version": "V10",
       "Weight": null,
       "Cost": null,
       "Crew Capacity": "1-2",
@@ -2020,7 +2074,7 @@
       "Trailer Support": "false",
       "Base Support": "false",
       "Comment": null,
-      "Last Updated": "01.09.2025"
+      "Last Updated": "02.10.2026"
     },
     {
       "Manufacturer": "EINSCHLAG",
@@ -2663,7 +2717,7 @@
       "Weight": "13706",
       "Cost": "148384",
       "Crew Capacity": "2",
-      "Passenger Capacity": "26+9",
+      "Passenger Capacity": "26 + 9",
       "Old Names": null,
       "Video": null,
       "Trailer Support": "false",
@@ -2954,7 +3008,7 @@
       "Weight": "5845",
       "Cost": "78667",
       "Crew Capacity": "2-3",
-      "Passenger Capacity": "20+2",
+      "Passenger Capacity": "20 + 2",
       "Old Names": "Seaplane",
       "Video": null,
       "Trailer Support": "false",
@@ -3009,7 +3063,7 @@
       "Weight": null,
       "Cost": null,
       "Crew Capacity": "1-2",
-      "Passenger Capacity": "4+2",
+      "Passenger Capacity": "4 + 2",
       "Old Names": "Land Train",
       "Video": "https://www.youtube.com/playlist?list=PLZQozcqDf6odpPmdeLdeBq26U6p9ElZee",
       "Trailer Support": "true",
@@ -3400,7 +3454,7 @@
       "Weight": "11862",
       "Cost": "124155",
       "Crew Capacity": "1",
-      "Passenger Capacity": "4+5",
+      "Passenger Capacity": "4 + 5",
       "Old Names": "Saturn",
       "Video": "Complete",
       "Trailer Support": "false",
@@ -3689,7 +3743,7 @@
       "Weight": null,
       "Cost": null,
       "Crew Capacity": "1",
-      "Passenger Capacity": "4+2",
+      "Passenger Capacity": "4 + 2",
       "Old Names": "Small Spaceship",
       "Video": "https://youtu.be/xzcFql8tUSc",
       "Trailer Support": null,
@@ -3828,6 +3882,31 @@
       "Base Support": "false",
       "Comment": null,
       "Last Updated": "17.04.2025"
+    },
+    {
+      "Manufacturer": "NONE",
+      "Name": "Retro Tank",
+      "Code": null,
+      "Workshop Link": "",
+      "Class": null,
+      "Usage": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Status": null,
+      "Current Version": "D1",
+      "Weight": null,
+      "Cost": null,
+      "Crew Capacity": null,
+      "Passenger Capacity": null,
+      "Old Names": null,
+      "Video": null,
+      "Trailer Support": null,
+      "Base Support": null,
+      "Comment": null,
+      "Last Updated": "05.10.2026"
     },
     {
       "Manufacturer": "NONE",
@@ -4081,7 +4160,7 @@
       "Weight": "2880",
       "Cost": "44413",
       "Crew Capacity": "1",
-      "Passenger Capacity": "7+2",
+      "Passenger Capacity": "7 + 2",
       "Old Names": "Schnabeltier Emergency Truck",
       "Video": null,
       "Trailer Support": "true",
@@ -4108,7 +4187,7 @@
       "Weight": "3325",
       "Cost": "52374",
       "Crew Capacity": "2",
-      "Passenger Capacity": "5+2",
+      "Passenger Capacity": "5 + 2",
       "Old Names": "Schnabeltier Arctic Emergency Truck",
       "Video": null,
       "Trailer Support": "true",
@@ -4237,7 +4316,7 @@
       "Weight": "1794",
       "Cost": "29044",
       "Crew Capacity": "1",
-      "Passenger Capacity": "10+2",
+      "Passenger Capacity": "10 + 2",
       "Old Names": null,
       "Video": null,
       "Trailer Support": "false",
@@ -5077,7 +5156,7 @@
       "Weight": null,
       "Cost": null,
       "Crew Capacity": "1",
-      "Passenger Capacity": "8+1",
+      "Passenger Capacity": "8 + 1",
       "Old Names": "Speed Boat",
       "Video": null,
       "Trailer Support": "false",
