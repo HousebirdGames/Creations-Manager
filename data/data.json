@@ -1,16 +1,19 @@
 {
   "Manufacturers": [
     {
-      "Name": "EINSCHLAG"
+      "Name": "EINSCHLAG",
+      "Color": "#1e3955"
     },
     {
-      "Name": "Homebrew"
+      "Name": "Homebrew",
+      "Color": "#8b7b1b"
     },
     {
       "Name": "NONE"
     },
     {
-      "Name": "Up-Tec"
+      "Name": "Up-Tec",
+      "Color": "#c28642"
     }
   ],
   "Vehicles": [

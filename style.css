@@ -57,9 +57,6 @@
 
     /* Manufacturer colors */
     --manufacturer-default: #646668;
-    --manufacturer-einschlag: #1e3955;
-    --manufacturer-homebrew: #8b7b1b;
-    --manufacturer-up-tec: #c28642;
 }
 
 /* Dark mode variables */
@@ -715,16 +712,48 @@ button.edit-button:hover {
     color: white
 }
 
-.manufacturer.manufacturer-einschlag {
-    background-color: var(--manufacturer-einschlag);
+#manufacturerEditorList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
 }
 
-.manufacturer.manufacturer-homebrew {
-    background-color: var(--manufacturer-homebrew);
+.manufacturer-editor-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
 }
 
-.manufacturer.manufacturer-up-tec {
-    background-color: var(--manufacturer-up-tec);
+.manufacturer-editor-row input[type="text"] {
+    padding: 0.2rem 0.4rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 1rem;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    flex: 1 1 10rem;
+    min-width: 0;
+}
+
+.manufacturer-editor-row input[type="color"] {
+    width: 2.2rem;
+    height: 2rem;
+    padding: 0;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--background-color);
+    cursor: pointer;
+}
+
+.manufacturer-editor-row input[aria-invalid="true"] {
+    border-color: #e74c3c;
+    outline-color: #e74c3c;
+}
+
+#manufacturersPopup .inputRow {
+    margin-top: 1rem;
 }
 
 /* Save notification styles */

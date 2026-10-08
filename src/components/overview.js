@@ -105,6 +105,45 @@ export default async function Example(exampleData) {
 
         },
         {
+            handler: showManufacturerEditor,
+            selector: '#manageManufacturersBtn'
+        },
+        {
+            handler: () => addManufacturerRow(),
+            selector: '#addManufacturerRowBtn'
+        },
+        {
+            handler: saveManufacturers,
+            selector: '#saveManufacturersBtn'
+        },
+        {
+            type: 'input',
+            handler: syncColorInputFromPicker,
+            selector: '.manufacturer-color-picker'
+        },
+        {
+            type: 'input',
+            handler: syncColorPickerFromInput,
+            selector: '.manufacturer-color-input'
+        },
+        {
+            handler: (event) => event.target.closest('.manufacturer-editor-row').remove(),
+            selector: '.manufacturer-remove-btn'
+        },
+        {
+            handler: (event) => sortTable(event.target.dataset.key),
+            selector: '#vehiclesTable thead th'
+        },
+        {
+            type: 'change',
+            handler: handleManufacturerSelectChange,
+            selector: '.manufacturer-select'
+        },
+        {
+            handler: setLastUpdatedToToday,
+            selector: '.today-button'
+        },
+        {
             selector: '.cell',
             handler: (event) => {
                 const index = parseInt(event.target.dataset.index);
@@ -140,6 +179,10 @@ export default async function Example(exampleData) {
 				<button id="addVehicleBtn" 
 						aria-label="Add new vehicle">
 					Add Vehicle
+				</button>
+				<button id="manageManufacturersBtn"
+						aria-label="Manage manufacturers">
+					Manage Manufacturers
 				</button>
 				<button id="saveDataBtn" 
 						aria-label="Save all data">
@@ -319,7 +362,8 @@ function loadSampleData() {
     data = {
         "Manufacturers": [
             {
-                "Name": "EINSCHLAG"
+                "Name": "EINSCHLAG",
+                "Color": "#1e3955"
             }
         ],
         "Vehicles": [
@@ -416,7 +460,7 @@ function renderTable() {
             th.textContent += ascending ? ' ▲' : ' ▼';
             th.setAttribute('aria-sort', ascending ? 'ascending' : 'descending');
         }
-        th.addEventListener('click', () => sortTable(key));
+        th.dataset.key = key;
         thead.appendChild(th);
     });
 
@@ -432,9 +476,10 @@ function renderTable() {
                 case 'Manufacturer':
                     const manufacturerValue = (value || '').toString();
                     const manufacturerElement = document.createElement('p');
-                    manufacturerElement.classList.add('manufacturer', `manufacturer-${sanitizeClassName(manufacturerValue)}`);
+                    manufacturerElement.classList.add('manufacturer');
                     manufacturerElement.dataset.manufacturer = manufacturerValue;
                     manufacturerElement.textContent = manufacturerValue;
+                    applyManufacturerColor(manufacturerElement, manufacturerValue);
                     td.appendChild(manufacturerElement);
                     break;
 
@@ -574,11 +619,156 @@ function renderManufacturers() {
         const listItem = document.createElement('li');
         listItem.dataset.manufacturer = manufacturer.Name;
         listItem.textContent = manufacturer.Name;
-        listItem.classList.add('manufacturer', `manufacturer-${sanitizeClassName(manufacturer.Name)}`);
+        listItem.classList.add('manufacturer');
+        applyManufacturerColor(listItem, manufacturer.Name);
         list.appendChild(listItem);
     });
 
     container.appendChild(list);
+}
+
+function findManufacturer(name) {
+    const lowerName = (name || '').toLowerCase();
+    return data.Manufacturers.find(manufacturer => manufacturer.Name.toLowerCase() === lowerName);
+}
+
+function applyManufacturerColor(element, name) {
+    const color = findManufacturer(name)?.Color || '';
+    element.style.backgroundColor = color;
+    element.style.color = isLightColor(color) ? '#1a2129' : '';
+}
+
+let colorContext = null;
+
+function toHexColor(color) {
+    if (!color || !CSS.supports('color', color)) return null;
+
+    colorContext ??= document.createElement('canvas').getContext('2d');
+    colorContext.fillStyle = '#000000';
+    colorContext.fillStyle = color;
+    return colorContext.fillStyle.startsWith('#') ? colorContext.fillStyle : null;
+}
+
+function isLightColor(color) {
+    const hex = toHexColor(color);
+    if (!hex) return false;
+
+    const [r, g, b] = [1, 3, 5].map(i => parseInt(hex.slice(i, i + 2), 16) / 255);
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b > 0.6;
+}
+
+function showManufacturerEditor() {
+    document.getElementById('manufacturerEditorList').innerHTML = '';
+    data.Manufacturers.forEach(manufacturer => addManufacturerRow(manufacturer));
+    popupManager.openPopup('manufacturersPopup');
+}
+
+function addManufacturerRow(manufacturer = { Name: '' }) {
+    const row = document.createElement('div');
+    row.className = 'manufacturer-editor-row';
+    row.dataset.originalName = manufacturer.Name;
+
+    const nameInput = document.createElement('input');
+    nameInput.type = 'text';
+    nameInput.className = 'manufacturer-name-input';
+    nameInput.placeholder = 'Name';
+    nameInput.setAttribute('aria-label', 'Manufacturer name');
+    nameInput.value = manufacturer.Name;
+
+    const colorPicker = document.createElement('input');
+    colorPicker.type = 'color';
+    colorPicker.className = 'manufacturer-color-picker';
+    colorPicker.setAttribute('aria-label', 'Pick manufacturer color');
+    colorPicker.value = toHexColor(manufacturer.Color) ?? '#646668';
+
+    const colorInput = document.createElement('input');
+    colorInput.type = 'text';
+    colorInput.className = 'manufacturer-color-input';
+    colorInput.placeholder = '#1e3955 or rgb(30, 57, 85)';
+    colorInput.setAttribute('aria-label', 'Manufacturer color as hex or rgb');
+    colorInput.value = manufacturer.Color || '';
+
+    const removeButton = document.createElement('button');
+    removeButton.type = 'button';
+    removeButton.className = 'manufacturer-remove-btn';
+    removeButton.textContent = 'Remove';
+    removeButton.setAttribute('aria-label', `Remove manufacturer ${manufacturer.Name}`.trim());
+
+    row.append(nameInput, colorPicker, colorInput, removeButton);
+    document.getElementById('manufacturerEditorList').appendChild(row);
+
+    if (!manufacturer.Name) {
+        nameInput.focus();
+    }
+}
+
+function syncColorInputFromPicker(event) {
+    const colorInput = event.target.closest('.manufacturer-editor-row').querySelector('.manufacturer-color-input');
+    colorInput.value = event.target.value;
+    colorInput.removeAttribute('aria-invalid');
+}
+
+function syncColorPickerFromInput(event) {
+    const colorInput = event.target;
+    const value = colorInput.value.trim();
+    const hex = toHexColor(value);
+    if (hex) {
+        colorInput.closest('.manufacturer-editor-row').querySelector('.manufacturer-color-picker').value = hex;
+    }
+    if (value && !CSS.supports('color', value)) {
+        colorInput.setAttribute('aria-invalid', 'true');
+    } else {
+        colorInput.removeAttribute('aria-invalid');
+    }
+}
+
+function saveManufacturers() {
+    const rows = Array.from(document.querySelectorAll('#manufacturerEditorList .manufacturer-editor-row'))
+        .map(row => ({
+            originalName: row.dataset.originalName,
+            name: row.querySelector('.manufacturer-name-input').value.trim(),
+            color: row.querySelector('.manufacturer-color-input').value.trim()
+        }))
+        .filter(row => row.name || row.originalName);
+
+    if (rows.some(row => !row.name)) {
+        alert('Every manufacturer needs a name.');
+        return;
+    }
+
+    const lowerNames = rows.map(row => row.name.toLowerCase());
+    const duplicate = rows.find((row, i) => lowerNames.indexOf(row.name.toLowerCase()) !== i);
+    if (duplicate) {
+        alert(`The manufacturer "${duplicate.name}" exists more than once.`);
+        return;
+    }
+
+    const invalidColor = rows.find(row => row.color && !CSS.supports('color', row.color));
+    if (invalidColor) {
+        alert(`"${invalidColor.color}" is not a valid color for "${invalidColor.name}". Use a hex code like #1e3955 or rgb(30, 57, 85).`);
+        return;
+    }
+
+    const renames = rows
+        .filter(row => row.originalName && row.name !== row.originalName)
+        .map(row => ({
+            ...row,
+            vehicles: data.Vehicles.filter(vehicle => (vehicle.Manufacturer || '').toLowerCase() === row.originalName.toLowerCase())
+        }));
+
+    renames.forEach(rename => {
+        const count = rename.vehicles.length;
+        if (count > 0 && confirm(`Also change the manufacturer of ${count} vehicle${count === 1 ? '' : 's'} from "${rename.originalName}" to "${rename.name}"?`)) {
+            rename.vehicles.forEach(vehicle => vehicle.Manufacturer = rename.name);
+        }
+    });
+
+    data.Manufacturers = rows.map(row => row.color ? { Name: row.name, Color: row.color } : { Name: row.name });
+
+    renderManufacturers();
+    renderTable();
+    saveDataToLocalStorage();
+    popupManager.closePopup('manufacturersPopup');
 }
 
 let sortState = { key: 'Name', direction: 'asc' };
@@ -682,39 +872,18 @@ function showEditModal(index = null) {
                 input.appendChild(option);
             });
 
+            if (vehicle[key] && !findManufacturer(vehicle[key])) {
+                const option = document.createElement('option');
+                option.value = vehicle[key];
+                option.textContent = vehicle[key];
+                option.selected = true;
+                input.appendChild(option);
+            }
+
             const newOption = document.createElement('option');
             newOption.value = '__new__';
             newOption.textContent = 'Add New Manufacturer';
             input.appendChild(newOption);
-
-            input.addEventListener('change', function () {
-                if (this.value === '__new__') {
-                    const newName = prompt('Enter new manufacturer name:');
-                    if (newName) {
-                        const sanitizedName = newName.trim();
-                        if (sanitizedName) {
-                            const exists = data.Manufacturers.some(
-                                m => m.Name.toLowerCase() === sanitizedName.toLowerCase()
-                            );
-                            if (!exists) {
-                                data.Manufacturers.push({ Name: sanitizedName });
-                                renderManufacturers();
-
-                                const option = document.createElement('option');
-                                option.value = sanitizedName;
-                                option.textContent = sanitizedName;
-                                option.selected = true;
-                                this.insertBefore(option, newOption);
-                            } else {
-                                alert('Manufacturer already exists.');
-                                this.value = '';
-                            }
-                        }
-                    } else {
-                        this.value = '';
-                    }
-                }
-            });
         } else {
             input = document.createElement('input');
             input.type = 'text';
@@ -733,14 +902,7 @@ function showEditModal(index = null) {
             todayButton.type = 'button';
             todayButton.textContent = 'Today';
             todayButton.className = 'today-button';
-            todayButton.addEventListener('click', function() {
-                const today = new Date();
-                const day = today.getDate().toString().padStart(2, '0');
-                const month = (today.getMonth() + 1).toString().padStart(2, '0');
-                const year = today.getFullYear();
-                input.value = `${day}.${month}.${year}`;
-            });
-            
+
             inputContainer.appendChild(todayButton);
             formGroup.appendChild(inputContainer);
         } else {
@@ -752,6 +914,43 @@ function showEditModal(index = null) {
 
     document.getElementById('modalTitle').textContent = index !== null ? 'Edit Vehicle' : 'Add Vehicle';
     popupManager.openPopup('vehicleFormPopup');
+}
+
+function handleManufacturerSelectChange(event) {
+    const select = event.target;
+    if (select.value !== '__new__') return;
+
+    const newName = prompt('Enter new manufacturer name:');
+    if (!newName) {
+        select.value = '';
+        return;
+    }
+
+    const sanitizedName = newName.trim();
+    if (!sanitizedName) return;
+
+    if (findManufacturer(sanitizedName)) {
+        alert('Manufacturer already exists.');
+        select.value = '';
+        return;
+    }
+
+    data.Manufacturers.push({ Name: sanitizedName });
+    renderManufacturers();
+
+    const option = document.createElement('option');
+    option.value = sanitizedName;
+    option.textContent = sanitizedName;
+    option.selected = true;
+    select.insertBefore(option, select.querySelector('option[value="__new__"]'));
+}
+
+function setLastUpdatedToToday(event) {
+    const today = new Date();
+    const day = today.getDate().toString().padStart(2, '0');
+    const month = (today.getMonth() + 1).toString().padStart(2, '0');
+    const year = today.getFullYear();
+    event.target.closest('.input-container').querySelector('input').value = `${day}.${month}.${year}`;
 }
 
 function hideEditModal() {
@@ -773,19 +972,6 @@ function saveVehicle() {
             vehicle[input.name] = input.value || null;
         }
     });
-
-    const manufacturerName = vehicle.Manufacturer ? vehicle.Manufacturer.trim() : null;
-
-    if (manufacturerName) {
-        const manufacturerExists = data.Manufacturers.some(
-            manufacturer => manufacturer.Name.toLowerCase() === manufacturerName.toLowerCase()
-        );
-
-        if (!manufacturerExists) {
-            data.Manufacturers.push({ Name: manufacturerName });
-            renderManufacturers();
-        }
-    }
 
     if (index === -1) {
         data.Vehicles.push(vehicle);

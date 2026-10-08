@@ -16,6 +16,7 @@ export const updateNotes = [
             "Numbers and dates (e.g. Weight, Cost, Last Updated) now sort correctly, and empty values always appear at the end.",
             "Clicking a manufacturer, class or tag now filters by exactly that value (e.g. manufacturer:EINSCHLAG, class:Plane) and can be combined with other filters and search words.",
             "The sorted column is now marked with ▲ or ▼.",
+            "Manufacturers can now be added, renamed, removed and colored with the new \"Manage Manufacturers\" button.",
         ]
     },
     {
