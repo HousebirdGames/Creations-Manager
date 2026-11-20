@@ -1294,7 +1294,7 @@
         "Land"
       ],
       "Status": "Complete",
-      "Current Version": "V6",
+      "Current Version": "V7",
       "Weight": "1652.5",
       "Cost": "22803",
       "Crew Capacity": "2",
@@ -1304,7 +1304,7 @@
       "Trailer Support": "false",
       "Base Support": "false",
       "Comment": null,
-      "Last Updated": "01.06.2025"
+      "Last Updated": "09.11.2026"
     },
     {
       "Manufacturer": "EINSCHLAG",
@@ -1322,7 +1322,7 @@
         "Sea"
       ],
       "Status": "Complete",
-      "Current Version": "V5",
+      "Current Version": "V6",
       "Weight": "2897",
       "Cost": "30697",
       "Crew Capacity": "2",
@@ -1332,7 +1332,7 @@
       "Trailer Support": "false",
       "Base Support": "false",
       "Comment": null,
-      "Last Updated": "31.05.2025"
+      "Last Updated": "09.11.2026"
     },
     {
       "Manufacturer": "EINSCHLAG",
@@ -1349,7 +1349,7 @@
         "Land"
       ],
       "Status": "Complete",
-      "Current Version": "V6",
+      "Current Version": "V7",
       "Weight": "1543",
       "Cost": "21789",
       "Crew Capacity": "2",
@@ -1359,7 +1359,7 @@
       "Trailer Support": "false",
       "Base Support": "false",
       "Comment": null,
-      "Last Updated": "31.05.2025"
+      "Last Updated": "09.11.2026"
     },
     {
       "Manufacturer": "EINSCHLAG",
@@ -1787,6 +1787,33 @@
       "Base Support": "false",
       "Comment": null,
       "Last Updated": "20.07.2026"
+    },
+    {
+      "Manufacturer": "EINSCHLAG",
+      "Name": "Grauwal V12 VTOL",
+      "Code": null,
+      "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3823946958",
+      "Class": "VTOL",
+      "Usage": [
+        ""
+      ],
+      "Location": [
+        "Air",
+        "Underwater",
+        "Sea"
+      ],
+      "Status": "Experimental",
+      "Current Version": "D2",
+      "Weight": null,
+      "Cost": null,
+      "Crew Capacity": null,
+      "Passenger Capacity": null,
+      "Old Names": null,
+      "Video": null,
+      "Trailer Support": null,
+      "Base Support": null,
+      "Comment": null,
+      "Last Updated": "21.10.2026"
     },
     {
       "Manufacturer": "Up-Tec",
@@ -3179,6 +3206,32 @@
       "Last Updated": "15.03.2026"
     },
     {
+      "Manufacturer": "NONE",
+      "Name": "Nuclear Tracked Truck",
+      "Code": null,
+      "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3823954305",
+      "Class": null,
+      "Usage": [
+        ""
+      ],
+      "Location": [
+        "Land",
+        "Sea"
+      ],
+      "Status": "Discontinued",
+      "Current Version": "D9",
+      "Weight": null,
+      "Cost": null,
+      "Crew Capacity": null,
+      "Passenger Capacity": null,
+      "Old Names": null,
+      "Video": null,
+      "Trailer Support": null,
+      "Base Support": null,
+      "Comment": "The firefighting version of D9 is linked",
+      "Last Updated": "21.10.2026"
+    },
+    {
       "Manufacturer": "EINSCHLAG",
       "Name": "Nutria",
       "Code": "ESG N2",
@@ -3279,6 +3332,31 @@
       "Base Support": "false",
       "Comment": "Changes made on Orka should be integrated here",
       "Last Updated": "31.10.2024"
+    },
+    {
+      "Manufacturer": "NONE",
+      "Name": "Old Aircraft Carrier",
+      "Code": null,
+      "Workshop Link": "",
+      "Class": null,
+      "Usage": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Status": null,
+      "Current Version": null,
+      "Weight": null,
+      "Cost": null,
+      "Crew Capacity": null,
+      "Passenger Capacity": null,
+      "Old Names": null,
+      "Video": null,
+      "Trailer Support": null,
+      "Base Support": null,
+      "Comment": null,
+      "Last Updated": "24.10.2026"
     },
     {
       "Manufacturer": "Up-Tec",
@@ -3702,6 +3780,34 @@
       "Last Updated": "11.03.2025"
     },
     {
+      "Manufacturer": "Homebrew",
+      "Name": "Ready",
+      "Code": "HB R2",
+      "Workshop Link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3842962940",
+      "Class": "Aircraft",
+      "Usage": [
+        "Recreation",
+        "Personal Transport",
+        "Exploration"
+      ],
+      "Location": [
+        "Air",
+        "Land"
+      ],
+      "Status": "Complete",
+      "Current Version": "V2",
+      "Weight": null,
+      "Cost": null,
+      "Crew Capacity": "1",
+      "Passenger Capacity": "0",
+      "Old Names": "Light Red Plane",
+      "Video": "https://youtube.com/live/N1SmNwYhZwk",
+      "Trailer Support": null,
+      "Base Support": null,
+      "Comment": null,
+      "Last Updated": "20.11.2026"
+    },
+    {
       "Manufacturer": "NONE",
       "Name": "Recon Seaplane",
       "Code": null,
@@ -3714,7 +3820,7 @@
         ""
       ],
       "Status": "Development",
-      "Current Version": null,
+      "Current Version": "D7",
       "Weight": null,
       "Cost": null,
       "Crew Capacity": null,
@@ -3724,7 +3830,7 @@
       "Trailer Support": "false",
       "Base Support": "false",
       "Comment": null,
-      "Last Updated": "03.10.2025"
+      "Last Updated": "12.11.2026"
     },
     {
       "Manufacturer": "Up-Tec",
@@ -4326,6 +4432,58 @@
       "Base Support": "false",
       "Comment": null,
       "Last Updated": "06.01.2025"
+    },
+    {
+      "Manufacturer": "EINSCHLAG",
+      "Name": "Simple Fighter Plane",
+      "Code": null,
+      "Workshop Link": "",
+      "Class": "Aircraft",
+      "Usage": [
+        "Light Attach",
+        "Medium Attack"
+      ],
+      "Location": [
+        "Air",
+        "Land"
+      ],
+      "Status": "Development",
+      "Current Version": "D14",
+      "Weight": null,
+      "Cost": null,
+      "Crew Capacity": "1",
+      "Passenger Capacity": null,
+      "Old Names": null,
+      "Video": null,
+      "Trailer Support": "false",
+      "Base Support": "false",
+      "Comment": null,
+      "Last Updated": "23.10.2026"
+    },
+    {
+      "Manufacturer": "EINSCHLAG",
+      "Name": "Simple Seaplane Fighter",
+      "Code": null,
+      "Workshop Link": "",
+      "Class": null,
+      "Usage": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Status": "Development",
+      "Current Version": "D1",
+      "Weight": null,
+      "Cost": null,
+      "Crew Capacity": "1",
+      "Passenger Capacity": "-",
+      "Old Names": null,
+      "Video": null,
+      "Trailer Support": null,
+      "Base Support": null,
+      "Comment": null,
+      "Last Updated": "02.11.2026"
     },
     {
       "Manufacturer": "NONE",
